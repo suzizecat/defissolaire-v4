@@ -1,0 +1,9 @@
+.title KiCad schematic
+.include "/home/julien/Projets/Kicad/DefisSolaireV4/librairies/spice/solar_cell.spice"
+I1 GND Vint dc 6
+D1 Vint GND D_SPC60
+R1 Vint Vout 0.016
+V1 Vout GND dc 1
+.end
+
+

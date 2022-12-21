@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ltc3350_psu")(type "KiCad")(uri "${KIPRJMOD}/ltc3350_psu.kicad_sym")(options "")(descr ""))
+)

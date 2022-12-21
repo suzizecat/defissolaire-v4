@@ -1,0 +1,90 @@
+(ExpressProject "TPS61178_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tps61178rnw_trans.olb"
+        (Type "Schematic Library"))
+      (File ".\csd25404q3.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\TPS61178_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\tps61178_trans-pspicefiles\startup\startup.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps61178_trans-pspicefiles\startup\trans.sim"
+        (DisplayName "Startup-trans")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps61178_trans-pspicefiles\steady_state\trans.sim"
+        (DisplayName "Steady_State-trans")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tps61178_trans-pspicefiles\startup\trans.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\CSD25404Q3.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\CSD25404Q3.lib"))
+      (File ".\tps61178_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tps61178_trans.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Minqiu\Pspice\ModelDecrypt\Remaining\SLVMC02\TPS61178_PSPICE_TRANS\TPS61178_trans.dsn")
+      (Path "Design Resources"
+         "C:\Minqiu\Pspice\ModelDecrypt\Remaining\SLVMC02\TPS61178_PSPICE_TRANS\TPS61178_trans.dsn"
+         "Startup")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Minqiu\Pspice\ModelDecrypt\Remaining\SLVMC02\TPS61178_PSPICE_TRANS\TPS61178_trans.dsn"
+         "Startup" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 265 0 290"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1427 52 507")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\MINQIU\PSPICE\MODELDECRYPT\REMAINING\SLVMC02\TPS61178_PSPICE_TRANS\TPS61178_TRANS.DSN")
+      (Schematic "Startup")
+      (Page "PAGE1")))
+  (MPSSessionName "a0224109")
+  (PartMRUSelector
+    (CSD25404Q3
+      (FullPartName "CSD25404Q3.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS61178\ACTIVE_WORK_SANKALP\EXPERIMENTS\RELEASE_PROJECT_23FEB2017\CSD25404Q3.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (TPS61178RNW_TRANS
+      (FullPartName "TPS61178RNW_TRANS.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS61178\ACTIVE_WORK_SANKALP\EXPERIMENTS\RELEASE_PROJECT_23FEB2017\TPS61178RNW_TRANS.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false"))

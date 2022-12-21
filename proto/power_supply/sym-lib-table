@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "power_supply")(type "KiCad")(uri "${KIPRJMOD}/power_supply.kicad_sym")(options "")(descr ""))
+  (lib (name "defis_solaires_4")(type "KiCad")(uri "/home/julien/Projets/Kicad/DefisSolaireV4/librairies/defis_solaires_4.kicad_sym")(options "")(descr ""))
+)

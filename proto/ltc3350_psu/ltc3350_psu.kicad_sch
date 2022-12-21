@@ -1,0 +1,31 @@
+(kicad_sch (version 20221206) (generator eeschema)
+
+  (uuid 79b6678a-8036-4500-aa43-f762e6440bf0)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 74.93 62.23) (size 102.87 64.77) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a91e5180-bfe7-4206-b1b8-dd4a38ceb9df)
+    (property "Sheetname" "core" (at 74.93 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "psu_ltc3350.kicad_sch" (at 74.93 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ltc3350_psu"
+        (path "/79b6678a-8036-4500-aa43-f762e6440bf0" (page "#"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "2"))
+  )
+)
