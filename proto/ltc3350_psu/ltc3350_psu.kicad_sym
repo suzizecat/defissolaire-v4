@@ -143,7 +143,7 @@
         (number "36" (effects (font (size 1.27 1.27))))
       )
       (pin open_collector line (at -22.86 17.78 0) (length 2.54)
-        (name "PFO" (effects (font (size 1.27 1.27))))
+        (name "~{PFO}" (effects (font (size 1.27 1.27))))
         (number "37" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -22.86 38.1 0) (length 2.54)
