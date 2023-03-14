@@ -1,4 +1,4 @@
-function [MaxLoss] = compute_max_loss(base_PLoss, thermal_resistance, max_delta_t, rds_vs_temp_x, rds_vs_temp_y)
+function [MaxLoss] = compute_max_loss(base_PLoss, thermal_resistance, ambient, max_delta_t, rds_vs_temp_x, rds_vs_temp_y)
   MaxLoss = base_PLoss;
   delta_loss = MaxLoss;
   
@@ -6,7 +6,7 @@ function [MaxLoss] = compute_max_loss(base_PLoss, thermal_resistance, max_delta_
   result_loss = 0;
   local_delta_t = 0;
   do
-    [result_loss local_delta_t] = compute_fet_runaway(MaxLoss, thermal_resistance, max_delta_t, rds_vs_temp_x, rds_vs_temp_y);
+    [result_loss local_delta_t] = compute_fet_runaway(MaxLoss, thermal_resistance,ambient, max_delta_t, rds_vs_temp_x, rds_vs_temp_y);
     i += 1;
     
     if(delta_loss < 0.01 && local_delta_t != Inf)

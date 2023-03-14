@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -10,7 +10,7 @@
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
-      "tracks": 1.0,
+      "tracks": 0.23000000417232513,
       "vias": 1.0,
       "zones": 0.6
     },
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -65,8 +65,8 @@
       35,
       36
     ],
-    "visible_layers": "7ffffff_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "044dfb0_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "power_supply.kicad_prl",

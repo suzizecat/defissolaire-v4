@@ -1,0 +1,80 @@
+\subsection{Sélection d'un MOSFET et des variables de conception}
+Le \driver est un contrôlleur de circuit boost synchrone.
+Afin de réaliser correctement le système, il convient de prendre en compte
+\begin{itemize}
+    \item La tension d'entrée \vin et le courant d'entrée \iin disponibles nominalement.
+    \item Les capacités de commutation du MOSFET.
+    \item Les capacités de commutation du \driver.
+    \item Les dissipations d'énergies des composants.
+    \item La tension de sortie \vout.
+    \item L'ondulation de courant admissible dans le hacheur.
+\end{itemize}
+
+\subsection{Recherche d'un MOSFET}
+Après plusieurs itérations il a été décidé d'utiliser un mosfet :
+\begin{itemize}
+    \item Avec un canal N (requis par le contrôlleur).
+    \item En boitier TO-220 pour une très bonne dissipation thermique, indépendante de la carte électronique.
+    \item Avec une charge de grille \qsw la plus faible possible.
+    \item Avec une resistance \rdson la plus faible possible.
+\end{itemize}
+
+Le MOSFET \mosfet a été retenu pour ces caractéristiques :
+\begin{table}
+    \centering
+    \begin{tabular}{|l|c|}
+        \hline
+        Paramètre & Valeur \\\hline
+        \qsw & $15 \nano\coulomb$ \\\hline
+        \rdson & $7.2 \milli\ohm$ \\\hline
+    \end{tabular}
+\end{table}
+
+\subsection{Fréquence de hachage}
+Le \driver est capable de réaliser une fréquence de hachage entre $50 \kilo\hertz$ et $1\mega\hertz$. 
+Dans la mesure où les transistors ont une résistance \rdson très faible et pour limiter le stress de tous les composants, on essaiera d'avoir la fréquence de commutation \fsw la plus faible possible.
+La contrepartie est la taille d'autres composants et la maitrise des ondulations de tension de sortie et de courant dans le système.
+
+\paragraph{}
+Une première analyse \todo{détailler} montre que $\fsw = 100\kilo\hertz$ semble être un bon compromis.
+
+\subsubsection{Pilotage des grilles}
+Si l'on considère un temps de montée/descente $\trise$ de 1\% de l'état actif, on obtient 
+$$\trise = 0.01 \times \frac{1}{\fsw} = 10^{-2} \times \frac{1}{100\times10^{3}} = 10^{-7} = 100 \nano\second$$
+Toujours sur une première estimation, si on considère un pilotage des grilles à $\vdrv = 7.5\volt$, on aura une capacité équivalente
+$$\csw = \frac{\qsw}{\vdrv} = \frac{15\times10^{-9}}{7.5} = 2\nano\farad$$
+Pour une première estimation, on constate qu'à courant constant, il faudrait un courant \isw tel que
+$$\isw = \frac{\csw \times \vdrv}{\trise} = \frac{2\times 10^{-9} \times 7.5}{100 \times 10^{-9}} = 150 \milli\ampere$$
+Soit, en notant qu'il y a deux commutations par periode, un courant "moyen" sur une periode de 
+$$\overline{\isw} = \isw \times 2\left(\trise \times \fsw\right) = 2 \times \frac{\isw}{100} = 3\milli\ampere $$
+
+Afin d'avoir $150 \milli\ampere$ sous $7.5 \volt$ donnant une résistance \rgate de 
+$$\rgate = \frac{V}{I} = \frac{7.5}{0.15} = 50\ohm$$
+
+
+Maintenant, si l'on utilise la formule $\tau = RC$, en utilisant le fait que la tension est à 95\% de sa valeur nominale à $t = 3\tau$, on obtient :
+$$t_{95\%} = 3\tau = 3RC = 3\times 6 \times 2\times10^{-9} = 12\nano\second $$
+
+\subsection{Alimentation du driver de grille (\drvcc)}
+Le pin \drvcc est l'alimentation du circuit permettant le pilotage du mosfet "bas" du hacheur du LTC3350 (pin \bgate).
+Ce pin doit être alimenté en 5V nominal. La solution normale est d'utiliser \intvcc, la sortie d'un LDO intégré, pour générer cette alimentation.
+Il peut cependant être préférable d'utiliser un LDO externe, afin d'éviter un échauffement trop important du LTC3350.
+
+\paragraph{}
+Dans notre cas, le pire cas sera avec \vout{} à 8V.
+On peut estimer la consommation du driver de gate à 50mA.
+Dans cette situation, l'énergie dissipée par le LDO sera de 
+$$P_{LDO} = (4\milli \ampere + 50 \milli \ampere ) \times (8 \volt - 5\volt) = 162 \milli\watt $$
+Soit une élévation de température de 
+$$\Delta T = 162 \milli \watt \times 34\celsius\per\watt = 5.5\celsius$$
+Cette élévation de température est pratiquement négligeable.
+On peut donc utiliser le régulateur LDO intégré sans problème.
+Il est cependant nécessaire de faire attention à avoir environ $50\milli\ampere$ maximum de consommation continue pour le driver.
+Il faudra donc faire attention au choix d'un condensateur (bulk) proche de \drvcc.
+
+La recommandation est de $2.2\micro\farad$. 
+Une règle d'estimation est d'utiliser 100 fois la charge de la grille à piloter comme base pour la capacité du condensateur.
+En se basant sur un IRFZ34N (relativement ancien), on a une charge de $34\nano\coulomb$ ce qui, sous $5\volt$, donne :
+$$C_G = \frac{34\nano\coulomb}{5\volt} = 6.8\nano\farad$$
+On a alors une capacité bulk de $680\nano\farad$, soit bien en dessous des $2.2\micro\farad$ recommandés.
+La valeur de $2.2\micro\farad$ est donc probablement sûre d'utilisation.

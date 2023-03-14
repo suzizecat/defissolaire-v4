@@ -1,0 +1,10 @@
+*.aux
+*.fdb*
+*.fls
+*.lof
+*.log
+main.pdf
+*.synctex*
+*.toc
+*.xdv
+
