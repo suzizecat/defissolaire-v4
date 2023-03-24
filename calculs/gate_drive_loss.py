@@ -1,7 +1,7 @@
 from quantiphy import Quantity
 
 fsw      = Quantity(150e3, "Hz")
-ig       = Quantity(2, "A")
+ig       = Quantity(1, "A")
 vg       = Quantity(7.5, "V")
 qsw      = Quantity(15e-9, "C")
 avg_rdrv = Quantity(3,"Ohm")
