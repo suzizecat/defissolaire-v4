@@ -1285,7 +1285,7 @@
           (reference "U1") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "U103") (unit 1)
+          (reference "U102") (unit 1)
         )
       )
     )
@@ -1313,7 +1313,7 @@
           (reference "TP3") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "TP105") (unit 1)
+          (reference "TP103") (unit 1)
         )
       )
     )
@@ -1348,7 +1348,7 @@
   (symbol (lib_id "Device:R") (at 195.58 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c38e36b-7ad4-448c-8eee-93cb7c2c9f08)
-    (property "Reference" "R104" (at 198.12 103.505 0)
+    (property "Reference" "R102" (at 198.12 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12k" (at 198.12 106.045 0)
@@ -1365,7 +1365,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "R104") (unit 1)
+          (reference "R102") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
           (reference "R2") (unit 1)
@@ -1427,7 +1427,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 38.735 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 557c1e35-7b2b-47ad-84f0-59ca8371c4e9)
-    (property "Reference" "C104" (at 41.91 69.596 0)
+    (property "Reference" "C101" (at 41.91 69.596 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u" (at 41.91 72.136 0)
@@ -1447,7 +1447,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "C104") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -1456,7 +1456,7 @@
   (symbol (lib_id "Amplifier_Current:ZXCT1110") (at 193.04 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58a85c0c-ae66-4402-9962-f01c70e57084)
-    (property "Reference" "U102" (at 200.66 74.295 0)
+    (property "Reference" "U101" (at 200.66 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ZXCT1110" (at 200.66 76.835 0)
@@ -1476,7 +1476,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "U102") (unit 1)
+          (reference "U101") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
           (reference "U1") (unit 1)
@@ -1510,7 +1510,7 @@
           (reference "TP3") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "TP106") (unit 1)
+          (reference "TP104") (unit 1)
         )
       )
     )
@@ -1519,7 +1519,7 @@
   (symbol (lib_id "power:GND") (at 190.5 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68c801aa-bcff-4ebc-a987-66b67b1d78c9)
-    (property "Reference" "#PWR0104" (at 190.5 119.38 0)
+    (property "Reference" "#PWR0103" (at 190.5 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 117.5926 0)
@@ -1535,7 +1535,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
           (reference "#PWR05") (unit 1)
@@ -1606,7 +1606,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 104.775 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fd7c9d4-93a1-48f3-8445-0e9975f29798)
-    (property "Reference" "#PWR0110" (at 104.775 173.355 0)
+    (property "Reference" "#PWR0109" (at 104.775 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.775 172.085 0)
@@ -1622,7 +1622,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -1650,7 +1650,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "TP103") (unit 1)
+          (reference "TP101") (unit 1)
         )
       )
     )
@@ -1678,7 +1678,7 @@
           (reference "TP2") (unit 1)
         )
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "TP104") (unit 1)
+          (reference "TP102") (unit 1)
         )
       )
     )
@@ -1687,7 +1687,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 83.185 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f1337a8-515c-4e4c-a600-f87d01408e55)
-    (property "Reference" "#PWR0109" (at 83.185 173.355 0)
+    (property "Reference" "#PWR0108" (at 83.185 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.185 172.085 0)
@@ -1703,7 +1703,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -1712,7 +1712,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 48.895 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 806e6e77-1395-4206-af52-2feb2b12d646)
-    (property "Reference" "#PWR0107" (at 48.895 173.355 0)
+    (property "Reference" "#PWR0106" (at 48.895 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.895 172.085 0)
@@ -1728,7 +1728,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -1789,7 +1789,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 71.755 167.005 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d8308ea-94d7-4792-8ad5-40f3e7432b23)
-    (property "Reference" "#PWR0108" (at 71.755 173.355 0)
+    (property "Reference" "#PWR0107" (at 71.755 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.755 172.085 0)
@@ -1805,7 +1805,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1814,7 +1814,7 @@
   (symbol (lib_id "Device:C") (at 48.895 163.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9eaf100-5511-4776-93e2-1ac29b864346)
-    (property "Reference" "C101" (at 52.705 162.56 0)
+    (property "Reference" "C102" (at 52.705 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 52.705 165.1 0)
@@ -1831,7 +1831,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "C101") (unit 1)
+          (reference "C102") (unit 1)
         )
       )
     )
@@ -1840,7 +1840,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 38.1 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aad0764f-fa38-4a70-b667-1b4ae9264eb9)
-    (property "Reference" "#PWR0106" (at 38.1 166.37 0)
+    (property "Reference" "#PWR0105" (at 38.1 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 165.1 0)
@@ -1856,7 +1856,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -1865,7 +1865,7 @@
   (symbol (lib_id "Device:C") (at 83.185 163.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bacff94b-4e2a-45f2-a81f-8dcc88708b55)
-    (property "Reference" "C102" (at 86.36 162.56 0)
+    (property "Reference" "C103" (at 86.36 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 86.36 165.1 0)
@@ -1882,7 +1882,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "C102") (unit 1)
+          (reference "C103") (unit 1)
         )
       )
     )
@@ -1891,7 +1891,7 @@
   (symbol (lib_id "power:+3.3V") (at 104.775 153.035 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdf8437f-4a15-4952-8706-3316830848ef)
-    (property "Reference" "#PWR0105" (at 104.775 156.845 0)
+    (property "Reference" "#PWR0104" (at 104.775 156.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 104.775 149.86 0)
@@ -1907,7 +1907,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1972,7 +1972,7 @@
   (symbol (lib_id "Device:C") (at 104.775 163.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db5dca21-c050-4f83-bfad-bc5214248b72)
-    (property "Reference" "C103" (at 108.585 162.56 0)
+    (property "Reference" "C104" (at 108.585 162.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 108.585 165.1 0)
@@ -1989,7 +1989,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "C103") (unit 1)
+          (reference "C104") (unit 1)
         )
       )
     )
@@ -2025,7 +2025,7 @@
   (symbol (lib_id "Device:R") (at 93.98 156.845 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff2aa5af-9ecb-4d86-9a5a-b803fb8433c8)
-    (property "Reference" "R105" (at 93.98 160.02 90)
+    (property "Reference" "R103" (at 93.98 160.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NM" (at 93.98 162.56 90)
@@ -2042,7 +2042,7 @@
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
-          (reference "R105") (unit 1)
+          (reference "R103") (unit 1)
         )
       )
     )

@@ -31,6 +31,8 @@ class Design:
         self.K_MAX_F   = Quantity("1 MHz")
 
         self.K_MAX_RIPPLE_I = 0.3
+        
+        self.K_MAX_RIPPLE_V = Quantity(0.05,"V")
 
         self.K_L = Quantity("4.7uH")
         self.Rth_rsense = 25
@@ -39,6 +41,13 @@ class Design:
         self.K_CT1110_G = 0.004
         self.isense_rg = None
         self.fsw = None
+        self.cout = None
+
+        self.di_tran = Quantity(1,"A")
+        self.dv_tran = Quantity(0.5, "V")
+
+        self.K_VFB = Quantity(1.22, "V")
+
 
     @property
     def Dcycle(self) :
@@ -74,7 +83,7 @@ class Design:
         ret = 1/(4*f)
         ret *= vomax / (iimax * self.K_MAX_RIPPLE_I)
 
-        return Quantity(ret ,"L")
+        return Quantity(ret ,"H")
     
 
     @property
@@ -125,6 +134,48 @@ class Design:
     
     def eval_ipk_for_rg(self,rg):
         return Quantity(3/(self.rsense * self.K_CT1110_G * rg),"A")
+    
+    def eval_fb_ratio(self,vout) :
+        return self.K_VFB/vout
+    
+    @property
+    def f_rhpz(self) :
+        iout = max([i.out.i for i in self.reqs])
+        vout = min([v.out.v for v in self.reqs])
+        vin = min([v.input.v for v in self.reqs])
+        return Quantity(((vout / iout) / (2*np.pi*self.K_L)) * ((vin/vout)**2),"Hz")
+    
+    @property
+    def r_zcomp(self) :
+        vout = min([v.out.v for v in self.reqs])
+        vinmin = min([v.input.v for v in self.reqs])
+        inv_ratio = 1/(self.eval_fb_ratio(vout))
+        #print(self.cout , self.r_sense , vout , (self.f_rhpz/4) , inv_ratio)
+        #print(vinmin)
+        r = (40/3) * (2*np.pi * self.cout * self.r_sense * vout * (self.f_rhpz/4) * inv_ratio) / (vinmin * 1100e-6) 
+        
+        return Quantity(r,"Ohm")
+    
+    @property
+    def c_zcomp(self) :
+        return Quantity(1/(2*np.pi * (self.f_rhpz/40) * self.r_zcomp),"F")
+    
+    @property
+    def min_cout(self):
+        cout_bw = self.di_tran/(2*np.pi*(self.f_rhpz/4)*self.dv_tran)
+        
+        dcycle = max(self.Dcycle.values())
+        iout = max([i.out.i for i in self.reqs])
+        cout_vripple = dcycle * iout / (self.fsw*self.K_MAX_RIPPLE_V)
+
+        return Quantity(max(cout_bw, cout_vripple),'F')
+    
+    @property
+    def min_cin(self):
+        iripple = self.K_MAX_RIPPLE_I * max([i.out.i for i in self.reqs])
+        vin_ripple = 0.05
+
+        return Quantity(iripple/(4*self.fsw*vin_ripple),"F")
 
 if __name__ == "__main__" :
     
@@ -162,16 +213,12 @@ if __name__ == "__main__" :
     
 
     
-    # Useful to determine fsw
-    # print(f"fsw >= {d.min_fsw(3.3e-6)}")
-    # print(f"L >= {d.min_l(675e3)}")
-    # d.fsw = Quantity("475 kHz")
-    # d.K_L = Quantity("4.7 uH")
-    d.fsw = Quantity("100 kHz")
-    d.K_L = Quantity("33 uH")
+    d.fsw = Quantity("122 kHz")
+    #d.fsw = Quantity("200 kHz")
+    d.K_L = Quantity("22 uH")
     print(f"Using fixed value of L as {d.K_L}")
-    print(f"Choosing fsw = {d.fsw}, giving >= {d.min_l(d.fsw)}")
-    print(f"Choosing L   = {d.K_L}, giving  >={d.min_fsw(0.8*d.K_L)}")
+    print(f"Choosing fsw = {d.fsw}, giving >= {d.min_l(d.fsw)} ({Quantity(d.min_l(d.fsw)/0.85,'H')} with margin)")
+    print(f"Choosing L   = {d.K_L}, giving  >= {d.min_fsw(d.K_L)} ({d.min_fsw(0.85*d.K_L)} with margin)")
 
     print(f"Irms    = {d.IL_rms}")
     print(f"Ipk     = {d.IL_pk}")
@@ -186,5 +233,20 @@ if __name__ == "__main__" :
     
     d.isense_rg = Quantity("12 kohm")
     print(f"Select {d.isense_rg} value, giving max current at {d.eval_ipk_for_rg(d.isense_rg)}")
+
+    print(f"\nFor compensation : frhpz = {d.f_rhpz}")
+    print(f"                   fco   = {Quantity(d.f_rhpz/4,'Hz')}")
+
+    print(f"Cout > {d.min_cout} (derated {Quantity(d.min_cout/0.8,'F')})")
+    d.cout = Quantity(7*47e-6,"F")
+    print(f"Selected Cout = {d.cout}")
+    print(f"Selected Cin  = {d.min_cin}")
+
+    print()
+    print(d.eval_fb_ratio(16))
+    print(f"Compensation components :")
+    print(f"    R_zcomp : {d.r_zcomp}")
+    print(f"    C_zcomp : {d.c_zcomp}")
+
 
     

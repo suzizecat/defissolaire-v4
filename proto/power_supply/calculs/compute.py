@@ -91,15 +91,18 @@ class Bench:
     def _get_thermal_runnaway_mosfet_losses(self, fsw, min_dt = 0.1, autoreset = False) :
         if autoreset :
             self.reset()
+
         max_delta_t = self._op.temp_max - self._op.temp_ambient
         delta_t = 0
         delta_t_diff = np.inf
         loss_at_fsw = np.inf
         sw_loss = np.inf
         cond_loss = np.inf
-
+        local_ambiant = self._op.temp_ambient
+        i = 0
         while delta_t < max_delta_t and delta_t_diff > min_dt :
-            thermal_coeff = self.fet.normalized_rds_function(self._op.temp_ambient)
+            i += 1
+            thermal_coeff = self.fet.normalized_rds_function(local_ambiant)
             
             sw_loss = self.get_switching_losses(fsw) * thermal_coeff
             cond_loss = self.get_conduction_losses() *thermal_coeff
@@ -107,9 +110,16 @@ class Bench:
             temp = self.fet.delta_t(loss_at_fsw)
             delta_t_diff = np.abs(delta_t - temp)
             delta_t = temp
-            self._op.temp_ambient += delta_t
-            
-        print(f"Run at {fsw} done, dt is {delta_t}")
+            local_ambiant = self._op.temp_ambient + delta_t
+
+            # print(f"{thermal_coeff:7.3f} {sw_loss:7.3f}, {cond_loss:7.3f}, {local_ambiant:7.3f}, {delta_t_diff:7.3f}")
+        
+        if delta_t >= max_delta_t :
+            delta_t_diff = np.inf
+            loss_at_fsw = np.inf
+            sw_loss = np.inf
+            cond_loss = np.inf
+        print(f"Run at {fsw} done, dt is {delta_t} ({i} iterations)")
         self.thermal_ovr = delta_t > max_delta_t
 
         
@@ -125,8 +135,8 @@ class Bench:
 
 if __name__ == "__main__" :
     Quantity.set_prefs(input_sf = Quantity.get_pref('input_sf') + '%')
-    fet = MOSFET("100 ns", "100 ns", "7.2 mOhm", "40 mOhm", "15.1 nC",  "22.5 K/W", [(0,0.005 / 7.2e-3),(140,0.008 / 7.2e-3)])
-    design = DesignParameter("25 °C","125 °C","6 A","50 %")
+    fet = MOSFET("50 ns", "50 ns", "7.2 mOhm", "40 mOhm", "15.1 nC",  "80 K/W", [(0,0.005 / 7.2e-3),(140,0.008 / 7.2e-3)]) # "22.5 K/W"
+    design = DesignParameter("60 °C","125 °C","6 A","50 %")
     driver = Driver("7.5 V", "1.2 Ohm", "2.8 Ohm")
 
     tb = Bench(fet,design, driver)
@@ -134,13 +144,14 @@ if __name__ == "__main__" :
 
     print(fet)
     print(repr(fet))
-    fsw = np.arange(50e3,1e6,50e3)
-    f = tb.get_thermal_runnaway_mosfet_losses(np.array(fsw),1)
+    fsw = np.arange(100e3,250e3,25e3)
+    f = tb.get_thermal_runnaway_mosfet_losses(np.array(fsw),0.01)
+    
+    #f = tb.get_thermal_runnaway_mosfet_losses(100e3,0.1)
 
 
     print(f"Computed thermal runnaway is\n {f}")
-    print(f.shape)
-    i = -1
+    i = 0
     for v in f :
         print(v)
         if max(v) == np.inf :
