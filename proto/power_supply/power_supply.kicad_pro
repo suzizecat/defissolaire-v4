@@ -511,7 +511,7 @@
       "version": 3
     },
     "net_colors": {
-      "GND": "rgb(83, 72, 255)"
+      "GND": "rgb(44, 86, 110)"
     },
     "netclass_assignments": {
       "+3.3V": "Alim3V3",
