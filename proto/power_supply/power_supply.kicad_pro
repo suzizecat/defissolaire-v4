@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.35,
-          "width": 1.225
+          "height": 0.85,
+          "width": 0.28
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -94,7 +94,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "error",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -102,7 +102,7 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "ignore",
+        "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -533,6 +533,7 @@
       "/Vin_raw": "Power",
       "/Vout": "Power",
       "Net-(C401-Pad1)": "Analog",
+      "Net-(C402-Pad1)": "Analog",
       "Net-(C403-Pad1)": "Analog",
       "Net-(C405-Pad1)": "Analog",
       "Net-(C410-Pad1)": "Analog",
@@ -545,6 +546,8 @@
       "Net-(U401B--)": "Analog",
       "Net-(U401C-+)": "Analog",
       "Net-(U401D-+)": "Analog",
+      "Net-(U402A--)": "Analog",
+      "Net-(U402D-+)": "Analog",
       "Net-(U409B--)": "Analog",
       "Net-(U409C-+)": "Analog",
       "Net-(U409D-+)": "Analog"
