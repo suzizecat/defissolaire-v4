@@ -2027,6 +2027,31 @@
     )
   )
 
+  (symbol (lib_name "GND_2") (lib_id "power:GND") (at 248.285 104.775 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3aed98d6-4e10-4c5b-90d6-55ea8fe1e8cf)
+    (property "Reference" "#PWR0117" (at 248.285 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 248.285 109.22 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 248.285 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 248.285 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e24cf982-5b4f-4787-b955-83ea78ed1f0c))
+    (instances
+      (project "power_supply"
+        (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
+          (reference "#PWR0117") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 229.87 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e4fbf91-bba2-4afe-9506-8648fbc5e3d6)
@@ -2533,7 +2558,7 @@
   )
 
   (symbol (lib_id "Device:L") (at 74.295 144.145 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7604615a-3d7c-4bda-98ae-0fd041a69ce7)
     (property "Reference" "L101" (at 74.295 139.7 90)
       (effects (font (size 1.27 1.27)))
@@ -2541,17 +2566,17 @@
     (property "Value" "3.3u" (at 74.295 142.24 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Inductor_SMD:L_6.3x6.3_H3" (at 74.295 144.145 0)
+    (property "Footprint" "power_supply:VLS3015CX" (at 74.295 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 74.295 144.145 0)
+    (property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3015cx-1_en.pdf" (at 74.295 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 74.295 144.145 0)
+    (property "MPN" "VLS3015CX-3R3M-1" (at 74.295 137.16 90)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 30b66707-b10c-43a6-9724-3248020380d6))
-    (pin "2" (uuid 1951ad20-a9ef-426e-b2e2-1ca90c961827))
+    (pin "1" (uuid b283a4fb-63c3-4093-9f69-b11f8cb33dbd))
+    (pin "2" (uuid 1d357a4b-cf5b-4df0-b6b7-1a35e8ed4ca5))
     (instances
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
@@ -3072,6 +3097,34 @@
       (project "power_supply"
         (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
           (reference "C106") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 248.285 104.775 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fa6a8681-8c68-465d-a7f4-ddb88c74069d)
+    (property "Reference" "TP2" (at 250.825 100.838 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 250.825 103.378 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (at 253.365 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 253.365 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a5ebe6fc-9ba5-4509-b80d-b50170ca69e2))
+    (instances
+      (project "power_supply"
+        (path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
+          (reference "TP2") (unit 1)
+        )
+        (path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
+          (reference "TP108") (unit 1)
         )
       )
     )

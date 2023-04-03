@@ -56,7 +56,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|106055357|130800000|caf5d503-d1f3-496d-bea1-875394fcdbe5|a2e7d03b-ee06-44a9-b1a2-0b5356d2b05a",
+        "silk_overlap|95555357|130800000|1d731d10-bd2a-4294-843f-50b4aa2c5ba7|39ffa440-bfe3-445e-ad18-c1aa680027ad",
+        "solder_mask_bridge|140500000|123300000|fda6c561-1f1e-432f-80f4-ddf4d1e5b7ff|673e917d-eb97-473a-bc28-df62d60ef2a4",
+        "solder_mask_bridge|141250000|125200000|47790f26-12de-4525-8106-ba2a6be4be1d|6df97226-d5df-48d0-9125-d5e4c58448cd"
+      ],
       "meta": {
         "version": 2
       },
