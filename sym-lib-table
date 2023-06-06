@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "st_component")(type "KiCad")(uri "${KIPRJMOD}/librairies/st_component.kicad_sym")(options "")(descr ""))
-  (lib (name "defis_solaires_4")(type "KiCad")(uri "${KIPRJMOD}/librairies/defis_solaires_4.kicad_sym")(options "")(descr ""))
-)

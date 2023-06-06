@@ -1,0 +1,27 @@
+(kicad_sch (version 20230409) (generator eeschema)
+
+  (uuid 5c11266b-b67b-4368-b27e-e54d7153d42c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 67.31 36.83) (size 67.31 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cee9b468-980d-45cd-b1b7-f04fc6f76443)
+    (property "Sheetname" "Phase A Driver" (at 67.31 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "phase_driver.kicad_sch" (at 67.31 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "dsv4"
+        (path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c" (page "4"))
+      )
+    )
+  )
+)

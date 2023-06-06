@@ -1,4 +1,4 @@
-(kicad_sch (version 20230221) (generator eeschema)
+(kicad_sch (version 20230409) (generator eeschema)
 
   (uuid e87df9ac-84db-475c-955a-f1fa477bbb69)
 
@@ -1573,16 +1573,19 @@
     (uuid fd64297c-169a-492f-a673-2cd5bca60013)
   )
 
-  (text "Assuming same constraints on input and output.\n6A nominal max\nWith 10m makes 0.36W \nTaking at least 0.5W resistor"
+  (text "Assuming same constraints on input and output.\n6A nominal max\nWith 10m makes 0.36W \nTaking at least 0.5W resistor" (exclude_from_sim no)
+
     (at 19.05 26.67 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03a72cf8-8d2a-4fad-9ecb-0eadb17d1363)
   )
-  (text "5V" (at 36.195 172.085 0)
+  (text "5V" (exclude_from_sim no)
+ (at 36.195 172.085 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a99ca9ce-7fb1-42e7-a3d6-3c0007888340)
   )
-  (text "Can be replaced by a LDK130-ADJ\nOr STLQ015 at 3.3V\nOr probably most LDO"
+  (text "Can be replaced by a LDK130-ADJ\nOr STLQ015 at 3.3V\nOr probably most LDO" (exclude_from_sim no)
+
     (at 120.015 156.845 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b4a754ba-8cd3-45ce-8ae1-5273efe30747)
@@ -2814,10 +2817,10 @@
   (symbol (lib_id "Device:R") (at 59.055 154.305 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86c3bf04-d89b-4539-8a27-6ae627eb170e)
-    (property "Reference" "R105" (at 61.595 153.67 0)
+    (property "Reference" "R105" (at 60.96 153.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "3.3k" (at 61.595 156.21 0)
+    (property "Value" "20k" (at 60.96 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 60.833 154.305 90)
@@ -3389,10 +3392,10 @@
   (symbol (lib_id "Device:R") (at 74.295 149.225 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid feef8979-6bec-485c-841e-e08995fedbee)
-    (property "Reference" "R104" (at 74.295 153.035 90)
+    (property "Reference" "R104" (at 74.295 152.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "22k" (at 74.295 155.575 90)
+    (property "Value" "150k" (at 74.295 154.94 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 74.295 151.003 90)
