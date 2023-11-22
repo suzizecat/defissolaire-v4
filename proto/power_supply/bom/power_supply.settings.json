@@ -1,0 +1,45 @@
+{
+    "type": "InteractiveHtmlBom settings",
+    "version": 1,
+    "pcbmetadata": {
+        "title": "power_supply",
+        "revision": "",
+        "company": "",
+        "date": "2023-04-22 11:25:18"
+    },
+    "settings": {
+        "canvaslayout": "F",
+        "bomlayout": "left-right",
+        "bommode": "grouped",
+        "checkboxes": [
+            "Sourced",
+            "Placed"
+        ],
+        "checkboxStoredRefs": {
+            "Sourced": "98,2,113,68,48,35,23,7,34,22,56,19,14,129,89,0,74,66,63,50,110,10,33,72,32,107,15,96,41,94,79,31,30,92,4,130,125,39,106,103,82,127,95,28,9,120,37,20,121,114,109,53,81,123,8,105,54,67,45,59,17,104,18,128,47,64,93,43,111,124,29,84,71,61,91,119,126,112,26,40,3,122,108,52,70,58,24,11,97,99,16,101,118,27,102,75,44,55,117,46,83,69,5,86,1,38,90,80,13,87,76,100,42,51,62,25,12,65",
+            "Placed": "107,15,96,41,80,76,100,42,0,111,124,29,84,71,61,91,119,74,83,69,5,14,13,98,19,118,27,102,75,44,55,117,46,22,56,7,34,105,54,67,45,59,17,104,18,128,47,64,93,43,89,92,4,130,125,39,106,103,82,127,129,126,112,26,40,3,70,52,28,9,120,95,31,37,20,121,114,109,53,81,123,8,108,1,65,113,68,48,35,122,23,38,90,86,87"
+        },
+        "darkMode": true,
+        "highlightpin1": true,
+        "redrawOnDrag": true,
+        "boardRotation": 90,
+        "offsetBackRotation": false,
+        "renderPads": true,
+        "renderReferences": true,
+        "renderValues": true,
+        "renderSilkscreen": true,
+        "renderFabrication": false,
+        "renderDnpOutline": false,
+        "renderTracks": false,
+        "renderZones": false,
+        "columnOrder": [
+            "checkboxes",
+            "References",
+            "Value",
+            "Footprint",
+            "Quantity"
+        ],
+        "hiddenColumns": [],
+        "markWhenChecked": ""
+    }
+}

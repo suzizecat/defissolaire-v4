@@ -278,6 +278,10 @@
       "/PSU/Ctrl": "Analog",
       "/PSU/DRV_VIN": "Power",
       "/PSU/FB": "Analog",
+      "/PSU/Input PSU - Old/Ctrl": "Analog",
+      "/PSU/Input PSU - Old/DRV_VIN": "Power",
+      "/PSU/Input PSU - Old/FB": "Analog",
+      "/PSU/Input PSU - Old/SW": "Power",
       "/PSU/Input PSU/Ctrl": "Analog",
       "/PSU/Input PSU/DRV_VIN": "Power",
       "/PSU/Input PSU/FB": "Analog",
@@ -296,8 +300,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -355,6 +362,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
+    "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -372,6 +380,7 @@
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
@@ -396,6 +405,10 @@
     [
       "c07e9297-fde8-4755-803e-d05072cd6096",
       ""
+    ],
+    [
+      "57144c88-c1f4-4525-a541-3c6c77ae2fac",
+      "Input PSU - Old"
     ],
     [
       "5b9a617b-6d93-4d9f-bce1-510d294da22c",
