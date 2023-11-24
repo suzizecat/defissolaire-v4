@@ -7,9 +7,9 @@
   (title_block
     (title "MPPT PSU - Core boost converter")
     (date "2023-04-05")
-    (rev "Rev. 1.0")
+    (rev "0.1")
     (company "Julien FAUCHER")
-    (comment 1 "Defis solaires 2023")
+    (comment 1 "Defis solaires 2024")
   )
 
   (lib_symbols
