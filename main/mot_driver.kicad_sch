@@ -1,34 +1,486 @@
-(kicad_sch (version 20230819) (generator eeschema)
-
-  (uuid 5c11266b-b67b-4368-b27e-e54d7153d42c)
-
-  (paper "A4")
-
-  (title_block
-    (date "2023-04-05")
-    (rev "0.1")
-    (company "Julien FAUCHER")
-    (comment 1 "Defis solaires 2024")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 67.31 36.83) (size 67.31 13.97) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid cee9b468-980d-45cd-b1b7-f04fc6f76443)
-    (property "Sheetname" "Phase A Driver" (at 67.31 36.1184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "phase_driver.kicad_sch" (at 67.31 51.3846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "dsv4"
-        (path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c" (page "4"))
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5c11266b-b67b-4368-b27e-e54d7153d42c")
+	(paper "A4")
+	(title_block
+		(date "2023-04-05")
+		(rev "0.1")
+		(company "Julien FAUCHER")
+		(comment 1 "Defis solaires 2024")
+	)
+	(lib_symbols)
+	(bus_alias "PHASES"
+		(members "AH" "AL" "BH" "BL" "CH" "CL")
+	)
+	(bus_entry
+		(at 91.44 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008e8d0c-0f4f-4b9a-9389-116f2ada24db")
+	)
+	(bus_entry
+		(at 91.44 36.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a74eb80-8ae2-405b-bf80-8aa1cdeaf0f1")
+	)
+	(bus_entry
+		(at 91.44 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6b33cc-44ff-4a18-b49c-894ce75389ff")
+	)
+	(bus_entry
+		(at 91.44 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d3dfbd-b480-47f7-be52-a760a4595b6f")
+	)
+	(bus_entry
+		(at 91.44 90.17)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5034c24d-dedc-4130-8d1f-0192721f652d")
+	)
+	(bus_entry
+		(at 91.44 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c9f61e-37bc-4647-b0ae-95b447e10d8a")
+	)
+	(bus
+		(pts
+			(xy 91.44 36.83) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19960f06-8842-40b6-bf8a-56bb460bb3ec")
+	)
+	(wire
+		(pts
+			(xy 93.98 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4819ab74-21c4-41ed-8f7f-740b7e8182e7")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.91) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5304b40e-3d14-4ed3-b794-e36f17d9fc94")
+	)
+	(bus
+		(pts
+			(xy 91.44 66.04) (xy 91.44 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648fa83d-2bb4-45ca-afdc-ea0564525266")
+	)
+	(wire
+		(pts
+			(xy 93.98 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7c2a50-8772-4461-9a7c-33af8daa0cad")
+	)
+	(bus
+		(pts
+			(xy 91.44 39.37) (xy 91.44 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe694ca-f437-4ed8-9d7e-2e28b0e5562e")
+	)
+	(bus
+		(pts
+			(xy 91.44 30.48) (xy 91.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dc4510-4641-4b7c-bf2a-15e2e30f5ff1")
+	)
+	(bus
+		(pts
+			(xy 91.44 63.5) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c763eaa9-aa7e-4728-a6bc-0a9f72e83ed6")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 114.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadef7c1-ccd4-4c9d-a894-a973d91dc45b")
+	)
+	(bus
+		(pts
+			(xy 55.88 30.48) (xy 91.44 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a94b22-3197-4af5-b3fa-75dc1f0e3226")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e638818f-06d0-4b45-a906-3c9ee687ca21")
+	)
+	(bus
+		(pts
+			(xy 91.44 87.63) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd4c9bb-1afb-4775-b048-bc8ec8af0708")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa745ab0-b00d-4192-a5ed-3f2ba9e82bd0")
+	)
+	(label "MOT_DRIVE.CH"
+		(at 110.49 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "203f9f92-3ddb-448b-b931-30cbb48a6b43")
+	)
+	(label "MOT_DRIVE.CL"
+		(at 110.49 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a89c220-cf6b-4ce8-9560-4680efffac7e")
+	)
+	(label "MOT_DRIVE.BL"
+		(at 110.49 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "508857e6-ccea-4c07-959c-1c5b553f5126")
+	)
+	(label "MOT_DRIVE.BH"
+		(at 110.49 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b971247-27ca-4c9e-843f-f9b8b69e3e4f")
+	)
+	(label "MOT_DRIVE.AL"
+		(at 110.49 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4d071aa-6a19-48ee-b902-45c2855c586e")
+	)
+	(label "MOT_DRIVE.AH"
+		(at 110.49 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de788c67-2d1b-4b31-a5c5-e78304f8ea86")
+	)
+	(hierarchical_label "MOT_DRIVE{PHASES}"
+		(shape input)
+		(at 55.88 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55b8998f-8b43-47fd-90b2-b225da580f11")
+	)
+	(sheet
+		(at 114.3 64.77)
+		(size 31.75 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "184b898e-4aed-43ab-9123-2924160ca1ff")
+		(property "Sheetname" "Phase B Driver"
+			(at 114.3 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_driver.kicad_sch"
+			(at 114.3 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 146.05 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9fe9a41f-c5ca-427e-834d-b5425522c64f")
+		)
+		(pin "INL" input
+			(at 114.3 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67448d4a-8bac-4e00-84bd-ec0475b28da5")
+		)
+		(pin "INH" input
+			(at 114.3 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a41a6747-dcb0-46ec-b133-b27899804be6")
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c"
+					(page "2")
+				)
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/bed5353e-e607-4c1c-98ea-22040242af2e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 88.9)
+		(size 31.75 6.35)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3c0ac15-b403-4abe-8c9f-dc79c64677cd")
+		(property "Sheetname" "Phase C Driver"
+			(at 114.3 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_driver.kicad_sch"
+			(at 114.3 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b1b141c-ff2d-441d-adb4-da613aacd2c4")
+		)
+		(pin "INL" input
+			(at 114.3 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19d4f0bd-78a2-4459-9761-03e5030d12f2")
+		)
+		(pin "INH" input
+			(at 114.3 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b390694-218b-4fa9-9215-d05a76a317bb")
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c"
+					(page "6")
+				)
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/bed5353e-e607-4c1c-98ea-22040242af2e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 31.75 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cee9b468-980d-45cd-b1b7-f04fc6f76443")
+		(property "Sheetname" "Phase A Driver"
+			(at 114.3 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "phase_driver.kicad_sch"
+			(at 114.3 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" output
+			(at 146.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef99a8a8-d515-4828-a48c-58459277eeb2")
+		)
+		(pin "INL" input
+			(at 114.3 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4debd673-13e6-42fd-8a27-6a5b46865ccb")
+		)
+		(pin "INH" input
+			(at 114.3 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4651e820-004a-4d98-8702-05f967914805")
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c"
+					(page "4")
+				)
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/bed5353e-e607-4c1c-98ea-22040242af2e"
+					(page "9")
+				)
+			)
+		)
+	)
 )

@@ -1,55 +1,133 @@
-(kicad_sch (version 20230819) (generator eeschema)
-
-  (uuid c07e9297-fde8-4755-803e-d05072cd6096)
-
-  (paper "A4")
-
-  (title_block
-    (date "2023-04-05")
-    (rev "0.1")
-    (company "Julien FAUCHER")
-    (comment 1 "Defis solaires 2024")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 50.8 24.13) (size 45.72 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 164e5be8-13e0-4d66-ab9d-977f2147e774)
-    (property "Sheetname" "PSU" (at 50.8 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "psu.kicad_sch" (at 50.8 52.6546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "dsv4"
-        (path "/c07e9297-fde8-4755-803e-d05072cd6096" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 138.43 24.13) (size 25.4 24.13) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5b9a617b-6d93-4d9f-bce1-510d294da22c)
-    (property "Sheetname" "MOTA Driver" (at 138.43 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mot_driver.kicad_sch" (at 138.43 48.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "dsv4"
-        (path "/c07e9297-fde8-4755-803e-d05072cd6096" (page "3"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c07e9297-fde8-4755-803e-d05072cd6096")
+	(paper "A4")
+	(title_block
+		(date "2023-04-05")
+		(rev "0.1")
+		(company "Julien FAUCHER")
+		(comment 1 "Defis solaires 2024")
+	)
+	(lib_symbols)
+	(sheet
+		(at 50.8 24.13)
+		(size 45.72 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "164e5be8-13e0-4d66-ab9d-977f2147e774")
+		(property "Sheetname" "PSU"
+			(at 50.8 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 50.8 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 24.13)
+		(size 25.4 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b9a617b-6d93-4d9f-bce1-510d294da22c")
+		(property "Sheetname" "MOTA Driver"
+			(at 102.87 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mot_driver.kicad_sch"
+			(at 102.87 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 54.61)
+		(size 25.4 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bed5353e-e607-4c1c-98ea-22040242af2e")
+		(property "Sheetname" "MOTB Driver"
+			(at 102.87 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mot_driver.kicad_sch"
+			(at 102.87 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

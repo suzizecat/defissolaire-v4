@@ -24,6 +24,13 @@
       "track_widths": [],
       "via_dimensions": []
     },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
     "layer_presets": [],
     "viewports": []
   },
@@ -274,25 +281,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/PSU/Ctrl": "Analog",
-      "/PSU/DRV_VIN": "Power",
-      "/PSU/FB": "Analog",
-      "/PSU/Input PSU - Old/Ctrl": "Analog",
-      "/PSU/Input PSU - Old/DRV_VIN": "Power",
-      "/PSU/Input PSU - Old/FB": "Analog",
-      "/PSU/Input PSU - Old/SW": "Power",
-      "/PSU/Input PSU/Ctrl": "Analog",
-      "/PSU/Input PSU/DRV_VIN": "Power",
-      "/PSU/Input PSU/FB": "Analog",
-      "/PSU/Input PSU/SW": "Power",
-      "/PSU/SW": "Power",
-      "Net-(Q1-B)": "Analog",
-      "Net-(R210-Pad2)": "Analog",
-      "Net-(U2-+)": "Analog",
-      "Net-(U2--)": "Analog",
-      "unconnected-(TP207-Pad1)": "Analog"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -404,11 +393,11 @@
   "sheets": [
     [
       "c07e9297-fde8-4755-803e-d05072cd6096",
-      ""
+      "Root"
     ],
     [
-      "57144c88-c1f4-4525-a541-3c6c77ae2fac",
-      "Input PSU - Old"
+      "184b898e-4aed-43ab-9123-2924160ca1ff",
+      "Phase B Driver"
     ],
     [
       "5b9a617b-6d93-4d9f-bce1-510d294da22c",
@@ -425,6 +414,26 @@
     [
       "1418bcac-62b9-409d-afe1-faaf812fdfa2",
       "Input PSU"
+    ],
+    [
+      "a3c0ac15-b403-4abe-8c9f-dc79c64677cd",
+      "Phase C Driver"
+    ],
+    [
+      "bed5353e-e607-4c1c-98ea-22040242af2e",
+      "MOTB Driver"
+    ],
+    [
+      "184b898e-4aed-43ab-9123-2924160ca1ff",
+      "Phase B Driver"
+    ],
+    [
+      "cee9b468-980d-45cd-b1b7-f04fc6f76443",
+      "Phase A Driver"
+    ],
+    [
+      "a3c0ac15-b403-4abe-8c9f-dc79c64677cd",
+      "Phase C Driver"
     ]
   ],
   "text_variables": {}
