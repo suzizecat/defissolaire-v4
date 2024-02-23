@@ -239,7 +239,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -393,7 +393,7 @@
   "sheets": [
     [
       "c07e9297-fde8-4755-803e-d05072cd6096",
-      "Root"
+      "Racine"
     ],
     [
       "184b898e-4aed-43ab-9123-2924160ca1ff",
@@ -434,6 +434,14 @@
     [
       "a3c0ac15-b403-4abe-8c9f-dc79c64677cd",
       "Phase C Driver"
+    ],
+    [
+      "0865f076-bf0e-442f-8617-d4097538e68b",
+      "MCU"
+    ],
+    [
+      "034d0368-e396-480e-b989-38926133a66e",
+      "Radio and misc"
     ]
   ],
   "text_variables": {}
