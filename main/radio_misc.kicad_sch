@@ -2981,7 +2981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.murata.com/products/productdata/8801054490654/SPEC-PKLCS1212E4001-R1.pdf"
 			(at 257.175 27.94 90)
 			(effects
 				(font
@@ -2997,6 +2997,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 257.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
+			(at 257.81 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3245,12 +3261,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 255.27 16.51 0)
+		(property "Value" "V_{DRIVE}"
+			(at 257.81 20.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

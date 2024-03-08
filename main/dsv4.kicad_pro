@@ -436,12 +436,20 @@
       "Phase C Driver"
     ],
     [
+      "2d15f287-a464-4822-9e76-d4ca4cb9f82a",
+      "MOT2 Bus management"
+    ],
+    [
       "0865f076-bf0e-442f-8617-d4097538e68b",
       "MCU"
     ],
     [
       "034d0368-e396-480e-b989-38926133a66e",
       "Radio and misc"
+    ],
+    [
+      "e313533d-7862-466d-aec4-d9675212cabe",
+      "MOT1 Bus management"
     ]
   ],
   "text_variables": {}

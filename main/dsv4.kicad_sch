@@ -150,6 +150,126 @@
 				)
 			)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -373,11 +493,15 @@
 		(color 0 0 0 0)
 		(uuid "11f2ff66-f771-467a-8a2b-423b60246239")
 	)
-	(junction
-		(at 130.81 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7692112-a4c6-4f82-9693-695f82bcd0e0")
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 105.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0081c0-efcb-42ef-90a9-8f89f67465de")
 	)
 	(bus
 		(pts
@@ -431,16 +555,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 27.94) (xy 124.46 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e53b1c3-1d32-4855-80a0-9556f45c8861")
-	)
-	(wire
-		(pts
 			(xy 99.06 25.4) (xy 99.06 27.94)
 		)
 		(stroke
@@ -481,13 +595,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 147.32) (xy 137.16 147.32)
+			(xy 96.52 38.1) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ee9824b-e519-4c64-bf48-01a8c3c07b61")
+		(uuid "aa35098e-1add-4c82-a521-63059d094643")
+	)
+	(wire
+		(pts
+			(xy 99.06 27.94) (xy 135.89 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19b2b5d-15a4-457f-86a5-5b43862dd958")
 	)
 	(bus
 		(pts
@@ -521,43 +645,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 161.29) (xy 130.81 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4db123a-c8c1-409e-8ec8-6f9ece14d758")
-	)
-	(wire
-		(pts
-			(xy 104.14 147.32) (xy 130.81 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e5c282-f262-4bef-8921-cbed6bf9b679")
-	)
-	(wire
-		(pts
-			(xy 127 24.13) (xy 127 31.75)
+			(xy 138.43 24.13) (xy 138.43 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f15e5d18-56d9-4d7e-802a-75417210cd12")
-	)
-	(wire
-		(pts
-			(xy 137.16 161.29) (xy 130.81 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f30e4ef8-ef41-4820-9f35-de8960f0e346")
 	)
 	(wire
 		(pts
@@ -571,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 27.94) (xy 124.46 24.13)
+			(xy 135.89 27.94) (xy 135.89 24.13)
 		)
 		(stroke
 			(width 0)
@@ -602,9 +696,9 @@
 		)
 		(uuid "44608c79-4b26-4071-baab-40e0d062c28b")
 	)
-	(text "To capacitor bank"
+	(text "To capacitor bank\n18V / 8.5F"
 		(exclude_from_sim no)
-		(at 129.794 20.574 0)
+		(at 141.224 20.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -615,7 +709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 31.75 0)
+		(at 138.43 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -624,7 +718,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fd26c76-df66-49de-ba89-0f5b204c866e")
 		(property "Reference" "#PWR0102"
-			(at 127 38.1 0)
+			(at 138.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +727,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 127 36.83 0)
+			(at 138.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,7 +735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 31.75 0)
+			(at 138.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -650,7 +744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 31.75 0)
+			(at 138.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,7 +753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 31.75 0)
+			(at 138.43 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +910,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 124.46 19.05 90)
+		(at 135.89 19.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -824,7 +918,7 @@
 		(dnp no)
 		(uuid "b6f4127d-aa50-43c4-bc10-65afc096918d")
 		(property "Reference" "J102"
-			(at 121.92 17.7799 90)
+			(at 133.35 17.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +927,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 121.92 20.3199 90)
+			(at 133.35 20.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 19.05 0)
+			(at 135.89 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +945,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 19.05 0)
+			(at 135.89 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +954,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 124.46 19.05 0)
+			(at 135.89 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,6 +972,73 @@
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096"
 					(reference "J102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 105.41 36.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d448b4b9-6865-4868-b9f0-a900f39e9492")
+		(property "Reference" "#PWR0104"
+			(at 105.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_{DRIVE}"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59be5907-52cd-420d-8bcb-e729ba208890")
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -1057,16 +1218,6 @@
 			)
 			(uuid "609f335d-75a4-448b-ab22-b516dcabfa13")
 		)
-		(pin "LED_MOT_EN" output
-			(at 104.14 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "8a41d13a-7911-47b6-809c-9c9292988c12")
-		)
 		(pin "RADIO[1..6]" input
 			(at 104.14 127 0)
 			(effects
@@ -1086,6 +1237,16 @@
 				(justify right)
 			)
 			(uuid "332e7711-d475-4358-9b03-9499cc3d99e6")
+		)
+		(pin "MOT_SPI{SPI}" output
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26b08477-b9bb-41e7-bad0-652cd43f047d")
 		)
 		(instances
 			(project "dsv4"
@@ -1145,6 +1306,16 @@
 			)
 			(uuid "9e11b149-1e6c-44a1-8499-ae4b6d89e052")
 		)
+		(pin "V_{DRIVE}" output
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47ef8737-b3a0-4fab-82b6-bc9c6d332544")
+		)
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096"
@@ -1182,16 +1353,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "LED_EN" input
-			(at 137.16 147.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "88455e6e-6c2d-4f0d-8e1b-718f32604d94")
 		)
 		(pin "MOT_DRIVE{PHASES}" input
 			(at 137.16 144.78 180)
@@ -1260,16 +1421,6 @@
 				(justify right)
 			)
 			(uuid "6e47bb06-5ffa-454d-8e97-db02ab688ec6")
-		)
-		(pin "LED_EN" input
-			(at 137.16 161.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0e43340e-138e-4733-aa76-0d5232885ae1")
 		)
 		(pin "MOT_DRIVE{PHASES}" input
 			(at 137.16 158.75 180)
