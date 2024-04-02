@@ -225,10 +225,12 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "footprint_link_issues": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -243,6 +245,7 @@
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -281,7 +284,39 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/PSU/Battery chagrer/EN": "",
+      "/PSU/Battery chagrer/V_{CTRL}": "",
+      "/PSU/Battery chagrer/V_{IN}": "",
+      "/PSU/Battery chagrer/V_{OUT}": "",
+      "GND": "",
+      "Net-(D1601-A)": "",
+      "Net-(D1601-K)": "",
+      "Net-(D1602-A)": "",
+      "Net-(JP1601-A)": "",
+      "Net-(JP1601-B)": "",
+      "Net-(JP1602-A)": "",
+      "Net-(JP1602-B)": "",
+      "Net-(Q1601-D)": "",
+      "Net-(Q1604-D)": "",
+      "Net-(Q1604-G)": "",
+      "Net-(Q1604-S)": "",
+      "Net-(Q1605-D)": "",
+      "Net-(Q1605-G)": "",
+      "Net-(Q1605-S)": "",
+      "Net-(R1609-Pad2)": "",
+      "Net-(U1601-EN{slash}FBIN)": "",
+      "Net-(U1601-FBX)": "",
+      "Net-(U1601-IMON)": "",
+      "Net-(U1601-INTV_{CC})": "",
+      "Net-(U1601-INTV_{EE})": "",
+      "Net-(U1601-RT)": "",
+      "Net-(U1601-SS)": "",
+      "PGND": "",
+      "VBATT": "",
+      "VCAP": "",
+      "unconnected-(U1601-FLAG-Pad4)": ""
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -393,7 +428,7 @@
   "sheets": [
     [
       "c07e9297-fde8-4755-803e-d05072cd6096",
-      "Racine"
+      "Root"
     ],
     [
       "184b898e-4aed-43ab-9123-2924160ca1ff",
@@ -450,6 +485,10 @@
     [
       "e313533d-7862-466d-aec4-d9675212cabe",
       "MOT1 Bus management"
+    ],
+    [
+      "2568eb76-a76e-4dca-9ea6-ce4815cb5838",
+      "Battery chagrer"
     ]
   ],
   "text_variables": {}

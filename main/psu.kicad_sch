@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20240101)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "8.99")
 	(uuid "5874c2e9-565c-4ff2-bbe9-58a709ba12d7")
 	(paper "A4")
 	(title_block
@@ -6589,6 +6589,44 @@
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 29.21)
+		(size 38.1 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2568eb76-a76e-4dca-9ea6-ce4815cb5838")
+		(property "Sheetname" "Battery chagrer"
+			(at 134.62 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_charger.kicad_sch"
+			(at 134.62 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774"
+					(page "16")
 				)
 			)
 		)
