@@ -2044,6 +2044,12 @@
 		(uuid "21e17ae7-dce8-4e98-89c9-a756b8f47a68")
 	)
 	(junction
+		(at 99.06 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2655aa29-4b71-4b96-a121-a1d4915bca5e")
+	)
+	(junction
 		(at 182.88 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2062,6 +2068,12 @@
 		(uuid "39f2f120-c222-4284-819a-8a13c7a48ea1")
 	)
 	(junction
+		(at 162.56 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a476870-6bf0-4a2f-b389-5bd395765844")
+	)
+	(junction
 		(at 54.61 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2071,7 +2083,7 @@
 		(at 85.09 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f297da6-85ed-458b-93e6-ddac2ee711e3")
+		(uuid "473b4b72-f673-4180-9118-26f227ddd62d")
 	)
 	(junction
 		(at 45.72 99.06)
@@ -2162,6 +2174,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8de6f4d-df57-46c0-bca0-f690d02cf6e0")
+	)
+	(junction
+		(at 119.38 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af990f51-1739-4b3b-9d72-45a16f5e50a5")
 	)
 	(junction
 		(at 19.05 119.38)
@@ -2405,6 +2423,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 41.91) (xy 165.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d90e987-82d4-4591-ba43-18025395a0e3")
+	)
+	(wire
+		(pts
 			(xy 66.04 78.74) (xy 77.47 78.74)
 		)
 		(stroke
@@ -2432,6 +2460,26 @@
 			(type default)
 		)
 		(uuid "37e52a7d-1a1f-4647-8215-ab5e3e9beea4")
+	)
+	(wire
+		(pts
+			(xy 160.02 29.21) (xy 162.56 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd26bbd-1cf3-47b2-a653-ae256096d6c5")
+	)
+	(wire
+		(pts
+			(xy 85.09 29.21) (xy 99.06 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8fba40-68ce-434c-a262-73798e9caee5")
 	)
 	(wire
 		(pts
@@ -2472,6 +2520,16 @@
 			(type default)
 		)
 		(uuid "48191696-e778-4902-898e-1561c17a4a42")
+	)
+	(wire
+		(pts
+			(xy 119.38 31.75) (xy 119.38 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48cf2de0-7ee5-4846-8467-236fadfdc823")
 	)
 	(wire
 		(pts
@@ -2775,13 +2833,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 29.21) (xy 99.06 29.21)
+			(xy 121.92 31.75) (xy 119.38 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9828e53d-9167-4481-95e2-f8b53575e83e")
+		(uuid "967fdfaa-ae70-47de-8a71-f80f40b13c94")
 	)
 	(wire
 		(pts
@@ -2805,6 +2863,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 29.21) (xy 99.06 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b272da8-4a86-4428-96fd-811cb5482c99")
+	)
+	(wire
+		(pts
 			(xy 19.05 161.29) (xy 33.02 161.29)
 		)
 		(stroke
@@ -2812,6 +2880,16 @@
 			(type default)
 		)
 		(uuid "9db29ac4-4e73-4843-b260-62e526fa8f2f")
+	)
+	(wire
+		(pts
+			(xy 162.56 29.21) (xy 172.72 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0b76cb-a402-4bbf-874d-ab05bfbe5dda")
 	)
 	(wire
 		(pts
@@ -2885,6 +2963,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 41.91) (xy 121.92 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9715a99-f2e9-4326-820b-fc63c0313c37")
+	)
+	(wire
+		(pts
 			(xy 45.72 73.66) (xy 45.72 81.28)
 		)
 		(stroke
@@ -2952,6 +3040,16 @@
 			(type default)
 		)
 		(uuid "b4054c78-5060-4246-b6c2-0a09e06a009d")
+	)
+	(wire
+		(pts
+			(xy 114.3 44.45) (xy 121.92 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60c57af-9d98-44ff-abe2-f59cb9510ab8")
 	)
 	(wire
 		(pts
@@ -3145,6 +3243,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 29.21) (xy 119.38 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd51ba2a-e1eb-469c-95f7-68c06afce4a8")
+	)
+	(wire
+		(pts
 			(xy 76.2 161.29) (xy 96.52 161.29)
 		)
 		(stroke
@@ -3222,6 +3330,16 @@
 			(type default)
 		)
 		(uuid "d7c3a76c-653b-4853-b026-a3e3a2c0d737")
+	)
+	(wire
+		(pts
+			(xy 160.02 44.45) (xy 165.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc25ac27-d020-46de-a6f1-fd92fcb5c58d")
 	)
 	(wire
 		(pts
@@ -3335,6 +3453,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 29.21) (xy 121.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88477cd-8a05-4f81-9c21-8122b52b1e66")
+	)
+	(wire
+		(pts
+			(xy 162.56 31.75) (xy 162.56 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1979e6-0c6a-4213-bc2e-25e4a6e29308")
+	)
+	(wire
+		(pts
 			(xy 144.78 99.06) (xy 144.78 93.98)
 		)
 		(stroke
@@ -3362,6 +3500,16 @@
 			(type default)
 		)
 		(uuid "f087ad21-5e06-4fc9-aa13-5abde216c4bc")
+	)
+	(wire
+		(pts
+			(xy 160.02 31.75) (xy 162.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ebc074-f301-4503-a1ec-46a179991839")
 	)
 	(wire
 		(pts
@@ -3428,7 +3576,7 @@
 	)
 	(text "To a supercap bank"
 		(exclude_from_sim no)
-		(at 99.06 31.242 0)
+		(at 90.17 30.988 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3492,6 +3640,30 @@
 		)
 		(uuid "afe0728d-009c-4cc6-ae2b-1e805646593a")
 	)
+	(hierarchical_label "~{BAT_CHRG}"
+		(shape input)
+		(at 114.3 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fbcbd24-518d-4d90-8bda-21eb354d1b8e")
+	)
+	(hierarchical_label "BAT_USE"
+		(shape input)
+		(at 114.3 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43d34a21-6579-4bb3-b3c1-a47231e92434")
+	)
 	(hierarchical_label "V_{CELL}"
 		(shape input)
 		(at 24.13 29.21 180)
@@ -3518,7 +3690,7 @@
 	)
 	(hierarchical_label "V_{CAP}"
 		(shape passive)
-		(at 99.06 29.21 0)
+		(at 99.06 25.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3527,6 +3699,42 @@
 			(justify left)
 		)
 		(uuid "872011aa-1026-480e-a8ec-ff30c89949b7")
+	)
+	(hierarchical_label "MEAS_VBAT"
+		(shape output)
+		(at 165.1 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a490dd04-a28a-441c-afbf-11be9c4726d9")
+	)
+	(hierarchical_label "MEAS_IBAT"
+		(shape output)
+		(at 165.1 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d27bebdb-0a80-4b70-a76d-532181fd6e61")
+	)
+	(hierarchical_label "V_{BATT}"
+		(shape passive)
+		(at 172.72 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f46d7b11-cb0d-437b-8d09-9e3073bc7484")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6594,7 +6802,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 29.21)
+		(at 121.92 26.67)
 		(size 38.1 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -6606,7 +6814,7 @@
 		)
 		(uuid "2568eb76-a76e-4dca-9ea6-ce4815cb5838")
 		(property "Sheetname" "Battery chagrer"
-			(at 134.62 28.4984 0)
+			(at 121.92 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,13 +6823,93 @@
 			)
 		)
 		(property "Sheetfile" "battery_charger.kicad_sch"
-			(at 134.62 50.1146 0)
+			(at 121.92 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "BAT_USE" input
+			(at 121.92 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ad4ab60-7a38-411e-bee9-ec57ecc24f1c")
+		)
+		(pin "V_{IN}" input
+			(at 121.92 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c662198-921e-4d23-9d9c-cf014d688f8c")
+		)
+		(pin "RETURN_PATH_OUT" output
+			(at 121.92 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b7be9a6-ca1b-4973-8f64-a8da6cf32a95")
+		)
+		(pin "~{BAT_CHRG}" input
+			(at 121.92 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "40f97cf0-3953-4431-b916-94fc3f8a71d3")
+		)
+		(pin "RETURN_PATH_IN" input
+			(at 160.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43d17573-6385-4695-8956-66614f79556a")
+		)
+		(pin "V_{OUT}" output
+			(at 160.02 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6b68fa4-14ca-4345-be16-75831b18cad5")
+		)
+		(pin "MEAS_VBAT" output
+			(at 160.02 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0d0f0df-7f26-4e5e-8245-728d9a6b8512")
+		)
+		(pin "MEAS_IBAT" output
+			(at 160.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5988ec3-67ba-4085-8c11-6fc1dcbf046b")
 		)
 		(instances
 			(project "dsv4"

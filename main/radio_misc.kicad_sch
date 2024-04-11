@@ -4193,6 +4193,7 @@
 	)
 	(label "UART.RX"
 		(at 166.37 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4236,6 +4237,7 @@
 	)
 	(label "UART.TX"
 		(at 166.37 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3260,6 +3260,10 @@
 		(uuid "d7c06142-893a-49a1-95bc-549fcb87efe0")
 	)
 	(no_connect
+		(at 151.13 38.1)
+		(uuid "d9a27e80-3d24-4583-96fc-cb4b3cb692b3")
+	)
+	(no_connect
 		(at 66.04 128.27)
 		(uuid "e9624939-81e6-4f8d-863c-48b522e9088f")
 	)
@@ -3738,6 +3742,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 55.88) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b387832-bd26-4a44-a28f-a5ab15219d30")
+	)
+	(wire
+		(pts
 			(xy 46.99 64.77) (xy 46.99 69.85)
 		)
 		(stroke
@@ -3968,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 55.88) (xy 179.07 55.88)
+			(xy 125.73 104.14) (xy 107.95 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4158,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 53.34) (xy 179.07 53.34)
+			(xy 125.73 101.6) (xy 107.95 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4378,6 +4392,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 86.36) (xy 179.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b40207-147e-42a6-8249-e12fde01aaa3")
+	)
+	(wire
+		(pts
 			(xy 101.6 48.26) (xy 102.87 48.26)
 		)
 		(stroke
@@ -4425,6 +4449,16 @@
 			(type default)
 		)
 		(uuid "c4b5c70e-53f8-4489-8131-0fd3629cbede")
+	)
+	(wire
+		(pts
+			(xy 179.07 53.34) (xy 161.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f7141a-68cf-419e-adb3-a9c1806b32db")
 	)
 	(bus
 		(pts
@@ -4817,6 +4851,7 @@
 	)
 	(label "USART.TX"
 		(at 177.8 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4992,6 +5027,7 @@
 	)
 	(label "USART.RX"
 		(at 177.8 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5346,6 +5382,28 @@
 		)
 		(uuid "46c8a7ad-27f3-449e-af06-fb8a79ce6c2e")
 	)
+	(hierarchical_label "MEAS_VBAT"
+		(shape input)
+		(at 179.07 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48e4e46e-43e6-4529-a189-9c77230ff7b8")
+	)
+	(hierarchical_label "MEAS_IBAT"
+		(shape input)
+		(at 179.07 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cad1d20-f795-4df5-9ea5-ceb62a4b7a08")
+	)
 	(hierarchical_label "MOT1{PHASES}"
 		(shape output)
 		(at 266.7 72.39 0)
@@ -5372,7 +5430,19 @@
 	)
 	(hierarchical_label "SPI_~{CS}_2"
 		(shape output)
-		(at 179.07 55.88 0)
+		(at 107.95 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7d14dd5-82e0-40f9-a5d0-e0d119573ecf")
+	)
+	(hierarchical_label "MEAS_VCAP"
+		(shape input)
+		(at 179.07 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5380,7 +5450,7 @@
 			)
 			(justify left)
 		)
-		(uuid "b7d14dd5-82e0-40f9-a5d0-e0d119573ecf")
+		(uuid "b8dc046b-7538-4544-98ad-b0359a1af57b")
 	)
 	(hierarchical_label "MOT_SPI{SPI}"
 		(shape output)
@@ -5408,13 +5478,13 @@
 	)
 	(hierarchical_label "SPI_~{CS}_1"
 		(shape output)
-		(at 179.07 53.34 0)
+		(at 107.95 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ecb7f5ab-c157-4c0f-9de9-8b5ccc7efa21")
 	)
@@ -7061,6 +7131,7 @@
 		)
 		(pin "21"
 			(uuid "90576f82-c8cf-4821-bae5-34a3bd93fcf8")
+			(alternate "ADC1_IN10")
 		)
 		(pin "3"
 			(uuid "8e71ce3d-6eb2-482b-95d5-6c20fc06b2ba")
@@ -7076,7 +7147,7 @@
 		)
 		(pin "20"
 			(uuid "5aa4bdd8-dbe5-4249-a773-9e626dc6e4e2")
-			(alternate "SPI1_NSS")
+			(alternate "ADC1_IN9")
 		)
 		(pin "25"
 			(uuid "9bfc5135-6847-4ac5-89b8-4f44933288ae")
@@ -7217,6 +7288,7 @@
 		)
 		(pin "26"
 			(uuid "5675d606-be80-408e-942f-e80fce6be961")
+			(alternate "ADC1_IN15")
 		)
 		(pin "45"
 			(uuid "897567da-432f-480a-981e-67839cbfa4c1")

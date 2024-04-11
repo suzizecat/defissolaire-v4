@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "power_supply")(type "KiCad")(uri "/home/julien/Projets/Kicad/DefisSolaireV4/proto/power_supply/power_supply.kicad_sym")(options "")(descr ""))
+  (lib (name "power_supply")(type "KiCad")(uri "${KPRJMOD}/../proto/power_supply/power_supply.kicad_sym")(options "")(descr ""))
   (lib (name "dsv4")(type "KiCad")(uri "${KIPRJMOD}/dsv4.kicad_sym")(options "")(descr ""))
 )
