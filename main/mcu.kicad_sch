@@ -1466,29 +1466,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -12.7 0)
-					(length 2.54)
-					(name "PC13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RTC_OUT_ALARM" bidirectional line)
-					(alternate "RTC_OUT_CALIB" bidirectional line)
-					(alternate "RTC_TAMP1" bidirectional line)
-					(alternate "RTC_TS" bidirectional line)
-					(alternate "SYS_WKUP2" bidirectional line)
-				)
-				(pin bidirectional line
 					(at 17.78 33.02 180)
 					(length 2.54)
 					(name "PA4"
@@ -1757,25 +1734,6 @@
 					(alternate "USART3_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at -17.78 -15.24 0)
-					(length 2.54)
-					(name "PC14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "RCC_OSC32_IN" bidirectional line)
-				)
-				(pin bidirectional line
 					(at 17.78 -27.94 180)
 					(length 2.54)
 					(name "PB11"
@@ -1987,6 +1945,29 @@
 					(alternate "TSC_G4_IO1" bidirectional line)
 				)
 				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RTC_OUT_ALARM" bidirectional line)
+					(alternate "RTC_OUT_CALIB" bidirectional line)
+					(alternate "RTC_TAMP1" bidirectional line)
+					(alternate "RTC_TS" bidirectional line)
+					(alternate "SYS_WKUP2" bidirectional line)
+				)
+				(pin bidirectional line
 					(at -17.78 2.54 0)
 					(length 2.54)
 					(name "PC7"
@@ -2012,6 +1993,25 @@
 					(alternate "TSC_G4_IO2" bidirectional line)
 				)
 				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "PC14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "RCC_OSC32_IN" bidirectional line)
+				)
+				(pin bidirectional line
 					(at -17.78 0 0)
 					(length 2.54)
 					(name "PC8"
@@ -2033,56 +2033,6 @@
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TIM8_CH3" bidirectional line)
 					(alternate "TSC_G4_IO3" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -17.78 -17.78 0)
-					(length 2.54)
-					(name "PC15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_EXTI15" bidirectional line)
-					(alternate "ADC2_EXTI15" bidirectional line)
-					(alternate "ADC3_EXTI15" bidirectional line)
-					(alternate "RCC_OSC32_OUT" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
-					(length 2.54)
-					(name "PC9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "DAC1_EXTI9" bidirectional line)
-					(alternate "LCD_SEG27" bidirectional line)
-					(alternate "SAI2_EXTCLK" bidirectional line)
-					(alternate "SDMMC1_D1" bidirectional line)
-					(alternate "TIM3_CH4" bidirectional line)
-					(alternate "TIM8_BKIN2" bidirectional line)
-					(alternate "TIM8_BKIN2_COMP1" bidirectional line)
-					(alternate "TIM8_CH4" bidirectional line)
-					(alternate "TSC_G4_IO4" bidirectional line)
-					(alternate "USB_OTG_FS_NOE" bidirectional line)
 				)
 				(pin bidirectional line
 					(at 17.78 22.86 180)
@@ -2330,90 +2280,6 @@
 					(alternate "TSC_G3_IO1" bidirectional line)
 					(alternate "UART4_DE" bidirectional line)
 					(alternate "UART4_RTS" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -17.78 -5.08 0)
-					(length 2.54)
-					(name "PC10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "LCD_COM4" bidirectional line)
-					(alternate "LCD_SEG28" bidirectional line)
-					(alternate "LCD_SEG40" bidirectional line)
-					(alternate "SAI2_SCK_B" bidirectional line)
-					(alternate "SDMMC1_D2" bidirectional line)
-					(alternate "SPI3_SCK" bidirectional line)
-					(alternate "TSC_G3_IO2" bidirectional line)
-					(alternate "UART4_TX" bidirectional line)
-					(alternate "USART3_TX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 2.54)
-					(name "PC11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC1_EXTI11" bidirectional line)
-					(alternate "ADC2_EXTI11" bidirectional line)
-					(alternate "ADC3_EXTI11" bidirectional line)
-					(alternate "LCD_COM5" bidirectional line)
-					(alternate "LCD_SEG29" bidirectional line)
-					(alternate "LCD_SEG41" bidirectional line)
-					(alternate "SAI2_MCLK_B" bidirectional line)
-					(alternate "SDMMC1_D3" bidirectional line)
-					(alternate "SPI3_MISO" bidirectional line)
-					(alternate "TSC_G3_IO3" bidirectional line)
-					(alternate "UART4_RX" bidirectional line)
-					(alternate "USART3_RX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 2.54)
-					(name "PC12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "LCD_COM6" bidirectional line)
-					(alternate "LCD_SEG30" bidirectional line)
-					(alternate "LCD_SEG42" bidirectional line)
-					(alternate "SAI2_SD_B" bidirectional line)
-					(alternate "SDMMC1_CK" bidirectional line)
-					(alternate "SPI3_MOSI" bidirectional line)
-					(alternate "TSC_G3_IO4" bidirectional line)
-					(alternate "UART5_TX" bidirectional line)
-					(alternate "USART3_CK" bidirectional line)
 				)
 				(pin bidirectional line
 					(at -17.78 25.4 0)
@@ -2787,6 +2653,140 @@
 					(alternate "LCD_SEG19" bidirectional line)
 					(alternate "LPTIM1_OUT" bidirectional line)
 					(alternate "LPUART1_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "PC9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "DAC1_EXTI9" bidirectional line)
+					(alternate "LCD_SEG27" bidirectional line)
+					(alternate "SAI2_EXTCLK" bidirectional line)
+					(alternate "SDMMC1_D1" bidirectional line)
+					(alternate "TIM3_CH4" bidirectional line)
+					(alternate "TIM8_BKIN2" bidirectional line)
+					(alternate "TIM8_BKIN2_COMP1" bidirectional line)
+					(alternate "TIM8_CH4" bidirectional line)
+					(alternate "TSC_G4_IO4" bidirectional line)
+					(alternate "USB_OTG_FS_NOE" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -17.78 0)
+					(length 2.54)
+					(name "PC15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI15" bidirectional line)
+					(alternate "ADC2_EXTI15" bidirectional line)
+					(alternate "ADC3_EXTI15" bidirectional line)
+					(alternate "RCC_OSC32_OUT" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "PC10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "LCD_COM4" bidirectional line)
+					(alternate "LCD_SEG28" bidirectional line)
+					(alternate "LCD_SEG40" bidirectional line)
+					(alternate "SAI2_SCK_B" bidirectional line)
+					(alternate "SDMMC1_D2" bidirectional line)
+					(alternate "SPI3_SCK" bidirectional line)
+					(alternate "TSC_G3_IO2" bidirectional line)
+					(alternate "UART4_TX" bidirectional line)
+					(alternate "USART3_TX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "PC11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADC1_EXTI11" bidirectional line)
+					(alternate "ADC2_EXTI11" bidirectional line)
+					(alternate "ADC3_EXTI11" bidirectional line)
+					(alternate "LCD_COM5" bidirectional line)
+					(alternate "LCD_SEG29" bidirectional line)
+					(alternate "LCD_SEG41" bidirectional line)
+					(alternate "SAI2_MCLK_B" bidirectional line)
+					(alternate "SDMMC1_D3" bidirectional line)
+					(alternate "SPI3_MISO" bidirectional line)
+					(alternate "TSC_G3_IO3" bidirectional line)
+					(alternate "UART4_RX" bidirectional line)
+					(alternate "USART3_RX" bidirectional line)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "PC12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "LCD_COM6" bidirectional line)
+					(alternate "LCD_SEG30" bidirectional line)
+					(alternate "LCD_SEG42" bidirectional line)
+					(alternate "SAI2_SD_B" bidirectional line)
+					(alternate "SDMMC1_CK" bidirectional line)
+					(alternate "SPI3_MOSI" bidirectional line)
+					(alternate "TSC_G3_IO4" bidirectional line)
+					(alternate "UART5_TX" bidirectional line)
+					(alternate "USART3_CK" bidirectional line)
 				)
 			)
 		)
@@ -3792,6 +3792,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 116.84) (xy 179.07 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47afef77-1f44-450d-8fdf-c3facbd50af3")
+	)
+	(wire
+		(pts
 			(xy 46.99 80.01) (xy 46.99 82.55)
 		)
 		(stroke
@@ -4259,6 +4269,16 @@
 			(type default)
 		)
 		(uuid "9a1740fe-8022-4236-8b31-aee0cf6bee23")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 179.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1cd871-c940-4ccb-93e1-77dd0d6c5a62")
 	)
 	(wire
 		(pts
@@ -5385,6 +5405,7 @@
 	(hierarchical_label "MEAS_VBAT"
 		(shape input)
 		(at 179.07 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5396,6 +5417,7 @@
 	(hierarchical_label "MEAS_IBAT"
 		(shape input)
 		(at 179.07 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5415,6 +5437,18 @@
 			(justify left)
 		)
 		(uuid "6e9f0e44-c556-48f5-b1a0-ecfb6ad6eac7")
+	)
+	(hierarchical_label "~{BAT_CHARGE}"
+		(shape output)
+		(at 179.07 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8db3e7f9-d08e-402e-89f7-9fcf2d88b1dc")
 	)
 	(hierarchical_label "ENC2{ENC}"
 		(shape input)
@@ -5488,6 +5522,18 @@
 		)
 		(uuid "ecb7f5ab-c157-4c0f-9de9-8b5ccc7efa21")
 	)
+	(hierarchical_label "BAT_USE"
+		(shape output)
+		(at 179.07 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd8ecd68-e2f4-4124-ba2a-a8487e1518b4")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 63.5 29.21 0)
@@ -5498,7 +5544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "108d5980-f8b7-4ad4-aaa8-e79714f4306c")
-		(property "Reference" "C1201"
+		(property "Reference" "C1204"
 			(at 67.31 27.9399 0)
 			(effects
 				(font
@@ -5516,7 +5562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 64.4652 33.02 0)
 			(effects
 				(font
@@ -5552,7 +5598,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "C1201")
+					(reference "C1204")
 					(unit 1)
 				)
 			)
@@ -5568,7 +5614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25bd19db-7b6b-4d1f-9e8f-cafb835e166e")
-		(property "Reference" "#PWR01209"
+		(property "Reference" "#PWR01213"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -5618,7 +5664,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01209")
+					(reference "#PWR01213")
 					(unit 1)
 				)
 			)
@@ -5635,7 +5681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27725b81-3a88-4624-9781-d3a67d10797b")
-		(property "Reference" "#PWR01308"
+		(property "Reference" "#PWR01210"
 			(at 27.94 88.9 0)
 			(effects
 				(font
@@ -5685,7 +5731,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01308")
+					(reference "#PWR01210")
 					(unit 1)
 				)
 			)
@@ -5702,7 +5748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb4b70e-10ff-4f1b-bd46-3b3222f0eb1e")
-		(property "Reference" "#PWR01307"
+		(property "Reference" "#PWR01211"
 			(at 46.99 88.9 0)
 			(effects
 				(font
@@ -5752,7 +5798,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01307")
+					(reference "#PWR01211")
 					(unit 1)
 				)
 			)
@@ -5768,7 +5814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ea54dcb-9dd2-4506-8d5e-3ccae02a4bd4")
-		(property "Reference" "C1301"
+		(property "Reference" "C1207"
 			(at 50.8 74.9299 0)
 			(effects
 				(font
@@ -5786,7 +5832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 80.01 0)
 			(effects
 				(font
@@ -5822,7 +5868,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "C1301")
+					(reference "C1207")
 					(unit 1)
 				)
 			)
@@ -5963,7 +6009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f74f770-4965-4890-b7a3-0d2f5b0a8b65")
-		(property "Reference" "#PWR01212"
+		(property "Reference" "#PWR01209"
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -6013,7 +6059,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01212")
+					(reference "#PWR01209")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c1cc49f-17bc-4874-b130-ae51e45b3488")
-		(property "Reference" "C1302"
+		(property "Reference" "C1206"
 			(at 31.75 74.9299 0)
 			(effects
 				(font
@@ -6047,7 +6093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 28.9052 80.01 0)
 			(effects
 				(font
@@ -6083,7 +6129,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "C1302")
+					(reference "C1206")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.68 50.038 90)
 			(effects
 				(font
@@ -6185,7 +6231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 88.392 38.1 90)
 			(effects
 				(font
@@ -6237,7 +6283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7443dae9-8759-4413-afe2-6dcf17459272")
-		(property "Reference" "#PWR01204"
+		(property "Reference" "#PWR01207"
 			(at 63.5 41.91 0)
 			(effects
 				(font
@@ -6287,7 +6333,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01204")
+					(reference "#PWR01207")
 					(unit 1)
 				)
 			)
@@ -6303,7 +6349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d4e5392-1b59-49fb-9d44-fb717fe63a63")
-		(property "Reference" "#PWR01201"
+		(property "Reference" "#PWR01204"
 			(at 21.59 41.91 0)
 			(effects
 				(font
@@ -6353,7 +6399,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01201")
+					(reference "#PWR01204")
 					(unit 1)
 				)
 			)
@@ -6369,7 +6415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e770633-ab4d-46aa-8368-803e517bc41a")
-		(property "Reference" "#PWR01207"
+		(property "Reference" "#PWR01202"
 			(at 90.17 35.56 0)
 			(effects
 				(font
@@ -6419,7 +6465,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01207")
+					(reference "#PWR01202")
 					(unit 1)
 				)
 			)
@@ -6505,7 +6551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ccdc331-e092-4a45-b35a-537c0d606cce")
-		(property "Reference" "#PWR01205"
+		(property "Reference" "#PWR01201"
 			(at 21.59 26.67 0)
 			(effects
 				(font
@@ -6555,7 +6601,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01205")
+					(reference "#PWR01201")
 					(unit 1)
 				)
 			)
@@ -6571,7 +6617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a00df32d-3524-4608-ade5-c930b96c8fe9")
-		(property "Reference" "#PWR01203"
+		(property "Reference" "#PWR01206"
 			(at 49.53 41.91 0)
 			(effects
 				(font
@@ -6621,7 +6667,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01203")
+					(reference "#PWR01206")
 					(unit 1)
 				)
 			)
@@ -6637,7 +6683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2bf4e80-ee9d-4e31-8f00-8f3294770a4e")
-		(property "Reference" "C1203"
+		(property "Reference" "C1202"
 			(at 39.37 27.9399 0)
 			(effects
 				(font
@@ -6655,7 +6701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 36.5252 33.02 0)
 			(effects
 				(font
@@ -6691,7 +6737,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "C1203")
+					(reference "C1202")
 					(unit 1)
 				)
 			)
@@ -6707,7 +6753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6f66e99-6af1-4259-9a8b-b6402c8554a2")
-		(property "Reference" "Y1301"
+		(property "Reference" "Y1201"
 			(at 36.83 62.23 0)
 			(effects
 				(font
@@ -6759,7 +6805,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "Y1301")
+					(reference "Y1201")
 					(unit 1)
 				)
 			)
@@ -6775,7 +6821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9e850a-32ef-432f-976d-d7a2f856208d")
-		(property "Reference" "#PWR01210"
+		(property "Reference" "#PWR01214"
 			(at 48.26 156.21 0)
 			(effects
 				(font
@@ -6825,7 +6871,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01210")
+					(reference "#PWR01214")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b947d3e3-e3c6-4c85-9ebe-6e791d4b956a")
-		(property "Reference" "#PWR01211"
+		(property "Reference" "#PWR01212"
 			(at 50.8 105.41 0)
 			(effects
 				(font
@@ -6891,7 +6937,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01211")
+					(reference "#PWR01212")
 					(unit 1)
 				)
 			)
@@ -6925,7 +6971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 53.34 0)
 			(effects
 				(font
@@ -6977,7 +7023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf520706-af53-44a0-a0ff-9d2efd9db039")
-		(property "Reference" "#PWR01202"
+		(property "Reference" "#PWR01205"
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -7027,7 +7073,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01202")
+					(reference "#PWR01205")
 					(unit 1)
 				)
 			)
@@ -7334,7 +7380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd7a5a22-7af3-4cad-b012-a26a64fd63a5")
-		(property "Reference" "C1202"
+		(property "Reference" "C1203"
 			(at 53.34 27.9399 0)
 			(effects
 				(font
@@ -7352,7 +7398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.4952 33.02 0)
 			(effects
 				(font
@@ -7388,7 +7434,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "C1202")
+					(reference "C1203")
 					(unit 1)
 				)
 			)
@@ -7470,7 +7516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4175d81-ed2d-4cce-9ec1-a9eeea954f62")
-		(property "Reference" "C1204"
+		(property "Reference" "C1201"
 			(at 25.4 27.9399 0)
 			(effects
 				(font
@@ -7488,7 +7534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 22.5552 33.02 0)
 			(effects
 				(font
@@ -7524,7 +7570,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "C1204")
+					(reference "C1201")
 					(unit 1)
 				)
 			)
@@ -7540,7 +7586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f925622e-0154-4f25-8fb8-e46b80d331e6")
-		(property "Reference" "#PWR01206"
+		(property "Reference" "#PWR01203"
 			(at 140.97 35.56 0)
 			(effects
 				(font
@@ -7590,7 +7636,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b"
-					(reference "#PWR01206")
+					(reference "#PWR01203")
 					(unit 1)
 				)
 			)

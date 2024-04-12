@@ -3887,7 +3887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 229.362 48.26 90)
 			(effects
 				(font
@@ -3927,7 +3927,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "R1205")
+					(reference "R1103")
 					(unit 1)
 				)
 			)
@@ -3961,7 +3961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 208.28 57.15 0)
 			(effects
 				(font
@@ -4001,7 +4001,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "D1201")
+					(reference "D1101")
 					(unit 1)
 				)
 			)
@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 206.502 48.26 90)
 			(effects
 				(font
@@ -4075,7 +4075,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "R1203")
+					(reference "R1101")
 					(unit 1)
 				)
 			)
@@ -4091,7 +4091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ade11a6-e6c3-4b61-bf80-57425c169e7c")
-		(property "Reference" "#PWR01401"
+		(property "Reference" "#PWR01403"
 			(at 266.7 93.98 0)
 			(effects
 				(font
@@ -4141,11 +4141,11 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/e313533d-7862-466d-aec4-d9675212cabe"
-					(reference "#PWR01401")
+					(reference "#PWR01403")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "#PWR01215")
+					(reference "#PWR01103")
 					(unit 1)
 				)
 			)
@@ -4179,7 +4179,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 255.27 57.15 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "D1205")
+					(reference "D1105")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4253,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 219.71 57.15 0)
 			(effects
 				(font
@@ -4293,7 +4293,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "D1202")
+					(reference "D1102")
 					(unit 1)
 				)
 			)
@@ -4401,7 +4401,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "U1202")
+					(reference "U1101")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4511,7 @@
 					(unit 5)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "U1202")
+					(reference "U1101")
 					(unit 5)
 				)
 			)
@@ -4545,7 +4545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.922 48.26 90)
 			(effects
 				(font
@@ -4585,7 +4585,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "R1208")
+					(reference "R1106")
 					(unit 1)
 				)
 			)
@@ -4619,7 +4619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 49.53 0)
 			(effects
 				(font
@@ -4659,7 +4659,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "C1206")
+					(reference "C1101")
 					(unit 1)
 				)
 			)
@@ -4767,7 +4767,7 @@
 					(unit 3)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "U1202")
+					(reference "U1101")
 					(unit 3)
 				)
 			)
@@ -4782,7 +4782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "631f96dd-fec3-4c33-b497-057a88a2a311")
-		(property "Reference" "JP1502"
+		(property "Reference" "JP1402"
 			(at 118.364 85.852 90)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 109.22 93.98 0)
 			(effects
 				(font
@@ -4839,11 +4839,11 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/e313533d-7862-466d-aec4-d9675212cabe"
-					(reference "JP1502")
+					(reference "JP1402")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "JP1205")
+					(reference "JP1102")
 					(unit 1)
 				)
 			)
@@ -4877,7 +4877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.412 81.28 90)
 			(effects
 				(font
@@ -4917,7 +4917,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "R1209")
+					(reference "R1107")
 					(unit 1)
 				)
 			)
@@ -4933,7 +4933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8384430c-2c68-4b59-82d8-3c4d012ececd")
-		(property "Reference" "#PWR01402"
+		(property "Reference" "#PWR01401"
 			(at 99.06 25.4 0)
 			(effects
 				(font
@@ -4983,11 +4983,11 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/e313533d-7862-466d-aec4-d9675212cabe"
-					(reference "#PWR01402")
+					(reference "#PWR01401")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "#PWR01213")
+					(reference "#PWR01101")
 					(unit 1)
 				)
 			)
@@ -5021,7 +5021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 243.84 57.15 0)
 			(effects
 				(font
@@ -5061,7 +5061,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "D1204")
+					(reference "D1104")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "934dd12d-c8a4-4a8c-9ec4-ee5e92108fc4")
-		(property "Reference" "JP1201"
+		(property "Reference" "JP1103"
 			(at 118.364 111.252 90)
 			(effects
 				(font
@@ -5094,7 +5094,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -5133,11 +5133,11 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "JP1201")
+					(reference "JP1103")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/e313533d-7862-466d-aec4-d9675212cabe"
-					(reference "JP1503")
+					(reference "JP1403")
 					(unit 1)
 				)
 			)
@@ -5152,7 +5152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98c81aa6-1795-4bf7-9391-95849f9971d9")
-		(property "Reference" "JP1202"
+		(property "Reference" "JP1104"
 			(at 118.364 136.652 90)
 			(effects
 				(font
@@ -5170,7 +5170,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 109.22 144.78 0)
 			(effects
 				(font
@@ -5209,11 +5209,11 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "JP1202")
+					(reference "JP1104")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/e313533d-7862-466d-aec4-d9675212cabe"
-					(reference "JP1504")
+					(reference "JP1404")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5290,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "Q1201")
+					(reference "Q1101")
 					(unit 1)
 				)
 			)
@@ -5360,7 +5360,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "#PWR01216")
+					(reference "#PWR01104")
 					(unit 1)
 				)
 			)
@@ -5376,7 +5376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0cc2a7f-8013-4c30-82a7-f04bf0823bdb")
-		(property "Reference" "JP1204"
+		(property "Reference" "JP1101"
 			(at 101.6 25.3999 90)
 			(effects
 				(font
@@ -5394,7 +5394,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 99.06 26.67 0)
 			(effects
 				(font
@@ -5430,11 +5430,11 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "JP1204")
+					(reference "JP1101")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/e313533d-7862-466d-aec4-d9675212cabe"
-					(reference "JP1501")
+					(reference "JP1401")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 231.14 57.15 0)
 			(effects
 				(font
@@ -5508,7 +5508,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "D1203")
+					(reference "D1103")
 					(unit 1)
 				)
 			)
@@ -5542,7 +5542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 266.7 57.15 0)
 			(effects
 				(font
@@ -5582,7 +5582,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "D1206")
+					(reference "D1106")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5690,7 @@
 					(unit 4)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "U1202")
+					(reference "U1101")
 					(unit 4)
 				)
 			)
@@ -5724,7 +5724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 253.492 48.26 90)
 			(effects
 				(font
@@ -5764,7 +5764,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "R1207")
+					(reference "R1105")
 					(unit 1)
 				)
 			)
@@ -5780,7 +5780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfb5218a-613d-4f0b-8e8a-ba7dc852e50f")
-		(property "Reference" "#PWR01403"
+		(property "Reference" "#PWR01402"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -5830,11 +5830,11 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/e313533d-7862-466d-aec4-d9675212cabe"
-					(reference "#PWR01403")
+					(reference "#PWR01402")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "#PWR01214")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
@@ -5942,7 +5942,7 @@
 					(unit 2)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "U1202")
+					(reference "U1101")
 					(unit 2)
 				)
 			)
@@ -5976,7 +5976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 242.062 48.26 90)
 			(effects
 				(font
@@ -6016,7 +6016,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "R1206")
+					(reference "R1104")
 					(unit 1)
 				)
 			)
@@ -6050,7 +6050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 217.932 48.26 90)
 			(effects
 				(font
@@ -6090,7 +6090,7 @@
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/0865f076-bf0e-442f-8617-d4097538e68b/2d15f287-a464-4822-9e76-d4ca4cb9f82a"
-					(reference "R1204")
+					(reference "R1102")
 					(unit 1)
 				)
 			)

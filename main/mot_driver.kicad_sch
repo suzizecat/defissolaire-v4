@@ -565,7 +565,7 @@
 	)
 	(sheet
 		(at 114.3 38.1)
-		(size 31.75 5.08)
+		(size 31.75 6.35)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -574,7 +574,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "cee9b468-980d-45cd-b1b7-f04fc6f76443")
+		(uuid "b71847ed-e984-418a-b75f-fd92990dbf9b")
 		(property "Sheetname" "Phase A Driver"
 			(at 114.3 37.3884 0)
 			(effects
@@ -585,7 +585,7 @@
 			)
 		)
 		(property "Sheetfile" "phase_driver.kicad_sch"
-			(at 114.3 43.7646 0)
+			(at 114.3 45.0346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,14 +594,14 @@
 			)
 		)
 		(pin "OUT" output
-			(at 146.05 40.64 0)
+			(at 146.05 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef99a8a8-d515-4828-a48c-58459277eeb2")
+			(uuid "e6a0b9bb-645b-4480-a00c-897f6eb22573")
 		)
 		(pin "INL" input
 			(at 114.3 41.91 180)
@@ -611,7 +611,7 @@
 				)
 				(justify left)
 			)
-			(uuid "4debd673-13e6-42fd-8a27-6a5b46865ccb")
+			(uuid "131369b3-fe2f-4596-8451-26b21ae09183")
 		)
 		(pin "INH" input
 			(at 114.3 39.37 180)
@@ -621,15 +621,15 @@
 				)
 				(justify left)
 			)
-			(uuid "4651e820-004a-4d98-8702-05f967914805")
+			(uuid "459e37d3-208b-485c-a025-16b0cb57b9e7")
 		)
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c"
-					(page "4")
+					(page "9")
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/bed5353e-e607-4c1c-98ea-22040242af2e"
-					(page "9")
+					(page "18")
 				)
 			)
 		)
