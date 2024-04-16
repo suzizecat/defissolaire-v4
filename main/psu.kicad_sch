@@ -4001,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04b4da93-47a9-44ba-9c94-511684ce984c")
-		(property "Reference" "L402"
+		(property "Reference" "L401"
 			(at 115.57 86.995 90)
 			(effects
 				(font
@@ -4079,7 +4079,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774"
-					(reference "L402")
+					(reference "L401")
 					(unit 1)
 				)
 			)
@@ -4491,7 +4491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b89b577-4c5f-42b2-8630-49b8ad9fa721")
-		(property "Reference" "U405"
+		(property "Reference" "U403"
 			(at 182.88 87.63 0)
 			(effects
 				(font
@@ -4552,7 +4552,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774"
-					(reference "U405")
+					(reference "U403")
 					(unit 1)
 				)
 			)
