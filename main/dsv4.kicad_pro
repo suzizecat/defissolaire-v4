@@ -611,6 +611,9 @@
       "/PSU/Battery chagrer/BAT_USE": "",
       "/PSU/Battery chagrer/RETURN_PATH_1": "",
       "/PSU/Battery chagrer/RETURN_PATH_2": "",
+      "/PSU/Battery chagrer/SWIN_CSP": "",
+      "/PSU/Battery chagrer/SW_IN": "",
+      "/PSU/Battery chagrer/SW_OUT": "",
       "/PSU/Battery chagrer/V_{IN}": "",
       "/PSU/Battery chagrer/V_{OUT}": "",
       "/PSU/Battery chagrer/~{BAT_CHRG}": "",
@@ -914,6 +917,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
+      "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"

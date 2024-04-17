@@ -1495,7 +1495,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a03e3dbd-e214-44eb-bf2d-ebaba8da7acd")
 		(property "Reference" "J103"
 			(at 26.67 21.59 0)
@@ -1557,12 +1556,14 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 135.89 19.05 90)
+		(at 138.43 19.05 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b6f4127d-aa50-43c4-bc10-65afc096918d")
 		(property "Reference" "J101"
 			(at 133.35 17.7799 90)
@@ -1570,7 +1571,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x02"
@@ -1579,11 +1580,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TerminalBlock_WAGO:TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree"
-			(at 135.89 19.05 0)
+			(at 138.43 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 19.05 0)
+			(at 138.43 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,7 +1602,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 135.89 19.05 0)
+			(at 138.43 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
