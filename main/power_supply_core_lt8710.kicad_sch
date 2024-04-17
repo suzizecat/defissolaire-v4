@@ -25,6 +25,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "TestPoint"
@@ -33,6 +34,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -129,6 +131,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Value" "C"
@@ -138,6 +141,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -265,6 +269,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Value" "C_Polarized"
@@ -274,6 +279,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -420,6 +426,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "L_Coupled_1324"
@@ -428,6 +435,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -755,6 +763,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Value" "Q_NMOS_GDS"
@@ -764,6 +773,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1039,6 +1049,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Value" "Q_PMOS_GDS"
@@ -1048,6 +1059,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1324,6 +1336,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "R"
@@ -1332,6 +1345,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1443,6 +1457,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "R_Potentiometer"
@@ -1451,6 +1466,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1604,6 +1620,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "SolderJumper_2_Bridged"
@@ -1612,6 +1629,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1806,6 +1824,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1889,6 +1908,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -1897,6 +1917,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.74x3.86mm"
@@ -1963,96 +1984,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 19.05 16.51 180)
-					(length 2.54)
-					(name "ISP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 19.05 13.97 180)
-					(length 2.54)
-					(name "ISN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 19.05 7.62 180)
-					(length 2.54)
-					(name "FLAG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 5.08 180)
-					(length 2.54)
-					(name "BIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 -2.54 180)
-					(length 2.54)
-					(name "INTV_{EE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 19.05 -11.43 180)
 					(length 2.54)
@@ -2072,16 +2003,34 @@
 					)
 				)
 				(pin output line
-					(at 19.05 -16.51 180)
+					(at 7.62 -22.86 90)
 					(length 2.54)
-					(name "IMON"
+					(name "SS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -22.86 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2107,17 +2056,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 22.86 270)
+				(pin power_in line
+					(at -2.54 -22.86 90)
 					(length 2.54)
-					(name "CSP"
+					(name "PAD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2125,17 +2074,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 22.86 270)
+				(pin output line
+					(at -19.05 2.54 0)
 					(length 2.54)
-					(name "CSN"
+					(name "INTV_{CC}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2162,6 +2111,42 @@
 					)
 				)
 				(pin input line
+					(at -10.16 22.86 270)
+					(length 2.54)
+					(name "CSN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 22.86 270)
+					(length 2.54)
+					(name "CSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -19.05 8.89 0)
 					(length 2.54)
 					(name "EN/FBIN"
@@ -2172,24 +2157,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -19.05 2.54 0)
-					(length 2.54)
-					(name "INTV_{CC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2251,35 +2218,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -22.86 90)
+				(pin open_collector line
+					(at 19.05 7.62 180)
 					(length 2.54)
-					(name "GND"
+					(name "FLAG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -22.86 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2288,16 +2237,88 @@
 					)
 				)
 				(pin output line
-					(at 7.62 -22.86 90)
+					(at 19.05 -16.51 180)
 					(length 2.54)
-					(name "SS"
+					(name "IMON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 13.97 180)
+					(length 2.54)
+					(name "ISN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 16.51 180)
+					(length 2.54)
+					(name "ISP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 5.08 180)
+					(length 2.54)
+					(name "BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -2.54 180)
+					(length 2.54)
+					(name "INTV_{EE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2524,6 +2545,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc135901-343f-483f-980a-02fdb88610a8")
+	)
+	(no_connect
+		(at 163.83 82.55)
+		(uuid "530761b1-2925-448d-a8dd-7c1ea9994b43")
 	)
 	(wire
 		(pts
@@ -3314,6 +3339,16 @@
 			(type default)
 		)
 		(uuid "a29d044d-9237-4d1b-95ed-43fd275e399e")
+	)
+	(wire
+		(pts
+			(xy 161.29 82.55) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a475495b-c23a-47b0-b2a6-a3a56ab57cbf")
 	)
 	(wire
 		(pts
@@ -5700,6 +5735,50 @@
 		)
 		(uuid "cfc628ab-8d5b-40a2-9bf7-edb96e5c292b")
 	)
+	(label "SWIN_CSP"
+		(at 116.8213 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5380e00a-aa50-4db6-9379-56bf2dac64ec")
+	)
+	(label "SWOUT_ISP"
+		(at 165.1 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab87acd5-9e99-4e4e-9929-56d83ab6fe1d")
+	)
+	(label "SW_OUT"
+		(at 99.06 13.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8261e84-67f1-4521-be73-4f531634f500")
+	)
+	(label "SW_IN"
+		(at 99.06 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb66d859-fa8c-479d-a8c6-89f00457a6df")
+	)
 	(hierarchical_label "V_{IN}"
 		(shape input)
 		(at 17.78 30.48 180)
@@ -7235,7 +7314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 171.45 32.258 90)
 			(effects
 				(font
@@ -8353,7 +8432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 21.2852 45.72 0)
 			(effects
 				(font

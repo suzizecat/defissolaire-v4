@@ -12,6 +12,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -20,6 +21,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
@@ -71,7 +73,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -89,7 +91,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -107,7 +109,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -125,61 +127,7 @@
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 1.27 0)
-				(length 2.54)
-				(name "INH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -7.62 0)
-				(length 2.54)
-				(name "INL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "SH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -197,7 +145,79 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 1.27 0)
+				(length 2.54)
+				(name "INH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name "INL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -217,6 +237,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -225,6 +246,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""

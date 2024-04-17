@@ -26,6 +26,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Value" "C"
@@ -35,6 +36,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -160,6 +162,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "D_Schottky"
@@ -168,6 +171,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -305,6 +309,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Value" "Q_NMOS_GDS"
@@ -314,6 +319,7 @@
 						(size 1.27 1.27)
 					)
 					(justify left)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -590,6 +596,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "R"
@@ -598,6 +605,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -707,6 +715,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -715,6 +724,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
@@ -766,7 +776,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -784,7 +794,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -802,7 +812,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -820,61 +830,7 @@
 							)
 						)
 					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "INH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(name "INL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -892,7 +848,79 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "INH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "INL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -925,6 +953,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1045,6 +1074,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -1141,6 +1171,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -2569,29 +2600,32 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "729d4eea-556f-4989-a02c-ca67e6b6fa44")
 		)
-		(pin ""
+		(pin "9"
 			(uuid "d1c2d7fa-8d39-440a-9b4e-b9f93e33a6c1")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "59b89619-1f5d-4953-a6b4-fbae1f7d1bf1")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "9a710c94-2a2b-4432-91aa-8e2f10c36a7c")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "33c28698-cf45-462f-bad2-cd2e5714eb9a")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "8b9d88b4-3575-4f58-bc67-0a9b466441f1")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "b4c6b220-2a91-4e6d-8e5b-4d30438ca3bd")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "395a8311-6d99-4357-ae3a-bb9659ff023f")
+		)
+		(pin "8"
+			(uuid "1f37f418-029e-486d-bde5-27e393ec2068")
 		)
 		(instances
 			(project "dsv4"
