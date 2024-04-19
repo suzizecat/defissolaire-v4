@@ -2630,6 +2630,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 39.37) (xy 215.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b64790c-34f0-42c8-95f8-f5d9ca769d74")
+	)
+	(wire
+		(pts
 			(xy 210.82 29.21) (xy 213.36 29.21)
 		)
 		(stroke
@@ -3991,6 +4001,18 @@
 			(justify left)
 		)
 		(uuid "a490dd04-a28a-441c-afbf-11be9c4726d9")
+	)
+	(hierarchical_label "BATT_OK"
+		(shape output)
+		(at 215.9 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8a156d0-2e5f-4cb1-9466-9d862403f444")
 	)
 	(hierarchical_label "MEAS_IBAT"
 		(shape output)
@@ -7568,6 +7590,16 @@
 				(justify right)
 			)
 			(uuid "e5988ec3-67ba-4085-8c11-6fc1dcbf046b")
+		)
+		(pin "BATT_OK" output
+			(at 210.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43e21380-8f0f-470d-8bab-34d73d295b01")
 		)
 		(instances
 			(project "dsv4"

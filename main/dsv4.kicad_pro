@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.7,
-          "width": 5.7
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 1.475
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -179,7 +179,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -247,12 +248,12 @@
           133,
           134,
           135,
+          136,
           137,
           138,
           140,
           141,
           142,
-          143,
           144,
           145,
           146,
@@ -541,6 +542,7 @@
       "/CODB{ENC}": "",
       "/CSN_1": "",
       "/CSN_2": "",
+      "/MCU/BAT_OK": "",
       "/MCU/BAT_USE": "",
       "/MCU/EN_BIP": "",
       "/MCU/MEAS_IBAT": "",
@@ -608,10 +610,13 @@
       "/MOTA Driver/Phase A Driver/OUT": "",
       "/MOTB Driver/Phase A Driver/OUT": "",
       "/PSU/BAT_USE": "",
+      "/PSU/Battery chagrer/BATT_RET_PATH": "",
+      "/PSU/Battery chagrer/BAT_RET_MID": "",
       "/PSU/Battery chagrer/BAT_USE": "",
       "/PSU/Battery chagrer/RETURN_PATH_1": "",
       "/PSU/Battery chagrer/RETURN_PATH_2": "",
       "/PSU/Battery chagrer/SWIN_CSP": "",
+      "/PSU/Battery chagrer/SWOUT_ISP": "",
       "/PSU/Battery chagrer/SW_IN": "",
       "/PSU/Battery chagrer/SW_OUT": "",
       "/PSU/Battery chagrer/V_{IN}": "",

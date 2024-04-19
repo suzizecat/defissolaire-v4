@@ -654,6 +654,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 38.1) (xy 12.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fc4c69-c2d5-427d-be2c-72bed82000ed")
+	)
+	(wire
+		(pts
 			(xy 17.78 43.18) (xy 50.8 43.18)
 		)
 		(stroke
@@ -751,6 +761,16 @@
 			(type default)
 		)
 		(uuid "86a5399b-b5af-4c79-83b6-c009514e20a3")
+	)
+	(wire
+		(pts
+			(xy 12.7 115.57) (xy 31.75 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c3c6be-befd-42df-9d5e-884bc0ed5084")
 	)
 	(wire
 		(pts
@@ -984,6 +1004,16 @@
 	)
 	(wire
 		(pts
+			(xy 12.7 38.1) (xy 12.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfba836b-09b9-40d9-b46b-86b980d2bfbf")
+	)
+	(wire
+		(pts
 			(xy 31.75 110.49) (xy 17.78 110.49)
 		)
 		(stroke
@@ -1034,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 35.56 30.48)
+			(xy 35.56 31.75) (xy 35.56 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1764,7 +1794,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 33.02 0)
+		(at 35.56 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1773,7 +1803,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4938ee2-0daf-4805-bf39-46063ef86800")
 		(property "Reference" "#PWR0104"
-			(at 35.56 39.37 0)
+			(at 35.56 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1812,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 35.56 38.1 0)
+			(at 35.56 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 33.02 0)
+			(at 35.56 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 33.02 0)
+			(at 35.56 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 33.02 0)
+			(at 35.56 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,6 +2106,16 @@
 			)
 			(uuid "094ccdd1-463e-4117-bd48-292ab2e40ef2")
 		)
+		(pin "BAT_OK" input
+			(at 31.75 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9593a313-dd39-4757-b1df-9a6398312078")
+		)
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096"
@@ -2203,6 +2243,16 @@
 				(justify left)
 			)
 			(uuid "fb6606c0-ffe8-4f3c-a655-c9e93a207f75")
+		)
+		(pin "BATT_OK" output
+			(at 50.8 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ced66dbf-e44b-4ebe-ba8b-4e7ad11b4f17")
 		)
 		(instances
 			(project "dsv4"
