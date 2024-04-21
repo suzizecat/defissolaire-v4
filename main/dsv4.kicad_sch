@@ -492,6 +492,51 @@
 			)
 		)
 	)
+	(rectangle
+		(start 198.755 30.607)
+		(end 281.94 46.99)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f180a5c2-aea0-4bf3-b4ee-28aa5217cf7e)
+	)
+	(text "Requires :\n   - MCU and digital control\n   - Radio RX\n   - Batteries ?\n   - Debug interface"
+		(exclude_from_sim no)
+		(at 200.66 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "44608c79-4b26-4071-baab-40e0d062c28b")
+	)
+	(text "To Li-ion battery pack\n14.4V_{nom}"
+		(exclude_from_sim no)
+		(at 183.134 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c50eb1ac-5dc4-4e32-ada4-10b79d06ad17")
+	)
+	(text "To capacitor bank\n18V / 8.5F"
+		(exclude_from_sim no)
+		(at 141.224 20.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6ab6678-780e-4452-b256-6e7074b50c04")
+	)
 	(junction
 		(at 101.6 27.94)
 		(diameter 0)
@@ -1151,51 +1196,6 @@
 			(type default)
 		)
 		(uuid "ff70dc64-8ec5-41a9-8bb1-7af1797e3027")
-	)
-	(rectangle
-		(start 198.755 30.607)
-		(end 281.94 46.99)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f180a5c2-aea0-4bf3-b4ee-28aa5217cf7e)
-	)
-	(text "Requires :\n   - MCU and digital control\n   - Radio RX\n   - Batteries ?\n   - Debug interface"
-		(exclude_from_sim no)
-		(at 200.66 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "44608c79-4b26-4071-baab-40e0d062c28b")
-	)
-	(text "To Li-ion battery pack\n14.4V_{nom}"
-		(exclude_from_sim no)
-		(at 183.134 21.336 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c50eb1ac-5dc4-4e32-ada4-10b79d06ad17")
-	)
-	(text "To capacitor bank\n18V / 8.5F"
-		(exclude_from_sim no)
-		(at 141.224 20.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6ab6678-780e-4452-b256-6e7074b50c04")
 	)
 	(label "CODB{ENC}"
 		(at 190.5 116.84 0)

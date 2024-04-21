@@ -1984,6 +1984,96 @@
 						)
 					)
 				)
+				(pin input line
+					(at 19.05 16.51 180)
+					(length 2.54)
+					(name "ISP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 13.97 180)
+					(length 2.54)
+					(name "ISN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 19.05 7.62 180)
+					(length 2.54)
+					(name "FLAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 5.08 180)
+					(length 2.54)
+					(name "BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -2.54 180)
+					(length 2.54)
+					(name "INTV_{EE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 19.05 -11.43 180)
 					(length 2.54)
@@ -2003,34 +2093,16 @@
 					)
 				)
 				(pin output line
-					(at 7.62 -22.86 90)
+					(at 19.05 -16.51 180)
 					(length 2.54)
-					(name "SS"
+					(name "IMON"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -22.86 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2049,42 +2121,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -22.86 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -19.05 2.54 0)
-					(length 2.54)
-					(name "INTV_{CC}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2164,6 +2200,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at -19.05 2.54 0)
+					(length 2.54)
+					(name "INTV_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -19.05 0 0)
 					(length 2.54)
@@ -2218,17 +2272,35 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 19.05 7.62 180)
+				(pin power_in line
+					(at 2.54 -22.86 90)
 					(length 2.54)
-					(name "FLAG"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -22.86 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2237,88 +2309,16 @@
 					)
 				)
 				(pin output line
-					(at 19.05 -16.51 180)
+					(at 7.62 -22.86 90)
 					(length 2.54)
-					(name "IMON"
+					(name "SS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 19.05 13.97 180)
-					(length 2.54)
-					(name "ISN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 19.05 16.51 180)
-					(length 2.54)
-					(name "ISP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 5.08 180)
-					(length 2.54)
-					(name "BIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 19.05 -2.54 180)
-					(length 2.54)
-					(name "INTV_{EE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2341,6 +2341,141 @@
 				)
 			)
 		)
+	)
+	(rectangle
+		(start 175.26 97.79)
+		(end 226.06 155.575)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6a2ef2e1-a0f4-4d13-930f-04f1f0468ded)
+	)
+	(rectangle
+		(start 184.15 36.195)
+		(end 226.06 57.15)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6efc6366-48a7-4435-80ad-8833998c3ef0)
+	)
+	(rectangle
+		(start 13.97 34.29)
+		(end 83.82 66.04)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e5c8f5f1-b54f-4882-b6b1-d1af60500b1f)
+	)
+	(text "If required, solder R and C for external V_{OUT} control.\nNote that the external control can only *lower* the output voltage."
+		(exclude_from_sim no)
+		(at 262.89 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06e1c9de-2c92-4abf-aa60-77d68bcf36ce")
+	)
+	(text "1nF  < C_{SERIE} < 10nF  (default 4.7nF)\n47pF < C_{PARA} < 220pF (default 100pF)\nAdjust R_{COMP} by reading I_{L1} + I_{L2} or V_{OUT}\nThen solder fixed value and open bridges\nSee DS page 35"
+		(exclude_from_sim no)
+		(at 177.038 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4103e58a-d44f-4dff-bbf0-356107f23955")
+	)
+	(text "C_{IN}\nTotal > 86uF\nFor Stab > 35uF"
+		(exclude_from_sim no)
+		(at 25.146 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b71c4b9-ff47-499d-900a-c384295bb309")
+	)
+	(text "R_{T} 142k @250kHz"
+		(exclude_from_sim no)
+		(at 121.92 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa902032-ba46-4f67-ae90-b067b2760236")
+	)
+	(text "Input from 14 SunPower C60 (0.22m^{2})\n - 0.6V MPP 0.7V OC\n - 5.7A MPP 6.0A CC\n\nGiven 80% sunlight from France: \nNominal 8.0V @ 4.7A (37.5W)\n"
+		(exclude_from_sim no)
+		(at 19.685 26.035 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be151413-4390-48b8-aa41-565adcf80d29")
+	)
+	(text "Calculated peak I_{L} is 9.35A"
+		(exclude_from_sim no)
+		(at 67.056 13.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c885c232-ba3f-42d2-be1e-41fbadcb5f08")
+	)
+	(text "C_{OUT}\nTotal > 157uF"
+		(exclude_from_sim no)
+		(at 225.044 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca2c804b-55ca-4595-b88c-5addd6a4c9e7")
+	)
+	(text "Coeff of 0.207 for\nstart of regulation on MPP\nEnd of regu on -7.5%"
+		(exclude_from_sim no)
+		(at 76.962 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce087d37-bd31-4772-97d1-e8e8092dbbd0")
+	)
+	(text "Target output is 18V\nTherefore, at most, 2.2A @ 18V\n\nUsing max cell current when caps discharged (5A)\n\nWe should handle 37.5W/5A/18V (not all same time)"
+		(exclude_from_sim no)
+		(at 232.664 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfc628ab-8d5b-40a2-9bf7-edb96e5c292b")
 	)
 	(junction
 		(at 191.77 101.6)
@@ -3789,42 +3924,6 @@
 			(type default)
 		)
 		(uuid "fe9e0ec5-5585-41b8-886a-28c042ca456c")
-	)
-	(rectangle
-		(start 175.26 97.79)
-		(end 226.06 155.575)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6a2ef2e1-a0f4-4d13-930f-04f1f0468ded)
-	)
-	(rectangle
-		(start 184.15 36.195)
-		(end 226.06 57.15)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6efc6366-48a7-4435-80ad-8833998c3ef0)
-	)
-	(rectangle
-		(start 13.97 34.29)
-		(end 83.82 66.04)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e5c8f5f1-b54f-4882-b6b1-d1af60500b1f)
 	)
 	(image
 		(at 250.19 128.905)
@@ -5635,105 +5734,6 @@
 			"IEryREREREREOoiSPBERERERkQ6iJE9ERERERKSDKMkTERERERHpIEryREREREREOoiSPBERERER"
 			"kQ6iJE9ERERERKSD/D+/ucniIuTewQAAAABJRU5ErkJggg=="
 		)
-	)
-	(text "If required, solder R and C for external V_{OUT} control.\nNote that the external control can only *lower* the output voltage."
-		(exclude_from_sim no)
-		(at 262.89 85.852 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06e1c9de-2c92-4abf-aa60-77d68bcf36ce")
-	)
-	(text "1nF  < C_{SERIE} < 10nF  (default 4.7nF)\n47pF < C_{PARA} < 220pF (default 100pF)\nAdjust R_{COMP} by reading I_{L1} + I_{L2} or V_{OUT}\nThen solder fixed value and open bridges\nSee DS page 35"
-		(exclude_from_sim no)
-		(at 177.038 143.764 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4103e58a-d44f-4dff-bbf0-356107f23955")
-	)
-	(text "C_{IN}\nTotal > 86uF\nFor Stab > 35uF"
-		(exclude_from_sim no)
-		(at 25.146 61.468 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b71c4b9-ff47-499d-900a-c384295bb309")
-	)
-	(text "R_{T} 142k @250kHz"
-		(exclude_from_sim no)
-		(at 121.92 98.806 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa902032-ba46-4f67-ae90-b067b2760236")
-	)
-	(text "Input from 14 SunPower C60 (0.22m^{2})\n - 0.6V MPP 0.7V OC\n - 5.7A MPP 6.0A CC\n\nGiven 80% sunlight from France: \nNominal 8.0V @ 4.7A (37.5W)\n"
-		(exclude_from_sim no)
-		(at 19.685 26.035 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be151413-4390-48b8-aa41-565adcf80d29")
-	)
-	(text "Calculated peak I_{L} is 9.35A"
-		(exclude_from_sim no)
-		(at 67.056 13.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c885c232-ba3f-42d2-be1e-41fbadcb5f08")
-	)
-	(text "C_{OUT}\nTotal > 157uF"
-		(exclude_from_sim no)
-		(at 225.044 54.356 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca2c804b-55ca-4595-b88c-5addd6a4c9e7")
-	)
-	(text "Coeff of 0.207 for\nstart of regulation on MPP\nEnd of regu on -7.5%"
-		(exclude_from_sim no)
-		(at 76.962 83.566 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce087d37-bd31-4772-97d1-e8e8092dbbd0")
-	)
-	(text "Target output is 18V\nTherefore, at most, 2.2A @ 18V\n\nUsing max cell current when caps discharged (5A)\n\nWe should handle 37.5W/5A/18V (not all same time)"
-		(exclude_from_sim no)
-		(at 232.664 29.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cfc628ab-8d5b-40a2-9bf7-edb96e5c292b")
 	)
 	(label "SWIN_CSP"
 		(at 116.8213 49.53 0)

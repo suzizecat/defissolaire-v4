@@ -1270,6 +1270,17 @@
 			)
 		)
 	)
+	(text "LM2105"
+		(exclude_from_sim no)
+		(at 117.602 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "549c75c9-9afa-43df-b88d-bbe5bcfeb3af")
+	)
 	(junction
 		(at 83.82 64.77)
 		(diameter 0)
@@ -1749,17 +1760,6 @@
 			(type default)
 		)
 		(uuid "ffc3f180-b50f-4ff9-bdd8-195770bd9ad9")
-	)
-	(text "LM2105"
-		(exclude_from_sim no)
-		(at 117.602 39.116 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "549c75c9-9afa-43df-b88d-bbe5bcfeb3af")
 	)
 	(hierarchical_label "INL"
 		(shape input)

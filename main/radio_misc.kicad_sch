@@ -1249,6 +1249,78 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 3.81)
+					(name "CBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 3.81)
+					(name "CBUS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 3.81)
+					(name "CBUS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 17.78 10.16 180)
 					(length 3.81)
@@ -1267,24 +1339,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 17.78 7.62 180)
-					(length 3.81)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 17.78 5.08 180)
 					(length 3.81)
@@ -1296,6 +1350,42 @@
 						)
 					)
 					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -17.78 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 7.62 180)
+					(length 3.81)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1322,42 +1412,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
-					(length 3.81)
-					(name "CBUS0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -5.08 180)
-					(length 3.81)
-					(name "CBUS1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 17.78 -7.62 180)
 					(length 3.81)
 					(name "CBUS2"
@@ -1368,60 +1422,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -10.16 180)
-					(length 3.81)
-					(name "CBUS3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -17.78 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2562,6 +2562,62 @@
 	)
 	(bus_alias "UART"
 		(members "RX" "TX")
+	)
+	(rectangle
+		(start 224.79 12.7)
+		(end 283.21 67.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b176b35e-927f-42b5-ab73-31d0a01c7254)
+	)
+	(text "TX and RX are viewed from the chip perspective. Hence :\n - TX is an OUTPUT\n - RX is an INPUT\n"
+		(exclude_from_sim no)
+		(at 154.432 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70dbfeaa-0e63-450a-b8c1-99e4a30adbcc")
+	)
+	(text "~{RX}"
+		(exclude_from_sim no)
+		(at 160.0037 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7966ada3-402e-47d4-a77b-c62493aa6e04")
+	)
+	(text "~{TX}"
+		(exclude_from_sim no)
+		(at 160.02 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97108acc-b4c4-4741-a36f-72ac8f437a03")
+	)
+	(text "As device is slave, ID is left FLOATING\nCF USB OTG"
+		(exclude_from_sim no)
+		(at 60.452 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6e7f87d-f4f6-4e74-b4de-63ed159eedfa")
 	)
 	(junction
 		(at 251.46 24.13)
@@ -3873,62 +3929,6 @@
 			(type default)
 		)
 		(uuid "fffde8bb-a614-40ee-9762-ec843a51aa9b")
-	)
-	(rectangle
-		(start 224.79 12.7)
-		(end 283.21 67.31)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b176b35e-927f-42b5-ab73-31d0a01c7254)
-	)
-	(text "TX and RX are viewed from the chip perspective. Hence :\n - TX is an OUTPUT\n - RX is an INPUT\n"
-		(exclude_from_sim no)
-		(at 154.432 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70dbfeaa-0e63-450a-b8c1-99e4a30adbcc")
-	)
-	(text "~{RX}"
-		(exclude_from_sim no)
-		(at 160.0037 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7966ada3-402e-47d4-a77b-c62493aa6e04")
-	)
-	(text "~{TX}"
-		(exclude_from_sim no)
-		(at 160.02 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "97108acc-b4c4-4741-a36f-72ac8f437a03")
-	)
-	(text "As device is slave, ID is left FLOATING\nCF USB OTG"
-		(exclude_from_sim no)
-		(at 60.452 136.144 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a6e7f87d-f4f6-4e74-b4de-63ed159eedfa")
 	)
 	(label "V_{FTDI}"
 		(at 113.03 152.4 0)
