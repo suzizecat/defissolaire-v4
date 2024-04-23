@@ -3956,12 +3956,6 @@
 		(uuid "04e707ba-2228-4863-a5f9-0db656b06431")
 	)
 	(junction
-		(at 213.36 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "063c4f88-85ac-4f67-9e8f-9ef37a965151")
-	)
-	(junction
 		(at 199.39 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5011,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 34.29) (xy 213.36 34.29)
+			(xy 198.12 34.29) (xy 232.41 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5481,16 +5475,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 54.61) (xy 213.36 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bac5563a-e459-4c65-aaba-6ce5aa79d16b")
-	)
-	(wire
-		(pts
 			(xy 73.66 168.91) (xy 66.04 168.91)
 		)
 		(stroke
@@ -5758,16 +5742,6 @@
 			(type default)
 		)
 		(uuid "d5bbb495-1bb5-410f-87fe-1d0fff009174")
-	)
-	(wire
-		(pts
-			(xy 213.36 34.29) (xy 232.41 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6c95ab7-a187-4fc3-892a-b24d760fb3a5")
 	)
 	(wire
 		(pts
@@ -6078,16 +6052,6 @@
 			(type default)
 		)
 		(uuid "f9124326-732a-47e0-b7c3-f761484040d8")
-	)
-	(wire
-		(pts
-			(xy 213.36 34.29) (xy 213.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9497d8c-ba79-43b7-8054-8ff992eae0b7")
 	)
 	(wire
 		(pts
@@ -10660,76 +10624,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 213.36 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ca74d5-a8da-4c7c-a4b6-3bd31b35f6fe")
-		(property "Reference" "C1606"
-			(at 217.17 47.3709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 217.17 49.9109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 214.3252 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 213.36 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "037dc55b-b8eb-41e8-aef9-23a51b1b5341")
-		)
-		(pin "2"
-			(uuid "25e364ef-1bc1-469d-8add-3fda9709cf56")
-		)
-		(instances
-			(project "dsv4"
-				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/2568eb76-a76e-4dca-9ea6-ce4815cb5838"
-					(reference "C1606")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 148.59 180.34 0)
 		(unit 1)
@@ -11956,73 +11850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 213.36 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9925bdd3-964c-46af-bc97-fdfb359d1569")
-		(property "Reference" "#PWR01605"
-			(at 213.36 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 215.9 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adf7db62-295a-4d65-929a-48444b6265e4")
-		)
-		(instances
-			(project "dsv4"
-				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/2568eb76-a76e-4dca-9ea6-ce4815cb5838"
-					(reference "#PWR01605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 111.76 68.58 0)
 		(unit 1)
@@ -12830,7 +12657,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb1a9d30-74c9-4fea-8537-dbe4a96cbd94")
 		(property "Reference" "C1605"
-			(at 201.93 47.3709 0)
+			(at 201.93 46.1009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,8 +12665,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
-			(at 201.93 49.9109 0)
+		(property "Value" "220u"
+			(at 201.93 48.6409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +12674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 199.0852 53.34 0)
 			(effects
 				(font
@@ -12856,7 +12683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_A4072_A759-3316694.pdf"
 			(at 198.12 49.53 0)
 			(effects
 				(font
@@ -12872,6 +12699,23 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MPN" "A759KR227M1VAAE024"
+			(at 201.93 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Name" ""
+			(at 198.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

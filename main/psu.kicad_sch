@@ -7242,11 +7242,11 @@
 				)
 			)
 			(project "power_supply"
-				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
+				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
 					(reference "TP?")
 					(unit 1)
 				)
-				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
+				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
 					(reference "TP?")
 					(unit 1)
 				)
@@ -7413,11 +7413,11 @@
 				)
 			)
 			(project "power_supply"
-				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
+				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
 					(reference "TP?")
 					(unit 1)
 				)
-				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69"
+				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
 					(reference "TP?")
 					(unit 1)
 				)

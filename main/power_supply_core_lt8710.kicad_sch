@@ -2538,12 +2538,6 @@
 		(uuid "23a6b39b-3983-4d32-9e87-65a5f28f7412")
 	)
 	(junction
-		(at 205.74 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c30c289-aec0-4cab-8e85-af8489967c05")
-	)
-	(junction
 		(at 180.34 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3157,16 +3151,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 30.48) (xy 205.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64cad40c-e52a-42ef-9b83-762a06b78f8b")
-	)
-	(wire
-		(pts
 			(xy 118.11 87.63) (xy 123.19 87.63)
 		)
 		(stroke
@@ -3217,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 30.48) (xy 224.79 30.48)
+			(xy 190.5 30.48) (xy 224.79 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3294,16 +3278,6 @@
 			(type default)
 		)
 		(uuid "7534bced-e855-4f73-b39e-dfa97ac1c893")
-	)
-	(wire
-		(pts
-			(xy 205.74 50.8) (xy 205.74 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81dfa8b7-b886-4457-923c-e1272fc442d6")
 	)
 	(wire
 		(pts
@@ -3444,16 +3418,6 @@
 			(type default)
 		)
 		(uuid "9b816788-13f2-49ab-a842-7baf3fdedb17")
-	)
-	(wire
-		(pts
-			(xy 190.5 30.48) (xy 205.74 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4797ae-7ed9-45c2-b141-f5614b4f7039")
 	)
 	(wire
 		(pts
@@ -6036,6 +6000,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 190.5 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04a57933-5155-4b5c-9bb0-f8f262f027a3")
+		(property "Reference" "C508"
+			(at 194.31 41.0209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u"
+			(at 194.31 43.5609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 191.4652 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_A4072_A759-3316694.pdf"
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A759KR227M1VAAE024"
+			(at 194.31 46.1009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Name" ""
+			(at 190.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddbbe374-1441-46f0-933d-e91e196ebf6d")
+		)
+		(pin "2"
+			(uuid "ab21afd6-49d0-442a-a3a5-7bff234e278a")
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
+					(reference "C508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 130.81 0)
 		(unit 1)
@@ -7443,76 +7494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 190.5 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6afb892c-a1dc-438f-8aa4-7e19fa6daea4")
-		(property "Reference" "C508"
-			(at 194.31 42.2909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 194.31 44.8309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 191.4652 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 190.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d60bd2a-c58a-4df9-a3f3-25b649758838")
-		)
-		(pin "2"
-			(uuid "479df116-9c36-4aa9-8e75-57f92d2efd6d")
-		)
-		(instances
-			(project "dsv4"
-				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
-					(reference "C508")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.55 77.47 0)
 		(unit 1)
@@ -7644,6 +7625,93 @@
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
 					(reference "#PWR0506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 20.32 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b49faf6-49b6-4ec6-a939-641e3ce1dec2")
+		(property "Reference" "C503"
+			(at 24.13 38.4809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u"
+			(at 24.13 41.0209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 21.2852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/447/KEM_A4072_A759-3316694.pdf"
+			(at 20.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 20.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A759KR227M1VAAE024"
+			(at 24.13 43.5609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Name" ""
+			(at 20.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1790f5b3-1458-4cb5-904f-0f1bc20c65d8")
+		)
+		(pin "2"
+			(uuid "126d7f69-e679-49de-8063-561227de713a")
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -8405,76 +8473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 20.32 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bccce996-2d93-43e9-b7ef-a5b96109c336")
-		(property "Reference" "C503"
-			(at 24.13 39.7509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 24.13 42.2909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 21.2852 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 20.32 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "059c8ecf-6a0a-4b3b-b425-0b2e6ee20da9")
-		)
-		(pin "2"
-			(uuid "abd08dcb-c305-4da5-b897-3d13bb8d5439")
-		)
-		(instances
-			(project "dsv4"
-				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
-					(reference "C503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 191.77 121.92 0)
 		(unit 1)
@@ -8605,73 +8603,6 @@
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
 					(reference "C502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 205.74 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3b79d6b-e9cf-470a-9dae-724d078def32")
-		(property "Reference" "#PWR0505"
-			(at 205.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 208.28 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "569f1cf5-d0d4-4af6-b152-79e45f8e98db")
-		)
-		(instances
-			(project "dsv4"
-				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
-					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -8876,76 +8807,6 @@
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
 					(reference "R504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 205.74 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eecd0935-6c4b-49de-bbe4-098fe21da946")
-		(property "Reference" "C509"
-			(at 209.55 43.5609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 209.55 46.1009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 206.7052 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 205.74 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78d3b369-803f-4294-918d-3f0105456fef")
-		)
-		(pin "2"
-			(uuid "470b97c8-08af-418c-8346-047cec727745")
-		)
-		(instances
-			(project "dsv4"
-				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774/1418bcac-62b9-409d-afe1-faaf812fdfa2"
-					(reference "C509")
 					(unit 1)
 				)
 			)

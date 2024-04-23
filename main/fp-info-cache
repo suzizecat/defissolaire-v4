@@ -1,4 +1,4 @@
-23319030686891696
+23323004470196311
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -80570,6 +80570,20 @@ WSON-12
 19
 13
 Package_SON
+WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm
+WSON, 12 Pin (https://www.ti.com/lit/ds/symlink/tps63710.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+13
+Package_SON
+WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm_ThermalVias
+WSON, 12 Pin (https://www.ti.com/lit/ds/symlink/tps63710.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+24
+13
+Package_SON
 WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm
 WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
 WSON NoLead
@@ -95262,31 +95276,3 @@ PKLCS1212E4001-R1
 0
 2
 2
-power_supply
-QFN-16_EP_3x3_Pitch0.5mm
-
-
-0
-17
-17
-power_supply
-SRP0620
-
-
-0
-2
-2
-power_supply
-VLS3015CX
-
-
-0
-2
-2
-power_supply
-VSON-TPS61178
-
-
-0
-13
-13
