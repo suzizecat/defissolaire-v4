@@ -1,0 +1,62 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 10n 10m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 45,
+        "right": 45,
+        "top": 45
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "I(R103)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(255, 217, 47)",
+          "signal": "I(XQ101:1)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(229, 196, 148)",
+          "signal": "I(XQ101:2)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(179, 179, 179)",
+          "signal": "I(XQ101:3)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(102, 194, 165)",
+          "signal": "I(XQ103:1)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/BAT_USE)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/Vmid)",
+          "trace_type": 257
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}

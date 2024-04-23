@@ -8,8 +8,8 @@ def run(ref_src = None, ref_dst=None) :
     for f in interesting_fp :
         print(f"Selected {f.GetReference()}")
 
-    rdes_src = ref_src if ref_src is not None else input("SOURCE reference designator: ") 
-    rdes_trg = ref_dst if ref_dst is not None else input("TARGET reference designator: ")
+    rdes_src = str(ref_src) if ref_src is not None else input("SOURCE reference designator: ") 
+    rdes_trg = str(ref_dst) if ref_dst is not None else input("TARGET reference designator: ")
 
     confirm = input(f"Confirm replacing R{rdes_src}xx by R{rdes_trg}xx [Y/n]: ")
     confirm = not confirm.strip().upper() == "N"
