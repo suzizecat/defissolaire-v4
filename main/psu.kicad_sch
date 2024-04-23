@@ -5466,6 +5466,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 76.2 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "70204dfb-2ad3-4502-a529-49918a2d3cc6")
+		(property "Reference" "D401"
+			(at 78.74 166.0524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" " B5819W-TP "
+			(at 78.74 168.5924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 76.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 76.2 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d8873e4-dac9-4f32-a8d1-0c2d969b34db")
+		)
+		(pin "1"
+			(uuid "d19ca6b6-b63f-43d7-8338-4f316bf37c7d")
+		)
+		(instances
+			(project "dsv4"
+				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774"
+					(reference "D401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 160.02 116.84 0)
 		(unit 1)
@@ -6678,109 +6748,6 @@
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774"
 					(reference "C414")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 76.2 167.64 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "cdeaf2bc-6132-4876-8aae-a5dfa1028219")
-		(property "Reference" "D401"
-			(at 78.74 165.4175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XBS104S14R-G"
-			(at 78.74 167.9575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 76.2 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fr/datasheet/2/760/TOSLS00277_1-2574880.pdf"
-			(at 76.2 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "XBS104S14R-G"
-			(at 78.74 170.4975 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Mouser SKU" " 865-XBS104S14R-G "
-			(at 76.2 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 76.2 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f83a9710-4594-4df5-aad4-18d860124e5c")
-		)
-		(pin "2"
-			(uuid "4eca469e-6ff8-45c0-9389-6982e372ae35")
-		)
-		(instances
-			(project "dsv4"
-				(path "/c07e9297-fde8-4755-803e-d05072cd6096/164e5be8-13e0-4d66-ab9d-977f2147e774"
-					(reference "D401")
-					(unit 1)
-				)
-			)
-			(project "power_supply"
-				(path "/e87df9ac-84db-475c-955a-f1fa477bbb69/91eacb21-145b-4d7f-8dcd-2105a1b91924"
-					(reference "D?")
 					(unit 1)
 				)
 			)
