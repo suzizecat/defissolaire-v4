@@ -1,0 +1,116 @@
+###############################################################################
+# Custom hooks
+###############################################################################
+$auto_update_figures = 0; # Convert JSON to SVG (wavedrom) and SVG to PDF
+$auto_release = 1;# Copy the output to a new location with a proper file name.
+
+$release_dir  = "build";
+$release_file = 'EASii IC - `python3 $SHAREDDOC/tex/scripts/docid.py filename --no-rev`';
+
+#$inkscape = "inkscape";
+#$wavedrom = "wavedrom-cli";
+
+if ($auto_update_figures) {
+    #system "make -f \$SHAREDDOC/tex/scripts/makefiles/make_figures.mk INKSCAPE=".$inkscape." WAVEDROM_CLI=".$wavedrom." figures";
+    system "make -f \$SHAREDDOC/tex/scripts/makefiles/make_figures.mk figures -j`nproc --ignore=1`";
+}
+
+if ($auto_release) {
+    $success_cmd .= "cp build/main.pdf \"$release_dir/$release_file.pdf\"";
+}
+
+# add_cus_dep('pdf_tex', 'pdf_tex', 0, 'run_makefigure');
+# add_cus_dep('pdf', 'pdf', 0, 'run_makefigure');
+
+# sub run_makefigure {
+#     my ($base_name, $path) = fileparse( $_[0] ); #handle -outdir param by splitting path and file, ...
+#     pushd "$path/.."; # ... cd-ing into folder first, then running makeglossaries ...
+#     print("DEBUG - GENERATE FIGURE $base_name\n");
+#      system "make -f \$SHAREDDOC/tex/scripts/makefiles/make_figures.mk". $_[0]; #unix
+#         # system "makeglossaries", "$base_name"; #windows
+
+#     popd; # ... and cd-ing back again
+#     };
+
+###############################################################################
+# Add Inkscape support (?)
+###############################################################################
+
+add_cus_dep('svg', 'pdf_tex', 0, 'svg2pdf_tex');
+sub svg2pdf_tex 
+{
+    # my $newpath = $_[0] =~ s!/pdftex/!/svg/!sr; 
+    # my $orig_file_svg = $newpath . ".svg";
+    # if (! -e $orig_file_svg)
+    # {
+    #     my $wavepath = $_[0] =~ s!/pdftex/!/waves/!sr; 
+    #     $wavepath .= ".json";
+    #     if (-e $wavepath)
+    #     {
+    #         system ("wavedrom-cli -i " . $wavepath . " -s " . $orig_file_svg);
+    #         if (-e $newpath . ":Zone.Identifier") 
+    #         {
+    #             unlink $newpath . ":Zone.Identifier";
+    #         }
+    #     }
+    # }
+    # return system("inkscape --export-latex -o \"$_[0].pdf\" \"$orig_file_svg\"");
+    return system("inkscape --export-latex -o \"$_[0].pdf\" \"$_[0].svg\"");
+}
+
+
+###############################################################################
+# Add default run configuration
+###############################################################################
+# We expect main.tex as root and the output to be .pdf in the build/ directory.
+# We don't want to have to manually stop latex if there are errors.
+$pdflatex= "pdflatex -interaction=nonstopmode -synctex=1 %O %S";
+
+# Default to pdf output to avoid the requirement of -pdf
+$pdf_mode= 1;
+# All build files are in the relative ./build folder
+$out_dir = 'build';
+# If main.tex exists, it will be treated as the root.
+@default_files = ("main");
+
+###############################################################################
+# Add Glossaries support
+###############################################################################
+# $ENV{TEXMFHONE} = "/home/jfaucher/workspace/shareddoc/tex/packages/texmf";
+# Handle glossaries properly
+add_cus_dep('glo', 'gls', 0, 'run_makeglossaries');
+add_cus_dep('acn', 'acr', 0, 'run_makeglossaries');
+add_cus_dep('syi', 'syg', 0, 'run_makeglossaries');
+
+push @generated_exts, 'glo', 'gls', 'glg';
+push @generated_exts, 'acn', 'acr', 'alg';
+push @generated_exts, 'syi', 'syg', "slg";
+
+$clean_ext .= ' %R.ist %R.xdy';
+
+sub run_makeglossaries {
+    my ($base_name, $path) = fileparse( $_[0] ); #handle -outdir param by splitting path and file, ...
+    pushd $path; # ... cd-ing into folder first, then running makeglossaries ...
+
+    if ( $silent ) {
+        system "makeglossaries -q '$base_name'"; #unix
+        # system "makeglossaries", "-q", "$base_name"; #windows
+    }
+    else {
+        system "makeglossaries '$base_name'"; #unix
+        # system "makeglossaries", "$base_name"; #windows
+    };
+
+    popd; # ... and cd-ing back again
+}
+
+###############################################################################
+# Add extended cleanup
+###############################################################################
+$use_make_for_missing_files = 0;
+# Add lists of listings as generated file
+push @generated_exts, 'lol';
+# Add synctex and .run.xml files as generated
+push @generated_exts, 'synctex.gz', 'run.xml';
+# Always delete .bbl files. Use 1 if external .bbl files are used
+$bibtex_use = 2;

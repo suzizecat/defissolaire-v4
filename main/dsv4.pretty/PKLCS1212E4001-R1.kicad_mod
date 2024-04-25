@@ -129,7 +129,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 0 -7.25) (xy -0.5 -6.5) (xy 0.5 -6.5)
+			(xy 7.8 -0.1) (xy 7.05 -0.6) (xy 7.05 0.4)
 		)
 		(stroke
 			(width 0.12)
@@ -177,5 +177,16 @@
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "8296ab57-832c-400d-b468-a5fcf9636427")
+	)
+	(model "E:/PERSO/defissolaire-v4/librairies/3d/PKLCS1212E4001-R1--3DModel-STEP-56544.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )

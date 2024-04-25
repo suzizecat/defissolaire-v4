@@ -100,7 +100,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "warning",
-        "starved_thermal": "warning",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -608,8 +608,11 @@
       "/MCU/MOT1.BL": "",
       "/MCU/MOT1.CH": "",
       "/MCU/MOT1.CL": "",
+      "/MCU/MOT1_CMD.AH": "",
       "/MCU/MOT1_CMD.AL": "",
+      "/MCU/MOT1_CMD.BH": "",
       "/MCU/MOT1_CMD.BL": "",
+      "/MCU/MOT1_CMD.CH": "",
       "/MCU/MOT1_CMD.CL": "",
       "/MCU/MOT1_CMD{PHASES}": "",
       "/MCU/MOT1_PWM": "",
@@ -620,8 +623,11 @@
       "/MCU/MOT2.BL": "",
       "/MCU/MOT2.CH": "",
       "/MCU/MOT2.CL": "",
+      "/MCU/MOT2_CMD.AH": "",
       "/MCU/MOT2_CMD.AL": "",
+      "/MCU/MOT2_CMD.BH": "",
       "/MCU/MOT2_CMD.BL": "",
+      "/MCU/MOT2_CMD.CH": "",
       "/MCU/MOT2_CMD.CL": "",
       "/MCU/MOT2_CMD{PHASES}": "",
       "/MCU/MOT2_PWM": "",
@@ -711,6 +717,7 @@
       "IN": "",
       "Net-(BZ1301--)": "",
       "Net-(BZ1302--)": "",
+      "Net-(BZ601--)": "",
       "Net-(D1101-A)": "",
       "Net-(D1101-K)": "",
       "Net-(D1102-A)": "",
@@ -736,20 +743,39 @@
       "Net-(D1406-A)": "",
       "Net-(D1407-K)": "",
       "Net-(D1408-K)": "",
+      "Net-(D1501-A)": "",
+      "Net-(D1501-K)": "",
+      "Net-(D1502-A)": "",
+      "Net-(D1503-A)": "",
+      "Net-(D1504-A)": "",
+      "Net-(D1505-A)": "",
+      "Net-(D1506-A)": "",
       "Net-(D1601-A)": "",
       "Net-(D1601-K)": "",
       "Net-(D1602-A)": "",
       "Net-(D1603-A)": "",
       "Net-(D1603-K)": "",
       "Net-(D1604-A)": "",
+      "Net-(D1605-A)": "",
+      "Net-(D1606-A)": "",
+      "Net-(D201-A)": "",
+      "Net-(D201-K)": "",
       "Net-(D401-A)": "",
       "Net-(D401-K)": "",
+      "Net-(D403-A)": "",
+      "Net-(D403-K)": "",
+      "Net-(D404-A)": "",
+      "Net-(D601-K)": "",
+      "Net-(D602-K)": "",
       "Net-(J1308-D+)": "",
       "Net-(J1308-D-)": "",
       "Net-(J1308-VBUS)": "",
       "Net-(J1401-D+)": "",
       "Net-(J1401-D-)": "",
       "Net-(J1401-VBUS)": "",
+      "Net-(J608-D+)": "",
+      "Net-(J608-D-)": "",
+      "Net-(J608-VBUS)": "",
       "Net-(JP1101-A)": "",
       "Net-(JP1102-A)": "",
       "Net-(JP1103-A)": "",
@@ -770,6 +796,16 @@
       "Net-(JP1601-B)": "",
       "Net-(JP1602-A)": "",
       "Net-(JP1602-B)": "",
+      "Net-(JP1603-A)": "",
+      "Net-(JP1604-A)": "",
+      "Net-(JP301-A)": "",
+      "Net-(JP301-B)": "",
+      "Net-(JP302-A)": "",
+      "Net-(JP302-B)": "",
+      "Net-(JP401-A)": "",
+      "Net-(JP401-B)": "",
+      "Net-(JP402-A)": "",
+      "Net-(JP402-B)": "",
       "Net-(JP501-A)": "",
       "Net-(JP501-B)": "",
       "Net-(JP502-A)": "",
@@ -782,8 +818,14 @@
       "Net-(Q1002-G)": "",
       "Net-(Q1101-G)": "",
       "Net-(Q1102-G)": "",
+      "Net-(Q1201-G)": "",
+      "Net-(Q1202-G)": "",
       "Net-(Q1301-B)": "",
+      "Net-(Q1301-G)": "",
       "Net-(Q1302-B)": "",
+      "Net-(Q1302-G)": "",
+      "Net-(Q1401-G)": "",
+      "Net-(Q1402-G)": "",
       "Net-(Q1601-D)": "",
       "Net-(Q1601-G)": "",
       "Net-(Q1601-S)": "",
@@ -805,6 +847,12 @@
       "Net-(Q1802-G)": "",
       "Net-(Q201-G)": "",
       "Net-(Q202-G)": "",
+      "Net-(Q301-G)": "",
+      "Net-(Q302-G)": "",
+      "Net-(Q401-G)": "",
+      "Net-(Q402-G)": "",
+      "Net-(Q403-D)": "",
+      "Net-(Q403-G)": "",
       "Net-(Q501-D)": "",
       "Net-(Q501-G)": "",
       "Net-(Q501-S)": "",
@@ -826,15 +874,21 @@
       "Net-(R1604-Pad1)": "",
       "Net-(R1608-Pad2)": "",
       "Net-(R1609-Pad2)": "",
+      "Net-(R307-Pad2)": "",
+      "Net-(R404-Pad2)": "",
+      "Net-(R410-Pad2)": "",
       "Net-(R507-Pad2)": "",
       "Net-(R607-Pad2)": "",
       "Net-(U1001-BST)": "",
       "Net-(U1101-BST)": "",
       "Net-(U1201-BOOT0)": "",
+      "Net-(U1201-BST)": "",
+      "Net-(U1301-BST)": "",
       "Net-(U1301-CBUS1)": "",
       "Net-(U1301-CBUS2)": "",
       "Net-(U1301-USBDM)": "",
       "Net-(U1301-USBDP)": "",
+      "Net-(U1401-BST)": "",
       "Net-(U1402-CBUS1)": "",
       "Net-(U1402-CBUS2)": "",
       "Net-(U1402-USBDM)": "",
@@ -847,19 +901,39 @@
       "Net-(U1601-SS)": "",
       "Net-(U1603-+)": "",
       "Net-(U1801-BST)": "",
+      "Net-(U201-+)": "",
       "Net-(U201-BST)": "",
+      "Net-(U202-BOOT)": "",
+      "Net-(U202-EN)": "",
+      "Net-(U202-FB)": "",
+      "Net-(U203-BP)": "",
+      "Net-(U301-EN{slash}FBIN)": "",
+      "Net-(U301-FBX)": "",
+      "Net-(U301-IMON)": "",
+      "Net-(U301-INTV_{CC})": "",
+      "Net-(U301-INTV_{EE})": "",
+      "Net-(U301-RT)": "",
+      "Net-(U301-SS)": "",
       "Net-(U401-+)": "",
       "Net-(U401-BOOT)": "",
       "Net-(U401-EN)": "",
       "Net-(U401-FB)": "",
+      "Net-(U401-FBX)": "",
+      "Net-(U401-IMON)": "",
+      "Net-(U401-INTV_{CC})": "",
+      "Net-(U401-INTV_{EE})": "",
+      "Net-(U401-RT)": "",
+      "Net-(U401-SS)": "",
       "Net-(U401-SW)": "",
       "Net-(U402-BOOT)": "",
       "Net-(U402-BP)": "",
       "Net-(U402-EN)": "",
       "Net-(U402-FB)": "",
       "Net-(U402-SW)": "",
+      "Net-(U403-+)": "",
       "Net-(U403-BP)": "",
       "Net-(U405-BP)": "",
+      "Net-(U501-BOOT0)": "",
       "Net-(U501-BST)": "",
       "Net-(U501-EN{slash}FBIN)": "",
       "Net-(U501-FBX)": "",
@@ -869,6 +943,8 @@
       "Net-(U501-RT)": "",
       "Net-(U501-SS)": "",
       "Net-(U601-BST)": "",
+      "Net-(U601-CBUS1)": "",
+      "Net-(U601-CBUS2)": "",
       "Net-(U601-EN{slash}FBIN)": "",
       "Net-(U601-FBX)": "",
       "Net-(U601-IMON)": "",
@@ -876,6 +952,8 @@
       "Net-(U601-INTV_{EE})": "",
       "Net-(U601-RT)": "",
       "Net-(U601-SS)": "",
+      "Net-(U601-USBDM)": "",
+      "Net-(U601-USBDP)": "",
       "Net-(U701-BST)": "",
       "Net-(U801-BST)": "",
       "Net-(U901-BST)": "",
@@ -898,6 +976,15 @@
       "unconnected-(J1307-Pin_1-Pad1)": "",
       "unconnected-(J1308-ID-Pad4)": "",
       "unconnected-(J1401-ID-Pad4)": "",
+      "unconnected-(J501-DBGACK{slash}NC-Pad19)": "",
+      "unconnected-(J501-DBGRQ{slash}NC-Pad17)": "",
+      "unconnected-(J501-RTCK-Pad11)": "",
+      "unconnected-(J501-TDI-Pad5)": "",
+      "unconnected-(J501-TDO{slash}SWO-Pad13)": "",
+      "unconnected-(J501-VTREF-Pad1)": "",
+      "unconnected-(J501-~{SRST}-Pad15)": "",
+      "unconnected-(J601-Pin_1-Pad1)": "",
+      "unconnected-(J608-ID-Pad4)": "",
       "unconnected-(U1101-Pad11)": "",
       "unconnected-(U1201-PA12-Pad45)": "",
       "unconnected-(U1201-PB0-Pad26)": "",
@@ -925,9 +1012,24 @@
       "unconnected-(U1402-CBUS3-Pad14)": "",
       "unconnected-(U1402-~{CTS}-Pad4)": "",
       "unconnected-(U1402-~{RTS}-Pad16)": "",
+      "unconnected-(U1501-Pad11)": "",
       "unconnected-(U1601-FLAG-Pad4)": "",
+      "unconnected-(U1601-Pad11)": "",
+      "unconnected-(U301-FLAG-Pad4)": "",
       "unconnected-(U501-FLAG-Pad4)": "",
-      "unconnected-(U601-FLAG-Pad4)": ""
+      "unconnected-(U501-PA12-Pad45)": "",
+      "unconnected-(U501-PB1-Pad27)": "",
+      "unconnected-(U501-PB2-Pad28)": "",
+      "unconnected-(U501-PC12-Pad53)": "",
+      "unconnected-(U501-PC13-Pad2)": "",
+      "unconnected-(U501-PD2-Pad54)": "",
+      "unconnected-(U501-VBAT-Pad1)": "",
+      "unconnected-(U501-VDDUSB-Pad48)": "",
+      "unconnected-(U601-CBUS0-Pad12)": "",
+      "unconnected-(U601-CBUS3-Pad14)": "",
+      "unconnected-(U601-FLAG-Pad4)": "",
+      "unconnected-(U601-~{CTS}-Pad4)": "",
+      "unconnected-(U601-~{RTS}-Pad16)": ""
     },
     "netclass_patterns": []
   },
@@ -1045,14 +1147,6 @@
       "Root"
     ],
     [
-      "184b898e-4aed-43ab-9123-2924160ca1ff",
-      "Phase B Driver"
-    ],
-    [
-      "5b9a617b-6d93-4d9f-bce1-510d294da22c",
-      "MOTA Driver"
-    ],
-    [
       "164e5be8-13e0-4d66-ab9d-977f2147e774",
       "PSU"
     ],
@@ -1061,28 +1155,8 @@
       "Input PSU"
     ],
     [
-      "a3c0ac15-b403-4abe-8c9f-dc79c64677cd",
-      "Phase C Driver"
-    ],
-    [
-      "bed5353e-e607-4c1c-98ea-22040242af2e",
-      "MOTB Driver"
-    ],
-    [
-      "184b898e-4aed-43ab-9123-2924160ca1ff",
-      "Phase B Driver"
-    ],
-    [
-      "b71847ed-e984-418a-b75f-fd92990dbf9b",
-      "Phase A Driver"
-    ],
-    [
-      "a3c0ac15-b403-4abe-8c9f-dc79c64677cd",
-      "Phase C Driver"
-    ],
-    [
-      "2d15f287-a464-4822-9e76-d4ca4cb9f82a",
-      "MOT2 Bus management"
+      "2568eb76-a76e-4dca-9ea6-ce4815cb5838",
+      "Battery chagrer"
     ],
     [
       "0865f076-bf0e-442f-8617-d4097538e68b",
@@ -1093,24 +1167,52 @@
       "Radio and misc"
     ],
     [
+      "5b9a617b-6d93-4d9f-bce1-510d294da22c",
+      "MOTA Driver"
+    ],
+    [
+      "bed5353e-e607-4c1c-98ea-22040242af2e",
+      "MOTB Driver"
+    ],
+    [
+      "b71847ed-e984-418a-b75f-fd92990dbf9b",
+      "Phase A Driver"
+    ],
+    [
+      "184b898e-4aed-43ab-9123-2924160ca1ff",
+      "Phase B Driver"
+    ],
+    [
+      "a3c0ac15-b403-4abe-8c9f-dc79c64677cd",
+      "Phase C Driver"
+    ],
+    [
+      "b71847ed-e984-418a-b75f-fd92990dbf9b",
+      "Phase A Driver"
+    ],
+    [
+      "184b898e-4aed-43ab-9123-2924160ca1ff",
+      "Phase B Driver"
+    ],
+    [
+      "a3c0ac15-b403-4abe-8c9f-dc79c64677cd",
+      "Phase C Driver"
+    ],
+    [
       "e313533d-7862-466d-aec4-d9675212cabe",
       "MOT1 Bus management"
     ],
     [
-      "2018e44d-c316-4d67-b4a6-3738e265a76c",
-      "MOT B Connection"
-    ],
-    [
-      "2568eb76-a76e-4dca-9ea6-ce4815cb5838",
-      "Battery chagrer"
+      "2d15f287-a464-4822-9e76-d4ca4cb9f82a",
+      "MOT2 Bus management"
     ],
     [
       "cd484b38-c779-4100-b7b3-072872dce6a7",
       "MOT A Connection"
     ],
     [
-      "b71847ed-e984-418a-b75f-fd92990dbf9b",
-      "Phase A Driver"
+      "2018e44d-c316-4d67-b4a6-3738e265a76c",
+      "MOT B Connection"
     ]
   ],
   "text_variables": {}

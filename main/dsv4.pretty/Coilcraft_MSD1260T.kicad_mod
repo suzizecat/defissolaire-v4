@@ -194,4 +194,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "786a10bc-6ec6-41bf-94fa-9b8557af32e8")
 	)
+	(model "${KIPRJMOD}/../librairies/3d/Coilcraft-MSD1260T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

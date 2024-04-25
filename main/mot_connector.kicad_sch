@@ -1399,7 +1399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1089ede0-6665-4ec3-99ed-96378867e88c")
-		(property "Reference" "J1501"
+		(property "Reference" "J1801"
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -1493,7 +1493,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/2018e44d-c316-4d67-b4a6-3738e265a76c"
-					(reference "J1501")
+					(reference "J1801")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/cd484b38-c779-4100-b7b3-072872dce6a7"
@@ -1513,7 +1513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5578459c-5be3-444f-a88a-5d8c6d83dc0e")
-		(property "Reference" "#PWR01502"
+		(property "Reference" "#PWR01802"
 			(at 175.26 88.9 0)
 			(effects
 				(font
@@ -1563,7 +1563,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/2018e44d-c316-4d67-b4a6-3738e265a76c"
-					(reference "#PWR01502")
+					(reference "#PWR01802")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/cd484b38-c779-4100-b7b3-072872dce6a7"
@@ -1583,7 +1583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b6e1b49-a6d4-4188-a997-f4b6da4bfc07")
-		(property "Reference" "#PWR01501"
+		(property "Reference" "#PWR01801"
 			(at 128.27 68.58 0)
 			(effects
 				(font
@@ -1633,7 +1633,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/2018e44d-c316-4d67-b4a6-3738e265a76c"
-					(reference "#PWR01501")
+					(reference "#PWR01801")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/cd484b38-c779-4100-b7b3-072872dce6a7"
@@ -1653,7 +1653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcc0822c-0ac5-4758-8843-a140bbd3400d")
-		(property "Reference" "#PWR01503"
+		(property "Reference" "#PWR01803"
 			(at 128.27 93.98 0)
 			(effects
 				(font
@@ -1703,7 +1703,7 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/2018e44d-c316-4d67-b4a6-3738e265a76c"
-					(reference "#PWR01503")
+					(reference "#PWR01803")
 					(unit 1)
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/cd484b38-c779-4100-b7b3-072872dce6a7"

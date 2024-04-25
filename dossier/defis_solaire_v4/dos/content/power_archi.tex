@@ -1,0 +1,30 @@
+\chapter{Power structure}
+\section{Rails description}
+An overview of the power structure for \theproject is shown in \cref{fig-power-overall}.
+The main power rails specifications are :
+%\begin{table}[htbp]
+%    \centering
+%    \begin{tabular}{|c|l|c|c|c|c|p{4cm}|}
+%        \hline
+%        \headerrow Rail name & Characteristic & Min. & Typ. & Max & Unit & Remarks \\\hline
+%        VCAP & Voltage & $\approx 5$ & 14 & 18 & V & Depends on the load \\\hline
+%        VBAT & Voltage & 9 & 9.9 & 10.8 & V & Depends on the load \\\hline
+%    \end{tabular}
+%\end{table}
+\begin{itemize}
+    \item \textbf{VCAP}: Main rail. Powered by the solar cells through MPPT, with backup from the capacitor banks and/or the LiFePO4 batteries.
+    The maximal voltage depends on the caps and SAB system, but can be safely assumed to be 18V. Under 5V, the car systems are deemed powered down.
+    \item \textbf{VBAT}: Battery rail. Either powered from VCAP (while charging), powering VCAP when VCAP < VBAT (and potential command) or virtually disconnected.
+    \item \textbf{+5V}: Standard logic rail. Power the radio transciever, the transponder and the direction servomotor. Does not require a high level of stability.
+    \item \textbf{+3.3V}: Low voltage and custom logic rail. Power the MCU, the analog and all other logic.
+    \item \textbf{+12V}: AUX power rail. 12V nominal, can actually be anywhere between +5V and +12V. Used for gate drive and buzzer drive. No strict requirement on stability.
+\end{itemize}
+\begin{landscape}
+    \begin{figure}
+        \centering
+        \def\svgwidth{\linewidth}
+        \input{pdftex/overall_power_arch.pdf_tex}
+        \caption{Overview of the power supply scheme}
+        \label{fig-power-overall}
+    \end{figure}
+\end{landscape}

@@ -18,7 +18,7 @@
 		(members "AH" "AL" "BH" "BL" "CH" "CL")
 	)
 	(bus_entry
-		(at 91.44 39.37)
+		(at 107.95 72.39)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 		(uuid "008e8d0c-0f4f-4b9a-9389-116f2ada24db")
 	)
 	(bus_entry
-		(at 91.44 36.83)
+		(at 107.95 69.85)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -36,7 +36,7 @@
 		(uuid "1a74eb80-8ae2-405b-bf80-8aa1cdeaf0f1")
 	)
 	(bus_entry
-		(at 165.1 36.83)
+		(at 181.61 69.85)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -45,7 +45,7 @@
 		(uuid "2f0181f5-b148-4572-a342-e63e8701dbe7")
 	)
 	(bus_entry
-		(at 91.44 66.04)
+		(at 107.95 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -54,7 +54,7 @@
 		(uuid "3e6b33cc-44ff-4a18-b49c-894ce75389ff")
 	)
 	(bus_entry
-		(at 91.44 87.63)
+		(at 107.95 120.65)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -63,7 +63,7 @@
 		(uuid "49d3dfbd-b480-47f7-be52-a760a4595b6f")
 	)
 	(bus_entry
-		(at 91.44 90.17)
+		(at 107.95 123.19)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -72,7 +72,7 @@
 		(uuid "5034c24d-dedc-4130-8d1f-0192721f652d")
 	)
 	(bus_entry
-		(at 165.1 87.63)
+		(at 181.61 120.65)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -81,7 +81,7 @@
 		(uuid "5c81a795-3763-439d-9bd1-4ab61fadc5c9")
 	)
 	(bus_entry
-		(at 165.1 63.5)
+		(at 181.61 96.52)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -90,7 +90,7 @@
 		(uuid "5fbd16a7-315a-4828-af2d-8e0315ebdeac")
 	)
 	(bus_entry
-		(at 91.44 63.5)
+		(at 107.95 96.52)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -100,7 +100,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 36.83) (xy 91.44 39.37)
+			(xy 107.95 69.85) (xy 107.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -110,7 +110,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 66.04) (xy 162.56 66.04)
+			(xy 162.56 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -120,7 +120,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 66.04) (xy 114.3 66.04)
+			(xy 110.49 99.06) (xy 130.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -130,7 +130,7 @@
 	)
 	(bus
 		(pts
-			(xy 171.45 30.48) (xy 165.1 30.48)
+			(xy 210.82 63.5) (xy 181.61 63.5)
 		)
 		(stroke
 			(width 0)
@@ -140,7 +140,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 162.56 90.17)
+			(xy 162.56 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 41.91) (xy 114.3 41.91)
+			(xy 110.49 74.93) (xy 130.81 74.93)
 		)
 		(stroke
 			(width 0)
@@ -160,7 +160,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 66.04) (xy 91.44 87.63)
+			(xy 107.95 99.06) (xy 107.95 120.65)
 		)
 		(stroke
 			(width 0)
@@ -170,7 +170,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 114.3 68.58)
+			(xy 110.49 101.6) (xy 130.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -180,7 +180,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 39.37) (xy 91.44 63.5)
+			(xy 107.95 72.39) (xy 107.95 96.52)
 		)
 		(stroke
 			(width 0)
@@ -190,7 +190,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 63.5) (xy 165.1 87.63)
+			(xy 181.61 96.52) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -200,7 +200,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 30.48) (xy 91.44 36.83)
+			(xy 107.95 63.5) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
@@ -210,7 +210,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 30.48) (xy 165.1 36.83)
+			(xy 181.61 63.5) (xy 181.61 69.85)
 		)
 		(stroke
 			(width 0)
@@ -220,7 +220,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 63.5) (xy 91.44 66.04)
+			(xy 107.95 96.52) (xy 107.95 99.06)
 		)
 		(stroke
 			(width 0)
@@ -230,7 +230,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 36.83) (xy 165.1 63.5)
+			(xy 181.61 69.85) (xy 181.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -240,7 +240,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 39.37) (xy 162.56 39.37)
+			(xy 162.56 72.39) (xy 179.07 72.39)
 		)
 		(stroke
 			(width 0)
@@ -250,7 +250,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 39.37) (xy 114.3 39.37)
+			(xy 110.49 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -260,7 +260,7 @@
 	)
 	(bus
 		(pts
-			(xy 55.88 30.48) (xy 91.44 30.48)
+			(xy 72.39 63.5) (xy 107.95 63.5)
 		)
 		(stroke
 			(width 0)
@@ -270,7 +270,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 90.17) (xy 114.3 90.17)
+			(xy 110.49 123.19) (xy 130.81 123.19)
 		)
 		(stroke
 			(width 0)
@@ -280,7 +280,7 @@
 	)
 	(bus
 		(pts
-			(xy 91.44 87.63) (xy 91.44 90.17)
+			(xy 107.95 120.65) (xy 107.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +290,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 114.3 92.71)
+			(xy 110.49 125.73) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
@@ -299,7 +299,7 @@
 		(uuid "fa745ab0-b00d-4192-a5ed-3f2ba9e82bd0")
 	)
 	(label "PHASE.B"
-		(at 148.59 66.04 0)
+		(at 165.1 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -310,7 +310,7 @@
 		(uuid "195e4d35-66b6-43fa-9346-c4a5b0efabc5")
 	)
 	(label "MOT_DRIVE.CH"
-		(at 110.49 90.17 180)
+		(at 127 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -321,7 +321,7 @@
 		(uuid "203f9f92-3ddb-448b-b931-30cbb48a6b43")
 	)
 	(label "MOT_DRIVE.CL"
-		(at 110.49 92.71 180)
+		(at 127 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -332,7 +332,7 @@
 		(uuid "3a89c220-cf6b-4ce8-9560-4680efffac7e")
 	)
 	(label "PHASE.A"
-		(at 148.59 39.37 0)
+		(at 165.1 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -343,7 +343,7 @@
 		(uuid "4b41ed08-4f8b-407e-a218-b2eea8e37366")
 	)
 	(label "MOT_DRIVE.BL"
-		(at 110.49 68.58 180)
+		(at 127 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -354,7 +354,7 @@
 		(uuid "508857e6-ccea-4c07-959c-1c5b553f5126")
 	)
 	(label "MOT_DRIVE.BH"
-		(at 110.49 66.04 180)
+		(at 127 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -365,7 +365,7 @@
 		(uuid "6b971247-27ca-4c9e-843f-f9b8b69e3e4f")
 	)
 	(label "MOT_DRIVE.AL"
-		(at 110.49 41.91 180)
+		(at 127 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -376,7 +376,7 @@
 		(uuid "d4d071aa-6a19-48ee-b902-45c2855c586e")
 	)
 	(label "MOT_DRIVE.AH"
-		(at 110.49 39.37 180)
+		(at 127 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -387,7 +387,7 @@
 		(uuid "de788c67-2d1b-4b31-a5c5-e78304f8ea86")
 	)
 	(label "PHASE.C"
-		(at 148.59 90.17 0)
+		(at 165.1 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -399,7 +399,7 @@
 	)
 	(hierarchical_label "MOT_DRIVE{PHASES}"
 		(shape input)
-		(at 55.88 30.48 180)
+		(at 72.39 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -411,7 +411,7 @@
 	)
 	(hierarchical_label "PHASE{MOT}"
 		(shape output)
-		(at 171.45 30.48 0)
+		(at 210.82 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -422,7 +422,7 @@
 		(uuid "f1a0a1cb-eda2-491e-9b7f-b34bfd6f3c7e")
 	)
 	(sheet
-		(at 114.3 64.77)
+		(at 130.81 97.79)
 		(size 31.75 6.35)
 		(fields_autoplaced yes)
 		(stroke
@@ -434,7 +434,7 @@
 		)
 		(uuid "184b898e-4aed-43ab-9123-2924160ca1ff")
 		(property "Sheetname" "Phase B Driver"
-			(at 114.3 64.0584 0)
+			(at 130.81 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +443,7 @@
 			)
 		)
 		(property "Sheetfile" "phase_driver.kicad_sch"
-			(at 114.3 71.7046 0)
+			(at 130.81 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -452,7 +452,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 146.05 66.04 0)
+			(at 162.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +462,7 @@
 			(uuid "9fe9a41f-c5ca-427e-834d-b5425522c64f")
 		)
 		(pin "INL" input
-			(at 114.3 68.58 180)
+			(at 130.81 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -472,7 +472,7 @@
 			(uuid "67448d4a-8bac-4e00-84bd-ec0475b28da5")
 		)
 		(pin "INH" input
-			(at 114.3 66.04 180)
+			(at 130.81 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,16 +484,16 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c"
-					(page "2")
+					(page "10")
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/bed5353e-e607-4c1c-98ea-22040242af2e"
-					(page "8")
+					(page "13")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 114.3 88.9)
+		(at 130.81 121.92)
 		(size 31.75 6.35)
 		(fields_autoplaced yes)
 		(stroke
@@ -505,7 +505,7 @@
 		)
 		(uuid "a3c0ac15-b403-4abe-8c9f-dc79c64677cd")
 		(property "Sheetname" "Phase C Driver"
-			(at 114.3 88.1884 0)
+			(at 130.81 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +514,7 @@
 			)
 		)
 		(property "Sheetfile" "phase_driver.kicad_sch"
-			(at 114.3 95.8346 0)
+			(at 130.81 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +523,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 146.05 90.17 0)
+			(at 162.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -533,7 +533,7 @@
 			(uuid "7b1b141c-ff2d-441d-adb4-da613aacd2c4")
 		)
 		(pin "INL" input
-			(at 114.3 92.71 180)
+			(at 130.81 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,7 +543,7 @@
 			(uuid "19d4f0bd-78a2-4459-9761-03e5030d12f2")
 		)
 		(pin "INH" input
-			(at 114.3 90.17 180)
+			(at 130.81 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,16 +555,16 @@
 		(instances
 			(project "dsv4"
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/5b9a617b-6d93-4d9f-bce1-510d294da22c"
-					(page "6")
+					(page "11")
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/bed5353e-e607-4c1c-98ea-22040242af2e"
-					(page "10")
+					(page "14")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 114.3 38.1)
+		(at 130.81 71.12)
 		(size 31.75 6.35)
 		(fields_autoplaced yes)
 		(stroke
@@ -576,7 +576,7 @@
 		)
 		(uuid "b71847ed-e984-418a-b75f-fd92990dbf9b")
 		(property "Sheetname" "Phase A Driver"
-			(at 114.3 37.3884 0)
+			(at 130.81 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,7 +585,7 @@
 			)
 		)
 		(property "Sheetfile" "phase_driver.kicad_sch"
-			(at 114.3 45.0346 0)
+			(at 130.81 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +594,7 @@
 			)
 		)
 		(pin "OUT" output
-			(at 146.05 39.37 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -604,7 +604,7 @@
 			(uuid "e6a0b9bb-645b-4480-a00c-897f6eb22573")
 		)
 		(pin "INL" input
-			(at 114.3 41.91 180)
+			(at 130.81 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +614,7 @@
 			(uuid "131369b3-fe2f-4596-8451-26b21ae09183")
 		)
 		(pin "INH" input
-			(at 114.3 39.37 180)
+			(at 130.81 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +629,7 @@
 					(page "9")
 				)
 				(path "/c07e9297-fde8-4755-803e-d05072cd6096/bed5353e-e607-4c1c-98ea-22040242af2e"
-					(page "18")
+					(page "12")
 				)
 			)
 		)

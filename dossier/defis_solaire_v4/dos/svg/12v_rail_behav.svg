@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="47.407703mm"
+   height="41.380005mm"
+   viewBox="0 0 47.407703 41.380005"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="12v_rail_behav.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.8186588"
+     inkscape:cx="102.35364"
+     inkscape:cy="76.80958"
+     inkscape:window-width="1536"
+     inkscape:window-height="793"
+     inkscape:window-x="2576"
+     inkscape:window-y="410"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid132"
+       originx="-34.259166"
+       originy="-38.333128" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1333"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path1331" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Arrow2"
+       markerWidth="7.6999998"
+       markerHeight="5.5999999"
+       viewBox="0 0 7.7 5.6"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="arrow2L" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.259168,-38.333127)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2);marker-end:url(#marker1333)"
+       d="m 35,40 -2e-6,35 H 80"
+       id="path238"
+       sodipodi:nodetypes="ccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:start;text-anchor:start;stroke-width:0.264583"
+       x="70.968994"
+       y="78.960724"
+       id="text294"><tspan
+         sodipodi:role="line"
+         id="tspan292"
+         style="text-align:start;text-anchor:start;stroke-width:0.264583"
+         x="70.968994"
+         y="78.960724">VCap</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:end;text-anchor:end;stroke-width:0.264583"
+       x="36.999996"
+       y="22.999998"
+       id="text298"><tspan
+         sodipodi:role="line"
+         id="tspan296"
+         style="stroke-width:0.264583"
+         x="36.999996"
+         y="22.999998" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;stroke-width:0.264583"
+       x="37.929722"
+       y="43.110008"
+       id="text302"><tspan
+         sodipodi:role="line"
+         id="tspan300"
+         style="stroke-width:0.264583"
+         x="37.929722"
+         y="43.110008">V(+12V)</tspan></text>
+    <path
+       style="fill:none;stroke:#3584e4;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 35,75 40,70 64.996997,45.003002 80,45"
+       id="path358"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#c061cb;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 64.999999,75 V 44.999999 H 34.999998"
+       id="path1385" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#c061cb;stroke-width:0.264583"
+       x="36"
+       y="50"
+       id="text1389"><tspan
+         sodipodi:role="line"
+         id="tspan1387"
+         style="fill:#c061cb;stroke-width:0.264583"
+         x="36"
+         y="50">12V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:Calibri;fill:#c061cb;stroke-width:0.264583"
+       x="65.640335"
+       y="73.987595"
+       id="text1389-0"><tspan
+         sodipodi:role="line"
+         id="tspan1387-4"
+         style="fill:#c061cb;stroke-width:0.264583"
+         x="65.640335"
+         y="73.987595">12V</tspan></text>
+  </g>
+</svg>

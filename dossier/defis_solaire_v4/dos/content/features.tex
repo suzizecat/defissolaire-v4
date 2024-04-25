@@ -1,0 +1,50 @@
+\chapter{Features}
+This electronic systems aim to drive a solar RC car for the "\emph{Defis solaires}" competition.
+Targeted features are :
+\begin{itemize}
+    \item Use of a solar panel of 14 solar cells (total of 0.22m$^2$)
+    \begin{itemize}
+        \item Current solar panel is 14 SunPower C60 in series ($14 \times 0.58 = 8.12 \vmpp$, $5.9 \impp$ under 1kW/m$^2$ each) 
+        \item In France, more like 800 W/m$^2$, giving around 38 W at most.  
+    \end{itemize}
+    \item Digital motor control, power control and potential extraneous features (logging ?)
+    \begin{itemize}
+        \item Use of STM32 component (suggested L476)
+    \end{itemize}
+    \item Use of an hybrid solution for power storage
+    \begin{itemize}
+        \item For short term storage, super-capacitor bank, allowing for speed peak at high voltage
+        \begin{itemize}
+            \item Maximum equivalent capacity is 10F (by constest requirements).
+            \item No maximum voltage.
+            \item Requires SAB (Supercaps Auto-balancing), reducing max voltage.
+            \item Today is 16 super-caps (2 parallel of 8 series) of 35F (pre-derating) giving 8.75F up to 20V, limited at 18V for safety margins.
+        \end{itemize}
+        \item For long term storage, battery
+        \begin{itemize}
+            \item LiFePO4 chemistry due to best performances.
+            \item Used when requirements of high power (high couple requirements) or low ligth once caps are empty (or < VBAT).
+            \item Charged only when power available (VCAP > VBAT, not priorized)
+            \item Discharge controlled by digital (ON/OFF) to allow the protection of the battery usage (avoid unexpected dischare) and prevent over-discharge.
+        \end{itemize}
+        \item Battery should be preserved as much as possible, to always have power available.
+        \item Protection override should be done by digital.
+    \end{itemize}
+    \item Few standards "off the shelf" components
+    \begin{itemize}
+        \item  Radio transciever
+        \begin{itemize}
+            \item Powered using 5V
+            \item Up to 6 channels, 4 channels for normal control of the car.
+            \item Each channels are PWM encoded (standard servomotor drive signals)
+        \end{itemize}
+        \item Transponder (by contest requirement)
+        \begin{itemize}
+            \item Powered using 5V
+        \end{itemize}
+        \item Standard 5V modelism servomotor for the direction.
+    \end{itemize}
+    \item "Funny action", required by contest. Beep as klaxon (buzzer).
+    
+    
+\end{itemize}

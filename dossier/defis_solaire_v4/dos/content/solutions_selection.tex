@@ -1,0 +1,64 @@
+\chapter{Technical solutions}
+\section{Power supplies}
+\subsection{Input MPPT Buck/Boost}
+Use of dedicated chip, with external inductor and MOSFETs.
+The design should consider up to 6A and 8.12V at the input and should output up to the maximum value of the supercaps stack, minus a safety margin.
+Moreover, the DC/DC should be able to work both in CC and CV.
+
+Finally the converter shall handle high impedance power source, thus providing MPPT.
+A seen feature is to reduce the output power when the input voltage drops (e.g. \href{https://www.analog.com/en/products/lt8710.html}{Analog Devices LT8710}).
+Other vendors also have supercaps chargers with MPPT feature.
+
+The buck feature can be avoided by bypassing the controller when the input voltage is over the output voltage and avoiding consumption if VCELL > VCAP.
+
+\subsection{5V Buck converter}
+In order to avoid the loss of a big voltage gap between the VCAP and the 5V rail, a buck converter would probably be best.
+As of today, this feature is managed by a TracoPower TSRN2450 which handle the task reliably.
+
+\subsection{3.3V LDO converter}
+To provide the 3.3V, a LDO is chosen in order to get a rail as clean as possible.
+The 5V to 3.3V drop is manageable and the power is low, as the current should be under 50mA at worst.
+
+Therefore, the loss is between 85mW (for a 50mA) or 130mW for a worst case 100mA consumption.
+
+\paragraph{}
+It might be interesting to evaluate a SMPS, but there might be a risk of a noisy 3.3V rail.
+
+\subsection{12V Rail}
+The target is to get the behavior shown in \cref{fig-12v-behav}
+The rail should roughly follow VCAP, but clamped at 12V.
+\begin{figure}[htbp] 
+    \centering
+    \input{pdftex/12v_rail_behav.pdf_tex}
+    \caption{Expected ideal 12V rail voltage depending on VCAP voltage}
+    \label{fig-12v-behav}
+\end{figure}
+
+As the peripheral will either have some milliamps continuously for few seconds max (buzzer)
+or short pulses of high current (100ns max at 2A max (example)), the average power should be low.
+
+Hence the choice could be a standard linear regulator, potentially with an accent on the low quiescent current aspect.
+
+\paragraph{}
+Otherwise, a buck SMPS, with low output power feature and some kind of management of the situation where Vin < Vout could be considered.
+
+The voltage on this rail may not be very stable without particular issue as long as it doesn't fall bellow the Vth of mosfets.
+
+\subsection{Battery management}
+The target would be to have 3 or 4 LiFePO4 or LiPo cells, used when the solar cell cannot supply the required power.
+The charge time will be 30 min under maximal sunlight plus, maybe some time during the race.
+Using 4S LiFePO4 for reference (11.12 V), we can safely assume 3A continuous at the output of the MPPT, giving 1.5Ah.
+Considering "standard" capacity values, a 2.2Ah pack would fit those requirements fairly well. 
+
+Given that the safe charging rate is 1C, potentially going up to 2C, the maximum charging current shall be lower or equal to 4.4A
+
+The battery management system shall provide charging and balancing capacity (potentially using two different components) as well as a mean to prevent over-discharge.
+
+\paragraph{}
+The discharge current can be much higher (sometime announced at up to 30C). 
+But given that the motors have a combined coil resistance of 3 Ohms (6 ohms by two motors), this gives a 2C discharge rate which seems safe.
+The system shall therefore be able to handle 4A from battery to VCAP.
+
+\paragraph{}
+The idea is to use power from the battery as little as possible and only when there is no sunlight or there is a transient need for power backup (20\% slope)
+To avoid over discharge, it is required to, at least, cut-off the path from VBAT to VCAP. 

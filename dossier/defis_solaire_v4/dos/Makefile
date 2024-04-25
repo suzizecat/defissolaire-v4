@@ -1,0 +1,1 @@
+include $(SHAREDDOC)/tex/scripts/makefiles/make_figures.mk

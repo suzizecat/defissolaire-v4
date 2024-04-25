@@ -1,0 +1,32 @@
+\documentclass[a4paper,english,noapprov,wip,nologo, nobib]{easii}
+ 
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref} 
+\usepackage[yyyymmdd]{datetime}  
+\usepackage[seclevel=subsection,textsize=footnotesize]{rtlregister}
+\usepackage{reqtable}
+\usepackage{todonotes}
+\usepackage{multirow}
+\usepackage{pdflscape}
+
+
+%\makeglossaries
+\loadglsentries{refs/glossaries.tex} 
+\graphicspath{{pdftex/}}
+\addbibresource{refs/refs.bib}
+\input{template/doc_id.tex}
+\input{macros.tex}
+
+
+\begin{document} 
+    
+  \maketitle 
+  \makeapprovtable
+  \makerevtable 
+  \tableofcontents
+  \listoftablesandfigures 
+  %\makepreface
+
+  \input{content.tex}
+\end{document}
