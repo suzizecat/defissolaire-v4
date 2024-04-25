@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 37,
+    "active_layer_preset": "Silkscreen",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -16,16 +16,16 @@
     },
     "selection_filter": {
       "dimensions": true,
-      "footprints": true,
+      "footprints": false,
       "graphics": true,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
+      "otherItems": false,
+      "pads": false,
       "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       0,
@@ -43,6 +43,7 @@
       15,
       16,
       17,
+      18,
       19,
       20,
       21,
@@ -63,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "00091f0_80000005",
+    "visible_layers": "00091f0_00000000",
     "zone_display_mode": 0
   },
   "git": {
@@ -106,18 +107,18 @@
       11
     ],
     "col_widths": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      31
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
