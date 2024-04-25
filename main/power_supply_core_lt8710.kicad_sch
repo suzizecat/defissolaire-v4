@@ -2092,17 +2092,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -19.05 16.51 0)
+				(pin input line
+					(at -7.62 22.86 270)
 					(length 2.54)
-					(name "V_{IN}"
+					(name "CSP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "13"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2128,17 +2128,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 22.86 270)
+				(pin power_in line
+					(at -19.05 16.51 0)
 					(length 2.54)
-					(name "CSP"
+					(name "V_{IN}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)

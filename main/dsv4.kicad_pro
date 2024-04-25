@@ -667,6 +667,7 @@
       "/MCU/USART.RX": "",
       "/MCU/USART.TX": "",
       "/MCU/USART{UART}": "",
+      "/MCU/USER_LED": "",
       "/MCU/~{BAT_CHARGE}": "",
       "/MOT A Connection/COD_PWM": "",
       "/MOT A Connection/COD_U": "",
@@ -765,6 +766,7 @@
       "Net-(D403-A)": "",
       "Net-(D403-K)": "",
       "Net-(D404-A)": "",
+      "Net-(D501-A)": "",
       "Net-(D601-K)": "",
       "Net-(D602-K)": "",
       "Net-(J1308-D+)": "",
@@ -1093,12 +1095,54 @@
           "label": "Qty",
           "name": "Quantity",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser SKU",
+          "name": "Mouser SKU",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Name",
+          "name": "Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
