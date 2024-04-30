@@ -1734,7 +1734,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1746,7 +1746,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -5790,7 +5790,7 @@
 		(fields_autoplaced yes)
 		(uuid "0000df52-deed-41af-b23a-c02843e12af6")
 		(property "Reference" "Q301"
-			(at 151.13 24.13 90)
+			(at 151.13 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +5798,7 @@
 			)
 		)
 		(property "Value" "IXTP28P065T"
-			(at 151.13 26.67 90)
+			(at 151.13 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5841,7 @@
 			)
 		)
 		(property "MPN" " IXTP28P065T "
-			(at 151.13 33.02 0)
+			(at 151.13 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5849,7 @@
 			)
 		)
 		(property "Mouser SKU" "747-IXTP28P065T "
-			(at 151.13 33.02 0)
+			(at 151.13 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6103,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 80-A759KR227M1VAAE24 "
+		(property "Mouser SKU" "80-A759KR227M1VAAE24 "
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -6262,7 +6262,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 123.19 22.86 0)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 				(justify left)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B683KBCWPNC "
+		(property "Mouser SKU" "187-CL21B683KBCWPNC "
 			(at 165.1 111.76 0)
 			(effects
 				(font
@@ -6464,24 +6464,25 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "20188c7a-a099-4c68-b0c0-3d59ed5ed7d0")
 		(property "Reference" "L301"
-			(at 87.249 35.56 0)
+			(at 87.249 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.3u"
-			(at 87.249 33.02 0)
+		(property "Value" "10u"
+			(at 87.249 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "dsv4:Coilcraft_MSD1260T"
+		(property "Footprint" "dsv4:Coilcraft_MSD1514"
 			(at 87.63 27.94 0)
 			(effects
 				(font
@@ -6508,8 +6509,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 87.63 22.352 0)
+		(property "MPN" "MSD1514-103MED "
+			(at 87.249 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6525,15 @@
 				)
 			)
 		)
-		(property "Mouser SKU" ""
+		(property "Mouser SKU" "994-MSD1514-103MED"
+			(at 87.249 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 87.63 27.94 0)
 			(effects
 				(font
@@ -6667,21 +6676,21 @@
 		(fields_autoplaced yes)
 		(uuid "289087b5-2420-486a-8a10-0d69a75e1f8e")
 		(property "Reference" "R302"
-			(at 115.57 52.0699 0)
+			(at 110.49 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1m"
-			(at 115.57 54.6099 0)
+		(property "Value" "3m"
+			(at 110.49 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
@@ -6711,21 +6720,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WSL20101L000FEA18"
-			(at 113.03 54.61 0)
+		(property "MPN" "WSL20103L000FEA"
+			(at 110.49 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Name" "R_{SENSE1}"
-			(at 115.57 57.1499 0)
+			(at 110.49 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Quantity" ""
@@ -6736,12 +6746,13 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 71-WSL20101L000FEA18 "
-			(at 113.03 54.61 0)
+		(property "Mouser SKU" "71-WSL20103L000FEA"
+			(at 110.49 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -7031,7 +7042,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 33.02 41.91 0)
 			(effects
 				(font
@@ -7125,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 68.58 41.91 0)
 			(effects
 				(font
@@ -7489,7 +7500,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 44.45 41.91 0)
 			(effects
 				(font
@@ -7590,15 +7601,15 @@
 		(fields_autoplaced yes)
 		(uuid "651ff543-6098-4255-b994-6701687c9eb1")
 		(property "Reference" "R301"
-			(at 171.45 21.59 90)
+			(at 171.45 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33m"
-			(at 171.45 24.13 90)
+		(property "Value" "6m"
+			(at 171.45 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,8 +7643,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 171.45 30.48 0)
+		(property "MPN" "WSL20106L000FEA"
+			(at 171.45 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +7652,7 @@
 			)
 		)
 		(property "Name" "R_{SENSE2}"
-			(at 171.45 26.67 90)
+			(at 171.45 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,8 +7667,8 @@
 				)
 			)
 		)
-		(property "Mouser SKU" ""
-			(at 171.45 30.48 0)
+		(property "Mouser SKU" "71-WSL20106L000FEA"
+			(at 171.45 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7761,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 55.88 41.91 0)
 			(effects
 				(font
@@ -8014,7 +8025,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 80-A759KR227M1VAAE24 "
+		(property "Mouser SKU" "80-A759KR227M1VAAE24 "
 			(at 20.32 41.91 0)
 			(effects
 				(font
@@ -8100,7 +8111,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21C101JBANNND "
+		(property "Mouser SKU" "187-CL21C101JBANNND "
 			(at 180.34 111.76 0)
 			(effects
 				(font
@@ -8261,7 +8272,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " LT8710IFE#PBF "
+		(property "MPN" "LT8710IFE#PBF "
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -8578,7 +8589,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B225KBYNNWE "
+		(property "Mouser SKU" "187-CL21B225KBYNNWE "
 			(at 92.71 93.98 0)
 			(effects
 				(font
@@ -8974,7 +8985,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21C472JAFNNNE "
+		(property "Mouser SKU" "187-CL21C472JAFNNNE "
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -9073,7 +9084,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 123.19 30.48 0)
 			(effects
 				(font
@@ -9672,7 +9683,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B225KBYNNWE "
+		(property "Mouser SKU" "187-CL21B225KBYNNWE "
 			(at 168.91 88.9 0)
 			(effects
 				(font
@@ -9767,7 +9778,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B684JOFNNNE "
+		(property "Mouser SKU" "187-CL21B684JOFNNNE "
 			(at 149.86 120.65 0)
 			(effects
 				(font

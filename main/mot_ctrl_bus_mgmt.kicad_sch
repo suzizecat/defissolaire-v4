@@ -3444,7 +3444,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -3456,7 +3456,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -6752,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B104KACNFNC "
+		(property "Mouser SKU" "187-CL21B104KACNFNC "
 			(at 109.22 45.72 0)
 			(effects
 				(font

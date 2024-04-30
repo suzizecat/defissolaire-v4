@@ -4112,7 +4112,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VLS3015CX-3R3M-1"
+		(property "MPN" "VLS3015CX-6R8M-1"
 			(at 115.57 92.075 90)
 			(effects
 				(font
@@ -4120,7 +4120,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" "810-VLS3015CX3R3M1 "
+		(property "Mouser SKU" "810-VLS3015CX6R8M1 "
 			(at 115.57 93.98 0)
 			(effects
 				(font
@@ -4139,6 +4139,14 @@
 			)
 		)
 		(property "Quantity" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Name" ""
 			(at 115.57 93.98 0)
 			(effects
 				(font
@@ -4558,7 +4566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B105KLFVPNE "
+		(property "Mouser SKU" "187-CL21B105KLFVPNE "
 			(at 157.48 105.41 0)
 			(effects
 				(font
@@ -4980,7 +4988,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "42fd7384-0162-468c-8277-3eb4b3532532")
 		(property "Reference" "C207"
 			(at 148.59 104.1399 0)
@@ -5027,8 +5034,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A106KBYQNNE "
-			(at 144.78 105.41 0)
+		(property "MPN" "CL21A226MAYNNWE "
+			(at 132.842 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,6 +5048,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Quantity" ""
@@ -5049,14 +5057,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
-			(at 144.78 105.41 0)
+		(property "Mouser SKU" " 187-CL21A226MAYNNWE"
+			(at 145.796 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5225,7 +5235,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B475KAFNNNE "
+		(property "Mouser SKU" "187-CL21B475KAFNNNE "
 			(at 97.79 52.07 0)
 			(effects
 				(font
@@ -5364,7 +5374,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55bdd752-67e1-41e8-8c16-8a7cc39dd0fe")
 		(property "Reference" "C206"
 			(at 134.62 104.1399 0)
@@ -5411,8 +5420,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A106KBYQNNE "
-			(at 138.43 105.41 0)
+		(property "MPN" "CL21A226MAYNNWE "
+			(at 148.844 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,6 +5434,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Quantity" ""
@@ -5433,14 +5443,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
-			(at 138.43 105.41 0)
+		(property "Mouser SKU" "187-CL21A226MAYNNWE "
+			(at 139.446 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5579,7 +5591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 217.17 105.41 0)
 			(effects
 				(font
@@ -6036,7 +6048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B104KACNFNC "
+		(property "Mouser SKU" "187-CL21B104KACNFNC "
 			(at 99.06 88.9 0)
 			(effects
 				(font
@@ -6423,7 +6435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21A106KBYQNNE "
+		(property "Mouser SKU" "187-CL21A106KBYQNNE "
 			(at 33.02 105.41 0)
 			(effects
 				(font
@@ -6533,7 +6545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B104KACNFNC "
+		(property "Mouser SKU" "187-CL21B104KACNFNC "
 			(at 168.91 105.41 0)
 			(effects
 				(font
@@ -6843,7 +6855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B104KACNFNC "
+		(property "Mouser SKU" "187-CL21B104KACNFNC "
 			(at 45.72 105.41 0)
 			(effects
 				(font
@@ -7123,7 +7135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B103KCANNND "
+		(property "Mouser SKU" "187-CL21B103KCANNND "
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -7385,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Mouser SKU" " 187-CL21B104KACNFNC "
+		(property "Mouser SKU" "187-CL21B104KACNFNC "
 			(at 134.62 62.23 0)
 			(effects
 				(font

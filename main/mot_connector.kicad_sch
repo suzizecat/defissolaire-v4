@@ -1450,6 +1450,22 @@
 				)
 			)
 		)
+		(property "MPN" "22-28-4162 "
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser SKU" " 538-22-28-4162 "
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "3a783a9b-8124-4779-815c-c4a2723e21cc")
 		)

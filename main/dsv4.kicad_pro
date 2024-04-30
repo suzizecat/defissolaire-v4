@@ -603,6 +603,10 @@
       "/MCU/MEAS_IBAT": "",
       "/MCU/MEAS_VBAT": "",
       "/MCU/MEAS_VCAP": "",
+      "/MCU/MOT1 Bus management/MOT_CTRL.AL": "",
+      "/MCU/MOT1 Bus management/MOT_CTRL.BL": "",
+      "/MCU/MOT1 Bus management/MOT_CTRL.CL": "",
+      "/MCU/MOT1 Bus management/MOT_CTRL{PHASES}": "",
       "/MCU/MOT1.AH": "",
       "/MCU/MOT1.AL": "",
       "/MCU/MOT1.BH": "",
@@ -688,6 +692,19 @@
       "/MOT B Connection/MOT.B": "",
       "/MOT B Connection/MOT.C": "",
       "/MOT B Connection/MOT{MOT}": "",
+      "/MOTA Driver/MOT_DRIVE.AH": "",
+      "/MOTA Driver/MOT_DRIVE.AL": "",
+      "/MOTA Driver/MOT_DRIVE.BH": "",
+      "/MOTA Driver/MOT_DRIVE.BL": "",
+      "/MOTA Driver/MOT_DRIVE.CH": "",
+      "/MOTA Driver/MOT_DRIVE.CL": "",
+      "/MOTA Driver/MOT_DRIVE{PHASES}": "",
+      "/MOTA Driver/PHASE.A": "",
+      "/MOTA Driver/PHASE.B": "",
+      "/MOTA Driver/PHASE.C": "",
+      "/MOTA Driver/PHASE{MOT}": "",
+      "/MOTA Driver/Phase A Driver/INH": "",
+      "/MOTA Driver/Phase A Driver/INL": "",
       "/MOTA Driver/Phase A Driver/OUT": "",
       "/MOTA Driver/Phase B Driver/INH": "",
       "/MOTA Driver/Phase B Driver/INL": "",
@@ -704,6 +721,8 @@
       "/MOTB Driver/PHASE.B": "",
       "/MOTB Driver/PHASE.C": "",
       "/MOTB Driver/PHASE{MOT}": "",
+      "/MOTB Driver/Phase A Driver/INH": "",
+      "/MOTB Driver/Phase A Driver/INL": "",
       "/MOTB Driver/Phase A Driver/OUT": "",
       "/MOTB Driver/Phase B Driver/INH": "",
       "/MOTB Driver/Phase B Driver/INL": "",
@@ -1097,7 +1116,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -1151,7 +1170,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mouser SKU",
           "name": "Mouser SKU",
           "show": true
