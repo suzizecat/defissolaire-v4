@@ -1,4 +1,4 @@
-23322460827478646
+23376382684744172
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6705,6 +6705,13 @@ RC Connector XT60
 0
 4
 2
+Connector_AMASS
+test
+
+
+0
+0
+0
 Connector_Amphenol
 Amphenol_M8S-03PMMR-SF8001
 M8 Male connector for panel, 90° PCB mount (https://www.amphenolltw.com/2012download/2D%20PDF/03_M%20Series%20Sensor%20Connectors/M8S-XXPMMR-SF8001.pdf)
@@ -11402,55 +11409,6 @@ Wuerth FPC 68611214422 connector 12 bottom-side contacts 1.0mm pitch 1.0mm heigh
 0
 14
 13
-Connector_HDMI
-HDMI_A_Amphenol_10029449-x01xLF_Horizontal
-HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
-hdmi right angle
-0
-23
-20
-Connector_HDMI
-HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
-HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
-HDMI Contact Technology Type A
-0
-23
-20
-Connector_HDMI
-HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
-HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
-hdmi type a
-0
-23
-20
-Connector_HDMI
-HDMI_A_Molex_208658-1001_Horizontal
-HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
-HDMI Molex Type A
-0
-23
-20
-Connector_HDMI
-HDMI_Micro-D_Molex_46765-0x01
-HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle smd
-0
-23
-20
-Connector_HDMI
-HDMI_Micro-D_Molex_46765-1x01
-HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht
-0
-23
-20
-Connector_HDMI
-HDMI_Micro-D_Molex_46765-2x0x
-HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht smd hybrid 
-0
-23
-20
 Connector_Harting
 Harting_har-flexicon_14110213001xxx_1x02-MP_P2.54mm_Vertical
 Harting har-flexicon series connector, 14110213001xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13001XXX_100228421DRW046C.pdf), generated with kicad-footprint-generator
@@ -49272,6 +49230,69 @@ Mini USB 2.0 Type B
 0
 9
 6
+Connector_Video
+DVI-D_Molex_74320-4004_Horizontal
+DVI-D Dual Link connector, horizontal, 24 pins, Molex P/N 74320-4004, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743204004_sd.pdf?inline
+dvi right angle
+0
+26
+25
+Connector_Video
+DVI-I_Molex_74320-1004_Horizontal
+DVI-I Dual Link connector, horizontal, 29 pins, Molex P/N 74320-1004, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/743/74320/743201004_sd.pdf?inline
+dvi right angle
+0
+32
+30
+Connector_Video
+HDMI_A_Amphenol_10029449-x01xLF_Horizontal
+HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
+hdmi right angle
+0
+23
+20
+Connector_Video
+HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
+HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
+HDMI Contact Technology Type A
+0
+23
+20
+Connector_Video
+HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
+HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
+hdmi type a
+0
+23
+20
+Connector_Video
+HDMI_A_Molex_208658-1001_Horizontal
+HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
+HDMI Molex Type A
+0
+23
+20
+Connector_Video
+HDMI_Micro-D_Molex_46765-0x01
+HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle smd
+0
+23
+20
+Connector_Video
+HDMI_Micro-D_Molex_46765-1x01
+HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht
+0
+23
+20
+Connector_Video
+HDMI_Micro-D_Molex_46765-2x0x
+HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht smd hybrid 
+0
+23
+20
 Connector_Wago
 Wago_734-132_1x02_P3.50mm_Vertical
 Molex 734 Male header (for PCBs); Straight solder pin 1 x 1 mm, 734-132 , 2 Pins (http://www.farnell.com/datasheets/2157639.pdf), generated with kicad-footprint-generator
@@ -58460,6 +58481,13 @@ Inductor_SMD
 L_Ferrocore_DLG-1005
 Ferrocore DLG-1005 unshielded SMD power inductor, 10.0x9.0x5.4mm, https://www.tme.eu/Document/bda580f72a60a2225c2f6576c2740ae1/dlg-0504.pdf
 smd inductor dlg-1005
+0
+2
+2
+Inductor_SMD
+L_KOHERelec_MDA7030
+Inductor, KOHERelec, MDA7030, 7.1x6.6x2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2401252310_KOHERelec-MDA7030-220M_C2847487.pdf
+Inductor high-current power shielded
 0
 2
 2
@@ -70098,6 +70126,20 @@ DFN 0.45
 13
 9
 Package_DFN_QFN
+DFN-8-1EP_3x3mm_P0.5mm_EP1.7x2.4mm
+DFN, 8 Pin (https://stcmicro.com/datasheet/STC8G-en.pdf#page=81), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead STC8G1K08A-36I-DFN8
+0
+10
+9
+Package_DFN_QFN
+DFN-8-1EP_3x3mm_P0.5mm_EP1.7x2.4mm_ThermalVias
+DFN, 8 Pin (https://stcmicro.com/datasheet/STC8G-en.pdf#page=81), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead STC8G1K08A-36I-DFN8
+0
+20
+9
+Package_DFN_QFN
 DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm
 DFN, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/4320fb.pdf#page=10), generated with kicad-footprint-generator ipc_noLead_generator.py
 DFN NoLead
@@ -80570,6 +80612,20 @@ WSON-12
 19
 13
 Package_SON
+WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm
+WSON, 12 Pin (https://www.ti.com/lit/ds/symlink/tps63710.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+13
+Package_SON
+WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm_ThermalVias
+WSON, 12 Pin (https://www.ti.com/lit/ds/symlink/tps63710.pdf#page=33), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+24
+13
+Package_SON
 WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm
 WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
 WSON NoLead
@@ -87528,6 +87584,48 @@ rotary encoder
 7
 6
 Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x16F-Sxxxx
+Rotary encoder with switch and illuminated 4mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x18F-Sxxxx
+Rotary encoder with switch and illuminated 6mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x21F-Sxxxx
+Rotary encoder with switch and illuminated 8mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x25S-Sxxxx
+Rotary encoder with switch and illuminated shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x26F-Sxxxx
+Rotary encoder with switch and illuminated 13mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x31F-Sxxxx
+Rotary encoder with switch and illuminated 18mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
 RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Nxxxx
 Bourns rotary encoder, PEC12R, without switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
 rotary encoder
@@ -87541,6 +87639,20 @@ rotary encoder
 0
 7
 6
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEL12D-4x25S-Sxxxx
+Rotary encoder with switch and illuminated 13mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch vertical
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEL12D-4xxxF-Sxxxx
+Rotary encoder with switch and illuminated 4,6,8,13,18mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch vertical
+0
+9
+8
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -93778,6 +93890,13 @@ Transformer current sense SMD
 0
 8
 8
+Transformer_SMD
+Transformer_ED8_4-Lead_10.5x8mm_P5mm
+Isolated audio transformer, ED8, 4-lead, body 10.5x8mm body, pitch 5mm, height 5mm, https://gitlab.com/kicad/libraries/kicad-footprints/-/merge_requests/3626
+permalloy core 
+0
+4
+4
 Transformer_SMD
 Transformer_Ethernet_Bel_S558-5999-T7-F
 Ethernet Transformer, Bel S558-5999-T7-F, https://www.belfuse.com/resources/ICMs/lan-/S558-5999-T7-F.pdf

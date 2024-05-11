@@ -1,0 +1,345 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="manifest.xsl"?>
+<manifest>
+	<hash>
+		<mainv short="c2c55d" value="c2c55d70a82c5249ea373db21676137d52697456"/>
+		<files short="e7b1e4" value="e7b1e40d8a80b20041dc55e7eab88357db677d6d"/>
+		<group short="42a7d9" value="42a7d9584d065660544d3a90f9219eca8bdaa512"/>
+		<chips short="fae024" value="fae024612747bdd4c9c7e6c1343ab9e94762bdeb"/>
+	</hash>
+	<generation>
+		<date value="2020-07-27T15:22:09"/>
+		<command-line args="-j 7 --use-local -g dump rccf"/>
+		<runtime-parameters>
+			<generation>
+				<dump-run value="true"/>
+				<dump-sql value="false"/>
+				<no-phy-avail value="false"/>
+				<endianness value="little"/>
+				<reuse-run value="false"/>
+			</generation>
+			<filters requested="false"/>
+			<update requested="false"/>
+		</runtime-parameters>
+	</generation>
+	<fileset>
+		<family name="STM32F0xx" version="2.0.0"/>
+		<family name="STM32F2xx" version="2.9.0"/>
+		<family name="STM32F3xx" version="2.1.0"/>
+		<family name="STM32F4xx" version="2.14.0"/>
+		<family name="STM32F7xx" version="2.12.0"/>
+		<family name="STM32G0xx" version="1.2.0"/>
+		<family name="STM32G4xx" version="1.1.0"/>
+		<family name="STM32H7xx" version="2.3.1"/>
+		<family name="STM32L0xx" version="2.0.1"/>
+		<family name="STM32L1xx" version="1.2.0"/>
+		<family name="STM32L4xx" version="2.3.0"/>
+		<family name="STM32MP1xx" version="1.1.0"/>
+		<family name="STM32W1xx" version="1.0.0"/>
+		<family name="STM32WBxx" version="1.0.0"/>
+	</fileset>
+	<groups>
+		<group name="AC"/>
+		<group name="ADC"/>
+		<group name="AES"/>
+		<group name="ART"/>
+		<group name="AXI"/>
+		<group name="AXIMC"/>
+		<group name="BDMA"/>
+		<group name="BSEC"/>
+		<group name="CAN"/>
+		<group name="CCU"/>
+		<group name="CEC"/>
+		<group name="CLK"/>
+		<group name="COMP"/>
+		<group name="CORDIC"/>
+		<group name="CRC"/>
+		<group name="CRS"/>
+		<group name="CRYP"/>
+		<group name="DAC"/>
+		<group name="DAC2"/>
+		<group name="DBG"/>
+		<group name="DBGMCU"/>
+		<group name="DCMI"/>
+		<group name="DDRCTRL"/>
+		<group name="DDRPERFM"/>
+		<group name="DDRPHYC"/>
+		<group name="DFSDM"/>
+		<group name="DFSDM1"/>
+		<group name="DLYB"/>
+		<group name="DMA"/>
+		<group name="DMA2D"/>
+		<group name="DMAMUX"/>
+		<group name="DSI"/>
+		<group name="DSIHOST"/>
+		<group name="ETHERNET"/>
+		<group name="ETZPC"/>
+		<group name="EXTI"/>
+		<group name="FDCAN"/>
+		<group name="FIREWALL"/>
+		<group name="FLASH"/>
+		<group name="FMAC"/>
+		<group name="FMC"/>
+		<group name="FPU"/>
+		<group name="FSMC"/>
+		<group name="GFXMMU"/>
+		<group name="GIC"/>
+		<group name="GPIO"/>
+		<group name="HARDWARE_SEMAPHORE"/>
+		<group name="HASH"/>
+		<group name="HDMI_CEC"/>
+		<group name="HDP"/>
+		<group name="HRTIM"/>
+		<group name="HSEM"/>
+		<group name="I2C"/>
+		<group name="IPCC"/>
+		<group name="IWDG"/>
+		<group name="JPEG"/>
+		<group name="LCD"/>
+		<group name="LPTIM"/>
+		<group name="LPTIMER"/>
+		<group name="LTDC"/>
+		<group name="MDIOS"/>
+		<group name="MDMA"/>
+		<group name="MPU"/>
+		<group name="NVIC"/>
+		<group name="OCTOSPI"/>
+		<group name="OCTOSPIM"/>
+		<group name="OPAMP"/>
+		<group name="PF"/>
+		<group name="PKA"/>
+		<group name="PWR"/>
+		<group name="QUADSPI"/>
+		<group name="RAM"/>
+		<group name="RAMECC"/>
+		<group name="RCC"/>
+		<group name="RI"/>
+		<group name="RNG"/>
+		<group name="RST"/>
+		<group name="RTC"/>
+		<group name="SAI"/>
+		<group name="SCB"/>
+		<group name="SDADC"/>
+		<group name="SDIO"/>
+		<group name="SDMMC"/>
+		<group name="SERIAL_CONTROL"/>
+		<group name="SLPTMR"/>
+		<group name="SPDIFRX"/>
+		<group name="SPDIF_RX"/>
+		<group name="SPI"/>
+		<group name="STGEN"/>
+		<group name="STK"/>
+		<group name="SWPMI"/>
+		<group name="SYSCFG"/>
+		<group name="TAMP"/>
+		<group name="TEMP"/>
+		<group name="TIM"/>
+		<group name="TSC"/>
+		<group name="TZC"/>
+		<group name="UCPD"/>
+		<group name="USART"/>
+		<group name="USB"/>
+		<group name="USBPHYC"/>
+		<group name="VREF"/>
+		<group name="VREFBUF"/>
+		<group name="WDG"/>
+		<group name="WWDG"/>
+	</groups>
+	<chips>
+		<family name="STM32F0">
+			<chip define="STM32F030x6" header="stm32f030x6.h" svd="STM32F0x0.svd"/>
+			<chip define="STM32F030x8" header="stm32f030x8.h" svd="STM32F0x0.svd"/>
+			<chip define="STM32F030xC" header="stm32f030xc.h" svd="STM32F0x0.svd"/>
+			<chip define="STM32F031x6" header="stm32f031x6.h" svd="STM32F0x1.svd"/>
+			<chip define="STM32F038xx" header="stm32f038xx.h" svd="STM32F0x8.svd"/>
+			<chip define="STM32F042x6" header="stm32f042x6.h" svd="STM32F0x2.svd"/>
+			<chip define="STM32F048xx" header="stm32f048xx.h" svd="STM32F0x8.svd"/>
+			<chip define="STM32F051x8" header="stm32f051x8.h" svd="STM32F0x1.svd"/>
+			<chip define="STM32F058xx" header="stm32f058xx.h" svd="STM32F0x8.svd"/>
+			<chip define="STM32F070x6" header="stm32f070x6.h" svd="STM32F0x0.svd"/>
+			<chip define="STM32F070xB" header="stm32f070xb.h" svd="STM32F0x0.svd"/>
+			<chip define="STM32F071xB" header="stm32f071xb.h" svd="STM32F0x1.svd"/>
+			<chip define="STM32F072xB" header="stm32f072xb.h" svd="STM32F0x2.svd"/>
+			<chip define="STM32F078xx" header="stm32f078xx.h" svd="STM32F0x8.svd"/>
+			<chip define="STM32F091xC" header="stm32f091xc.h" svd="STM32F0x1.svd"/>
+			<chip define="STM32F098xx" header="stm32f098xx.h" svd="STM32F0x8.svd"/>
+		</family>
+		<family name="STM32F2">
+			<chip define="STM32F205xx" header="stm32f205xx.h" svd="STM32F20x.svd"/>
+			<chip define="STM32F207xx" header="stm32f207xx.h" svd="STM32F20x.svd"/>
+			<chip define="STM32F215xx" header="stm32f215xx.h" svd="STM32F21x.svd"/>
+			<chip define="STM32F217xx" header="stm32f217xx.h" svd="STM32F21x.svd"/>
+		</family>
+		<family name="STM32F3">
+			<chip define="STM32F301x8" header="stm32f301x8.h" svd="STM32F301x.svd"/>
+			<chip define="STM32F302x8" header="stm32f302x8.h" svd="STM32F302x.svd"/>
+			<chip define="STM32F302xC" header="stm32f302xc.h" svd="STM32F30x.svd"/>
+			<chip define="STM32F302xE" header="stm32f302xe.h" svd="STM32F303xE.svd"/>
+			<chip define="STM32F303x8" header="stm32f303x8.h" svd="STM32F303x.svd"/>
+			<chip define="STM32F303xC" header="stm32f303xc.h" svd="STM32F30x.svd"/>
+			<chip define="STM32F303xE" header="stm32f303xe.h" svd="STM32F303xE.svd"/>
+			<chip define="STM32F318xx" header="stm32f318xx.h" svd="STM32F301x.svd"/>
+			<chip define="STM32F328xx" header="stm32f328xx.h" svd="STM32F301x.svd"/>
+			<chip define="STM32F334x8" header="stm32f334x8.h" svd="STM32F334x.svd"/>
+			<chip define="STM32F358xx" header="stm32f358xx.h" svd="STM32F30x.svd"/>
+			<chip define="STM32F373xC" header="stm32f373xc.h" svd="STM32F37x.svd"/>
+			<chip define="STM32F378xx" header="stm32f378xx.h" svd="STM32F37x.svd"/>
+			<chip define="STM32F398xx" header="stm32f398xx.h" svd="STM32F37x.svd"/>
+		</family>
+		<family name="STM32F4">
+			<chip define="STM32F401xC" header="stm32f401xc.h" svd="STM32F401xE.svd"/>
+			<chip define="STM32F401xE" header="stm32f401xe.h" svd="STM32F401xE.svd"/>
+			<chip define="STM32F405xx" header="stm32f405xx.h" svd="STM32F40x.svd"/>
+			<chip define="STM32F407xx" header="stm32f407xx.h" svd="STM32F40x.svd"/>
+			<chip define="STM32F410Cx" header="stm32f410cx.h" svd="STM32F410xx.svd"/>
+			<chip define="STM32F410Rx" header="stm32f410rx.h" svd="STM32F410xx.svd"/>
+			<chip define="STM32F410Tx" header="stm32f410tx.h" svd="STM32F410xx.svd"/>
+			<chip define="STM32F411xE" header="stm32f411xe.h" svd="STM32F411xx.svd"/>
+			<chip define="STM32F412Cx" header="stm32f412cx.h" svd="STM32F412xG.svd"/>
+			<chip define="STM32F412Rx" header="stm32f412rx.h" svd="STM32F412xG.svd"/>
+			<chip define="STM32F412Vx" header="stm32f412vx.h" svd="STM32F412xG.svd"/>
+			<chip define="STM32F412Zx" header="stm32f412zx.h" svd="STM32F412xG.svd"/>
+			<chip define="STM32F413xx" header="stm32f413xx.h" svd="STM32F413.svd"/>
+			<chip define="STM32F415xx" header="stm32f415xx.h" svd="STM32F41x.svd"/>
+			<chip define="STM32F417xx" header="stm32f417xx.h" svd="STM32F41x.svd"/>
+			<chip define="STM32F423xx" header="stm32f423xx.h" svd="STM32F413.svd"/>
+			<chip define="STM32F427xx" header="stm32f427xx.h" svd="STM32F427x.svd"/>
+			<chip define="STM32F429xx" header="stm32f429xx.h" svd="STM32F429x.svd"/>
+			<chip define="STM32F437xx" header="stm32f437xx.h" svd="STM32F437x.svd"/>
+			<chip define="STM32F439xx" header="stm32f439xx.h" svd="STM32F439x.svd"/>
+			<chip define="STM32F446xx" header="stm32f446xx.h" svd="STM32F446x.svd"/>
+			<chip define="STM32F469xx" header="stm32f469xx.h" svd="STM32F46_79x.svd"/>
+			<chip define="STM32F479xx" header="stm32f479xx.h" svd="STM32F46_79x.svd"/>
+		</family>
+		<family name="STM32F7">
+			<chip define="STM32F722xx" header="stm32f722xx.h" svd="STM32F7x2_v1r0.svd"/>
+			<chip define="STM32F723xx" header="stm32f723xx.h" svd="STM32F7x3_v1r0.svd"/>
+			<chip define="STM32F730xx" header="stm32f730xx.h" svd="STM32F730x.svd"/>
+			<chip define="STM32F732xx" header="stm32f732xx.h" svd="STM32F7x2_v1r0.svd"/>
+			<chip define="STM32F733xx" header="stm32f733xx.h" svd="STM32F7x3_v1r0.svd"/>
+			<chip define="STM32F745xx" header="stm32f745xx.h" svd="STM32F7x5_v1r1.svd"/>
+			<chip define="STM32F746xx" header="stm32f746xx.h" svd="STM32F7x6_v1r1.svd"/>
+			<chip define="STM32F750xx" header="stm32f750xx.h" svd="STM32F750x.svd"/>
+			<chip define="STM32F756xx" header="stm32f756xx.h" svd="STM32F7x6_v1r1.svd"/>
+			<chip define="STM32F765xx" header="stm32f765xx.h" svd="STM32F7x5_v1r1.svd"/>
+			<chip define="STM32F767xx" header="stm32f767xx.h" svd="STM32F7x7_v1r2.svd"/>
+			<chip define="STM32F769xx" header="stm32f769xx.h" svd="STM32F7x9_v1r2.svd"/>
+			<chip define="STM32F777xx" header="stm32f777xx.h" svd="STM32F7x7_v1r2.svd"/>
+			<chip define="STM32F779xx" header="stm32f779xx.h" svd="STM32F7x9_v1r2.svd"/>
+		</family>
+		<family name="STM32G0">
+			<chip define="STM32G030xx" header="stm32g030xx.h" svd="STM32G030.svd"/>
+			<chip define="STM32G031xx" header="stm32g031xx.h" svd="STM32G031.svd"/>
+			<chip define="STM32G041xx" header="stm32g041xx.h" svd="STM32G041.svd"/>
+			<chip define="STM32G070xx" header="stm32g070xx.h" svd="STM32G070.svd"/>
+			<chip define="STM32G071xx" header="stm32g071xx.h" svd="STM32G071.svd"/>
+			<chip define="STM32G081xx" header="stm32g081xx.h" svd="STM32G081.svd"/>
+		</family>
+		<family name="STM32G4">
+			<chip define="STM32G431xx" header="stm32g431xx.h" svd="STM32G431xx.svd"/>
+			<chip define="STM32G441xx" header="stm32g441xx.h" svd="STM32G441xx.svd"/>
+			<chip define="STM32G471xx" header="stm32g471xx.h" svd="STM32G471xx.svd"/>
+			<chip define="STM32G473xx" header="stm32g473xx.h" svd="STM32G473xx.svd"/>
+			<chip define="STM32G474xx" header="stm32g474xx.h" svd="STM32G474xx.svd"/>
+			<chip define="STM32G484xx" header="stm32g484xx.h" svd="STM32G484xx.svd"/>
+		</family>
+		<family name="STM32GB">
+			<chip define="STM32GBK1CB" header="stm32gbk1cb.h" svd="STM32GBK1CBT6.svd"/>
+		</family>
+		<family name="STM32H7">
+			<chip define="STM32H742xx" header="stm32h742xx.h" svd="STM32H742x.svd"/>
+			<chip define="STM32H743xx" header="stm32h743xx.h" svd="STM32H743x.svd"/>
+			<chip define="STM32H745xx" header="stm32h745xx.h" svd="STM32H7x5_CM7.svd"/>
+			<chip define="STM32H745xx" header="stm32h745xx.h" svd="STM32H7x5_CM7.svd"/>
+			<chip define="STM32H747xx" header="stm32h747xx.h" svd="STM32H7x7_CM4.svd"/>
+			<chip define="STM32H747xx" header="stm32h747xx.h" svd="STM32H7x7_CM4.svd"/>
+			<chip define="STM32H750xx" header="stm32h750xx.h" svd="STM32H750x.svd"/>
+			<chip define="STM32H753xx" header="stm32h753xx.h" svd="STM32H753x.svd"/>
+			<chip define="STM32H755xx" header="stm32h755xx.h" svd="STM32H7x5_CM7.svd"/>
+			<chip define="STM32H755xx" header="stm32h755xx.h" svd="STM32H7x5_CM7.svd"/>
+			<chip define="STM32H757xx" header="stm32h757xx.h" svd="STM32H7x7_CM4.svd"/>
+			<chip define="STM32H757xx" header="stm32h757xx.h" svd="STM32H7x7_CM4.svd"/>
+		</family>
+		<family name="STM32L0">
+			<chip define="STM32L010x4" header="stm32l010x4.h" svd="STM32L0x0.svd"/>
+			<chip define="STM32L010x6" header="stm32l010x6.h" svd="STM32L0x0.svd"/>
+			<chip define="STM32L010x8" header="stm32l010x8.h" svd="STM32L0x0.svd"/>
+			<chip define="STM32L010xB" header="stm32l010xb.h" svd="STM32L0x0.svd"/>
+			<chip define="STM32L011xx" header="stm32l011xx.h" svd="STM32L0x1.svd"/>
+			<chip define="STM32L021xx" header="stm32l021xx.h" svd="STM32L0x1.svd"/>
+			<chip define="STM32L031xx" header="stm32l031xx.h" svd="STM32L0x1.svd"/>
+			<chip define="STM32L041xx" header="stm32l041xx.h" svd="STM32L0x1.svd"/>
+			<chip define="STM32L051xx" header="stm32l051xx.h" svd="STM32L051x.svd"/>
+			<chip define="STM32L052xx" header="stm32l052xx.h" svd="STM32L052x.svd"/>
+			<chip define="STM32L053xx" header="stm32l053xx.h" svd="STM32L053x.svd"/>
+			<chip define="STM32L062xx" header="stm32l062xx.h" svd="STM32L062x.svd"/>
+			<chip define="STM32L063xx" header="stm32l063xx.h" svd="STM32L063x.svd"/>
+			<chip define="STM32L071xx" header="stm32l071xx.h" svd="STM32L0x1.svd"/>
+			<chip define="STM32L072xx" header="stm32l072xx.h" svd="STM32L07x.svd"/>
+			<chip define="STM32L073xx" header="stm32l073xx.h" svd="STM32L07x.svd"/>
+			<chip define="STM32L081xx" header="stm32l081xx.h" svd="STM32L0x1.svd"/>
+			<chip define="STM32L082xx" header="stm32l082xx.h" svd="STM32L07x.svd"/>
+			<chip define="STM32L083xx" header="stm32l083xx.h" svd="STM32L07x.svd"/>
+		</family>
+		<family name="STM32L1">
+			<chip define="STM32L100xB" header="stm32l100xb.h" svd="STM32L100.svd"/>
+			<chip define="STM32L100xBA" header="stm32l100xba.h" svd="STM32L100.svd"/>
+			<chip define="STM32L100xC" header="stm32l100xc.h" svd="STM32L100.svd"/>
+			<chip define="STM32L151xB" header="stm32l151xb.h" svd="STM32L1xx.svd"/>
+			<chip define="STM32L151xBA" header="stm32l151xba.h" svd="STM32L15xxxA.svd"/>
+			<chip define="STM32L151xC" header="stm32l151xc.h" svd="STM32L15xC.svd"/>
+			<chip define="STM32L151xCA" header="stm32l151xca.h" svd="STM32L15xC.svd"/>
+			<chip define="STM32L151xD" header="stm32l151xd.h" svd="STM32L1xx.svd"/>
+			<chip define="STM32L151xE" header="stm32l151xe.h" svd="STM32L1xx.svd"/>
+			<chip define="STM32L152xB" header="stm32l152xb.h" svd="STM32L1xx.svd"/>
+			<chip define="STM32L152xBA" header="stm32l152xba.h" svd="STM32L15xxxA.svd"/>
+			<chip define="STM32L152xC" header="stm32l152xc.h" svd="STM32L1xx.svd"/>
+			<chip define="STM32L152xCA" header="stm32l152xca.h" svd="STM32L15xC.svd"/>
+			<chip define="STM32L152xD" header="stm32l152xd.h" svd="STM32L1xx.svd"/>
+			<chip define="STM32L152xE" header="stm32l152xe.h" svd="STM32L1xx.svd"/>
+		</family>
+		<family name="STM32L4">
+			<chip define="STM32L412xx" header="stm32l412xx.h" svd="STM32L412.svd"/>
+			<chip define="STM32L422xx" header="stm32l422xx.h" svd="STM32L412.svd"/>
+			<chip define="STM32L431xx" header="stm32l431xx.h" svd="STM32L4x1.svd"/>
+			<chip define="STM32L432xx" header="stm32l432xx.h" svd="STM32L4x2.svd"/>
+			<chip define="STM32L433xx" header="stm32l433xx.h" svd="STM32L4x3.svd"/>
+			<chip define="STM32L442xx" header="stm32l442xx.h" svd="STM32L4x2.svd"/>
+			<chip define="STM32L443xx" header="stm32l443xx.h" svd="STM32L4x3.svd"/>
+			<chip define="STM32L451xx" header="stm32l451xx.h" svd="STM32L4x1.svd"/>
+			<chip define="STM32L452xx" header="stm32l452xx.h" svd="STM32L4x2.svd"/>
+			<chip define="STM32L462xx" header="stm32l462xx.h" svd="STM32L4x2.svd"/>
+			<chip define="STM32L471xx" header="stm32l471xx.h" svd="STM32L4x1.svd"/>
+			<chip define="STM32L475xx" header="stm32l475xx.h" svd="STM32L4x5.svd"/>
+			<chip define="STM32L476xx" header="stm32l476xx.h" svd="STM32L4x6.svd"/>
+			<chip define="STM32L485xx" header="stm32l485xx.h" svd="STM32L4x5.svd"/>
+			<chip define="STM32L486xx" header="stm32l486xx.h" svd="STM32L4x6.svd"/>
+			<chip define="STM32L496xx" header="stm32l496xx.h" svd="STM32L4x6.svd"/>
+			<chip define="STM32L4A6xx" header="stm32l4a6xx.h" svd="STM32L4x6.svd"/>
+			<chip define="STM32L4P5xx" header="stm32l4p5xx.h" svd="STM32L4P5.svd"/>
+			<chip define="STM32L4Q5xx" header="stm32l4q5xx.h" svd="STM32L4Q5.svd"/>
+			<chip define="STM32L4R5xx" header="stm32l4r5xx.h" svd="STM32L4R5.svd"/>
+			<chip define="STM32L4R7xx" header="stm32l4r7xx.h" svd="STM32L4R7.svd"/>
+			<chip define="STM32L4R9xx" header="stm32l4r9xx.h" svd="STM32L4R9.svd"/>
+			<chip define="STM32L4S5xx" header="stm32l4s5xx.h" svd="STM32L4S5.svd"/>
+			<chip define="STM32L4S7xx" header="stm32l4s7xx.h" svd="STM32L4S7.svd"/>
+			<chip define="STM32L4S9xx" header="stm32l4s9xx.h" svd="STM32L4S9.svd"/>
+		</family>
+		<family name="STM32MP1">
+			<chip define="STM32MP157Axx" header="stm32mp157axx_ca7.h" svd="STM32MP1.svd"/>
+			<chip define="STM32MP157Axx" header="stm32mp157axx_cm4.h" svd="STM32MP1.svd"/>
+			<chip define="STM32MP157Cxx" header="stm32mp157cxx_ca7.h" svd="STM32MP1.svd"/>
+			<chip define="STM32MP157Cxx" header="stm32mp157cxx_cm4.h" svd="STM32MP1.svd"/>
+		</family>
+		<family name="STM32W1">
+			<chip define="STM32W108C8" header="stm32w108xx.h" svd="STM32W108.svd"/>
+			<chip define="STM32W108CB" header="stm32w108xx.h" svd="STM32W108.svd"/>
+			<chip define="STM32W108CC" header="stm32w108xx.h" svd="STM32W108.svd"/>
+			<chip define="STM32W108CZ" header="stm32w108xx.h" svd="STM32W108.svd"/>
+			<chip define="STM32W108HB" header="stm32w108xx.h" svd="STM32W108.svd"/>
+		</family>
+		<family name="STM32WB">
+			<chip define="STM32WB55xx" header="stm32wb55xx.h" svd="STM32WBxx_CM4.svd"/>
+		</family>
+	</chips>
+</manifest>
